@@ -1,0 +1,71 @@
+/** RESET **/
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+a {text-decoration: none;}
+h1, h2, h3, h4, h5, h6 {text-align: center;}
+
+/** GERAL **/
+body {
+    font-family: sans-serif;
+}
+.content {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+/** PÁGINA INDEX **/
+main.index {
+    text-align: center;
+}
+
+.all-links {
+    display: flex;
+    justify-content: center;
+}
+
+.all-links a {
+    margin: 0.5rem;
+    padding: 10px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: black;
+}
+    .all-links a:hover {
+        transform: translateY(-5px);
+        box-shadow: 0px 4px 4px rgba(78, 78, 78, 0.5);
+        background-color: black;
+        color: white;
+    }
+
+/** ICONES FONT-AWESOME **/
+.i-js::before {font-family: "Font Awesome 5 Brands"; font-weight: 900; content: "\f3b9"; padding:10px; font-size: 20px;}
+.i-css::before {font-family: "Font Awesome 5 Brands"; font-weight: 900; content: "\f13c"; padding:10px; font-size: 20px;}
+.i-html::before {font-family: "Font Awesome 5 Brands"; font-weight: 900; content: "\f13b"; padding:10px; font-size: 20px;}
+
+/** ESPAÇOS DE CÓDIGO **/
+.code-js {
+    font-family: monospace;
+    font-size: 16px;
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+}
+.comment {
+    font-family: sans-serif;
+    font-size: 14px;
+}
+.comment::before {
+    content: "// ";
+}
+.code-live {
+    padding: 15px;
+    margin: 5px;
+    color: white;
+    background-color: rgb(25, 20, 54);
+    border-radius: 10px;
+    text-align: center;
+}
