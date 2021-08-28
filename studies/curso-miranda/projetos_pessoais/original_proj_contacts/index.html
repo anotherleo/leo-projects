@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/1a415b1d46.js" crossorigin="anonymous"></script>
+
+    <title>Cards de Contato</title>
+</head>
+
+<body>
+    <div class="container-global">
+        <section class="container-register">
+            <h1 class="main-title">Cards de Contatos</h1>
+            <form id="js-form-contact" action="/" method="POST">
+                <label for="js-input-name">Nome:</label>
+                <input type="text" id="js-input-name">
+                <div class="form-two-on-row">
+                    <div class="form-col">
+                        <label for="js-input-cell">Celular:</label>
+                        <input type="tel" id="js-input-cell">
+                    </div>
+                    <div class="form-col">
+                        <label for="js-input-birth">Aniversário:</label>
+                        <input type="date" id="js-input-birth">
+                    </div>
+                </div>
+                <label for="js-input-email">E-mail:</label>
+                <input type="email" id="js-input-email">
+                <label for="js-input-birth">Notas:</label>
+                <input type="text" id="js-input-notes">
+                <div class="form-two-on-row-center">
+                    <div class="form-col">
+                        <button type="submit" id="js-btn-submit">Registrar</button>
+                    </div>
+                    <div class="form-col">
+                        <button type="reset" id="js-btn-submit">Limpar</button>
+                    </div>
+                </div>
+            </form>
+        </section>
+
+        <section id="js-container-cards" class="container-cards">
+            <!-- cards aqui -->
+        </section>
+    </div>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
