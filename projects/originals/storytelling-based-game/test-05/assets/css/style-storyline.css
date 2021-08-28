@@ -1,0 +1,18 @@
+.js-story div.js-choices1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    column-gap: 3px;
+}
+.js-story div.js-choices2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3px;
+}
+.js-story div.js-choices3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 3px;
+}
+.js-story button {
+    max-width: 100%;
+}
