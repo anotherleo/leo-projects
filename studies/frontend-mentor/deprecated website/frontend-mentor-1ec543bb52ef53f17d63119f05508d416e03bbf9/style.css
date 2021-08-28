@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    color: var(--textMain);
+
+    margin: 0;
+
+    /* added background.css */
+}
+
+a {
+    /* reset */
+    text-decoration: none;
+}
+
+/**
+ * HEADER block
+ * The identity of the website.
+ *
+ * TODO: add a logo.
+ */
+.top-header {
+    padding: 1.5rem;
+    
+    border-bottom: var(--lineBasic);
+    background-color: var(--colorBackground);
+}
+
+.top-header__title {
+    text-transform: uppercase;
+    letter-spacing: 0.3rem;
+    margin: 0.2rem;
+}
+    .top-header__title span {
+        color: var(--colorPrimary);
+    }
+
+.top-header__subtitle {
+    font-family: 'Kaushan Script', cursive;
+    letter-spacing: 0.1rem;
+    margin: 0;
+}
+
+/**
+ * PROJECTS block
+ * A portfolio of projects and solutions.
+ * 
+ * Note that this section has the margins that shows
+ * the background-image of the body.
+ *  
+ * TODO: keep building things and posting here, duh.
+ *   Also, that button hover is awful.
+ */
+.project {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem;
+    margin: 2rem 0 2rem 0;
+
+    /* added background.css */
+}
+
+.project__card {
+    max-width: 250px;
+    border: 1px solid var(--colorSecondary);
+    border-radius: 5px;
+    margin: 1rem;
+
+    background-color: white;
+}
+    .project__card:hover, .project__card:focus-within {
+        color: var(--textSecondary);
+        background-color: var(--colorPrimaryShade);
+        border: 1px solid var(--colorPrimary);
+    }
+
+.project__button {
+    /* <a> turned into button */
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    width: -moz-available;          
+    width: -webkit-fill-available;
+    width: fill-available;
+    border-radius: inherit;
+
+    text-transform: uppercase;
+    background-color: var(--colorPrimary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+}
+    .project__button:link, .project__button:visited {
+        color: var(--textMain);
+    }
+    .project__button:hover, .project__button:focus {
+        background-color: var(--colorSecondary);
+        transform: translateY(-3px);
+    }
+
+/**
+ * FOOTER block
+ * The last section.
+ * 
+ * Has the only navbar in the website.
+ *  
+ * TODO: creative commons.
+ */
+
+.attribution {
+    padding: 0 0 1rem 0;
+
+    border-top: var(--lineBasic);
+    background-color: var(--colorBackground);
+}
+
+.attribution__header {
+    margin: 1rem 0 0.5rem 0;
+}
+
+.attribution__button {
+    /* <a> turned into button */
+    font-size: 1.5rem;
+    margin: 0.2rem;
+}
+    .attribution__button:link, .attribution__button:visited {
+        color: gray;
+    }
+    .attribution__button:hover, .attribution__button:focus {
+        color: var(--colorPrimary);
+    }

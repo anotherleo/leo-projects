@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+body {
+    background-color: #0a0c1b;
+    color: white;
+    font-family: 'Noto Sans', sans-serif;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    height: 90vh;
+}
+
+.card-wrapper {
+    margin: 4rem 6rem;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'text-container image-container';
+}
+
+.text-container {
+    grid-area: text-container;
+    width: 446px;
+    max-height: 540px;
+    border-radius: 3% 0 0 3%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    background-color: #1c1938;
+    padding: 3rem 4rem;
+}
+
+.image-container {
+    grid-area: image-container;
+    position: relative;
+    max-width: fit-content;
+}
+
+.image-container::after { /* overlay */
+    position: absolute;
+    top: 0;
+    content: "";
+    display: block;
+    width:100%;
+    height:100%;
+    background-color: rgba(168,91,216,0.5);
+    border-radius: 0 3% 3% 0;
+}
+
+.img-round {
+    border-radius: 0 3% 3% 0;
+}
+
+main p {
+    color: gray;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    letter-spacing: 0.01rem;
+}
+
+h3 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 900;
+}
+
+span {
+    color: #a85bd8;
+}
+
+h4 {
+    margin: 0;
+    font-size: 1.4rem;
+    font-weight: 900;
+    letter-spacing: 0.1rem;
+}
+
+aside {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside p {
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    margin: 0.2rem 0;
+    color: gray;
+}
+
+img {
+    display: flex;
+}
+
+footer {
+    padding: 0.5rem;
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+        justify-content: normal;
+        height: fit-content;
+    }
+
+    .card-wrapper {
+        max-width: 500px; /* same as image */
+        max-height: fit-content;
+        margin: 2rem;
+
+        grid-template-columns: 1fr;
+        grid-template-areas:
+        'image-container'
+        'text-container';
+    }
+
+    img {
+        max-width: 510px;
+    }
+
+    .text-container {
+        text-align: center;
+        padding: 3rem 2rem;
+        border-radius: 0 0 3% 3%;
+    }
+
+    .image-container::after {
+        border-radius: 3% 3% 0 0;
+    }
+
+    .img-round {
+        border-radius: 3% 3% 0 0;
+    }
+
+    main p {
+        padding: 0.5rem;
+    }
+
+    aside {
+        flex-direction: column;
+    }
+
+    aside div {
+        margin: 0.6rem;
+    }
+  }
