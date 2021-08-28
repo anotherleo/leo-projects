@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Waiting+for+the+Sunrise&family=Yanone+Kaffeesatz:wght@200;300;400&display=swap');
+
+:root {
+    
+    /* pallete */
+    --textMain: #000000;
+    --textSecondary: #ffffff;
+    
+    --colorPrimary: #2AC947;
+    --colorPrimaryHighlight: #68EDCB;
+    --colorPrimaryShade: #005500;
+
+    --colorSquashOne: #FE6200;
+    --colorSquashOneHighlight: #FFCD74;
+    --colorSquashOneShade: #AE1600;
+
+    --colorSquashTwo: #0098FF;
+    --colorSquashTwoHighlight: #76C3FF;
+    --colorSquashTwoShade: #1F4875;
+    --colorSquashTwoLightShade: #99EFFF;
+
+    --colorBackground: #E9E9DB;
+    --colorBackgroundLight: #F4FBF3;
+
+    --colorNav: #000;
+    --colorNavHighlight: gray;
+
+    /* fonts */
+    --fontTitle: 'Yanone Kaffeesatz', sans-serif;
+    --fontBody: 'Montserrat', sans-serif;
+    --fontHandwrite: 'Waiting for the Sunrise', cursive;
+
+    /* visual effects */
+    --lineBasic: 4px solid rgba(0,0,0,0.1);
+    --linePrimary: 4px solid rgba(0,0,0,0.5);
+}
+
+/**
+ * PALLETE generated on
+ * https://mycolor.space/?hex=%232AC947&sub=1
+ *
+ * squash one color pallete
+ *  https://mycolor.space/?hex=%23FE6200&sub=1
+ * squash two color pallete
+ *  
+ *
+ */
+
+/* ======================================================
+   STYLE-PALLETE.HTML sheet
+   ====================================================== */
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.pallete {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.pallete__sub {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0;
+}
+
+.pallete__round {
+    display: inline-block;    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 1rem;
+    border: 2px dotted black;
+    padding: 0.5rem;
+}
+    .pallete__round:hover {
+        transform: rotate(-10deg);
+    }
+
+.primary {
+    background-color: var(--colorPrimary);
+}
+    .primary--highlight {
+        background-color: var(--colorPrimaryHighlight);
+    }
+    .primary--highlight--test {
+        background-color: var(--colorPrimary);
+    }
+        .primary--highlight--test:hover, .primary--highlight--test:focus {
+            background-color: var(--colorPrimaryHighlight);
+            cursor: pointer;
+        }
+    .primary--shade {
+        background-color: var(--colorPrimaryShade);
+        color: var(--textSecondary);
+    }
+
+.squash {
+    background-color: var(--colorSquash);
+}
+    .squash--highlight {
+        background-color: var(--colorSquashHighlight);
+    }
+    .squash--highlight--test {
+        background-color: var(--colorSquash);
+    }
+        .squash--highlight--test:hover, .squash--highlight--test:focus {
+            background-color: var(--colorSquashHighlight);
+            cursor: pointer;
+        }
+    .squash--shade {
+        background-color: var(--colorSquashShade);
+        color: var(--textSecondary);
+    }

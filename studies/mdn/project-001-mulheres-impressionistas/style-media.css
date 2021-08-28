@@ -1,0 +1,21 @@
+@media screen and (max-width: 750px) {
+
+    /* HEADER */
+    .header__title,
+    .header__subtitle,
+    .anchors {
+        text-align: center;
+    }
+    
+    /* ARTICLE */
+    .article {
+        flex-direction: column;
+    }
+    .article__text {
+        max-width: 100%;
+    }
+    .article__portrait {
+        max-width: fit-content;
+        margin: 0.5rem auto;
+    }
+}

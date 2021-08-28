@@ -1,0 +1,76 @@
+.project__button {
+    /* <a> turned into button */
+    display: inline-block;
+    padding: 0.5rem;
+    margin: 0.2rem 0 0.2rem 0;
+    width: -moz-available;          
+    width: -webkit-fill-available;
+    width: fill-available;
+    border-radius: inherit;
+
+    text-transform: uppercase;
+    background-color: var(--colorPrimary);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+}
+    .project__button:link, .project__button:visited {
+        color: var(--textMain);
+    }
+    .project__button:hover, .project__button:focus {
+        background-color: var(--colorPrimaryHighlight);
+        transform: translateY(-3px);
+    }
+
+.project__button--exercise {
+    background-color: var(--colorSquash);
+}
+    .project__button--exercise:hover, .project__button--exercise:focus {
+        background-color: var(--colorSquashHighlight);
+    }
+
+.project__card--gif {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: fit-content;
+    padding: 0;
+}
+    .project__card--gif:hover {
+        transform: rotate(-8deg);
+    }
+
+.project__card--gif img {
+    border-radius: 10px;
+    max-height: 150px;
+    max-width: 150px;
+}
+
+.project__card--gif h6 {
+    width: fit-content;
+    max-width: 100px;
+    padding: 0.25rem;
+    background-color: var(--textMain);
+    transform: translateY(-6px) rotate(-5deg);
+
+    font-size: 0.8rem;
+    letter-spacing: 0.1rem;
+    line-height: 1;
+    font-family: var(--fontHandwrite);
+    font-weight: 400;
+    color: var(--textSecondary);
+}
+
+.project__card--exercise {
+    border: 1px solid var(--colorSquashShade);
+}
+
+.project__card--exercise h3, .project__card--exercise h5 {
+    margin-bottom: 0.2rem;
+}
+
+.project__card--exercise h4 {}
+    .project__card--exercise:focus-within h4, .project__card--exercise:hover h4 {
+        background-color: var(--colorSquashShade);
+    }

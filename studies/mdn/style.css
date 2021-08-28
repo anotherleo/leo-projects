@@ -1,0 +1,491 @@
+/**
+ * RESETS
+ * and global modifications 
+ */
+body {
+    min-height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    text-align: center;
+    font-family: var(--fontBody);
+    color: var(--textMain);
+    overflow-wrap: break-word;
+    hyphens: auto;
+
+    margin: 0;
+
+    /* see style-background.css */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+    a:link, a:visited {
+        color: var(--textMain);
+    }
+
+.deny {
+    cursor: not-allowed;
+}
+
+/**
+ * HEADER block
+ * The identity of the website.
+ */
+.top-header {
+    width: fit-content;
+    margin: 0 auto;
+    padding: 1.5rem;
+    border: var(--lineBasic);
+    border-top: 0;
+    background-color: var(--colorBackground);
+
+    font-family: var(--fontTitle);
+}
+
+.top-header span {
+    color: var(--colorPrimary);
+}
+
+.top-header__logo {
+    height: 50px;
+    margin-bottom: 0.1rem;
+    border-radius: 20%;
+}
+    .top-header__logo:hover {
+        transform: rotate(-6deg);
+    }
+
+.top-header__subtitle {
+    width: fit-content;
+
+    font-weight: 300;
+    letter-spacing: 0.1rem;
+    margin: 0 auto;
+}
+
+.top-header__title {
+    width: fit-content;
+    margin: 0.2rem;
+
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    color: var(--textSecondary);
+    background-color: black;
+    padding: 0.2rem;
+}
+    .top-header__title span {
+        color: var(--colorPrimary);
+    }
+
+.top-header__handwrite {
+    display: inline-block;
+    width: fit-content;
+    transform: rotate(-6deg);
+    margin: 0 auto;
+
+    font-size: 1.1rem;
+    padding: 0 0.5rem 0 0.5rem;
+    font-weight: unset;
+    letter-spacing: 0.08rem;
+    font-family: var(--fontHandwrite);
+    color: white;
+    background-color: var(--colorPrimaryShade);
+}
+
+/**
+ * NAV block
+ * Owns a table of contents and a list of useful links.
+ * 
+ * ".navbar" was built to be reusable throughout the code,
+ * while ".nav__contents" wasn't.
+ */
+.navbar__wrapper--top-header {
+    width: 90%;
+    margin: 2rem auto 0 auto;
+}
+
+.navbar {
+    /* made of <ul> */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+    /* see media queries */
+    /* TODO: change to
+        justify-content: center; */
+}
+
+.navbar p {
+    /* should it be a header? */
+    margin: 0.1rem;
+}
+
+.navbar li {
+    /* <li> turned into button */
+    width: 100%;
+    padding: 0.5rem;
+    background-color: var(--colorBackground);
+    color: var(--textMain);
+    font-size: 0.8rem;
+
+    border: var(--lineBasic);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+    .navbar li:hover {
+        background-color: var(--textSecondary);
+    }
+        /**
+        * EFFECT of 'uh, bigger icon and no text, oh!';
+        * USE "bigger" as class in HTML
+        */
+        .navbar.bigger li:hover p {
+            display: none;
+        }
+        .navbar.bigger li:hover a {
+            transform: rotate(-8deg) translateY(4px);
+            font-size: 2rem;
+            color: var(--colorPrimary);
+            z-index: 2;
+        }
+        /* Simple effect */
+        .navbar li:hover a {
+            color: var(--colorPrimary);
+        }
+
+.navbar a {
+    /* font awesome icons */
+    display: inline-block;
+    width: 100%;
+
+    font-size: 1.5rem;
+    color: var(--textMain);
+}
+
+/* TABLE OF CONTENTS */
+.nav-top__contents {
+    text-align: left;
+    background-color: var(--colorBackground);
+}
+
+.nav-top__contents summary {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--fontTitle);
+    text-transform: uppercase;
+    background-color: var(--colorPrimaryShade);
+    color: var(--textSecondary);
+    padding: 0.5rem 0;
+    cursor: pointer;
+}
+
+.nav-top__contents ol {
+    margin: 0;
+    border-left: var(--lineBasic);
+    border-right: var(--lineBasic);
+    border-bottom: var(--lineBasic);
+}
+
+.nav-top__contents header {
+    width: auto;
+    border-right: var(--lineBasic);
+
+    /* messy solution because the border of the
+    * table of contents is made in the <ol> */
+}
+
+.nav-top__contents h3 {
+    max-width: 360px;
+    padding: 0.5rem;
+    font-family: var(--fontTitle);
+    font-weight: normal;
+    font-size: 1.5rem;
+    background-color: var(--colorPrimaryShade);
+    color: var(--textSecondary);
+    text-transform: uppercase;
+}
+
+.nav-top__contents li {
+    padding: 1rem;
+    font-weight: bold;
+}
+
+.nav-top__contents a {
+    padding: 0.5rem;
+    border-radius: 5px;
+    color: var(--textMain);
+}
+    .nav-top__contents a:hover {
+        background-color: var(--colorPrimary);
+    }
+
+/**
+ * PROJECTS block
+ * A set of cards of lessons with links,
+ * divided into sections.
+ * 
+ * Note that this section has the margins that shows
+ * the background-image of the body.
+ *
+ * This part of the project escalated way more than I intended
+ * at first moment, so there are lots of comments to prevent
+ * things to get more messy.
+ *  
+ * TODO: keep building things and posting here, duh.
+ */
+
+.project {
+    /* used for <section> building */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 3rem 3rem 3rem;
+    margin: 2rem 0 2rem 0;
+
+    /* see style-background.css */
+}
+
+.project__header {
+    min-width: 360px;
+    min-height: 120px;
+    border: var(--linePrimary);
+    padding: 1rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /*see style-background.css*/
+}
+
+.project__header h2 {
+    font-family: var(--fontTitle);
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    font-weight: 400;
+
+    width: fit-content;
+    padding: 1rem;
+    background-color: var(--colorBackground);
+}
+
+.project__footer {
+    width: 100px;
+    margin: 2rem;
+}
+
+    /** 
+    * USE ".university" WITH ".project" sections that have 
+    * content currently studied at university, 
+    * that are way more technical
+    * and usually with videos e/or books.
+    */
+    .project__header.university {
+        background-color: var(--colorSquashTwoLightShade);
+    }
+    .project__header.university h2{
+        background-color: var(--colorSquashTwoLightShade);
+    }
+
+    /********************************************
+    * PROJECT CARD I: each card in itself
+    ********************************************/
+.project__card {
+    width: 180px;
+    border-radius: 5px;
+    margin: 1rem;
+    padding: 0.1rem;
+
+    background-color: var(--colorBackgroundLight);
+}
+    .project__card:link, .project__card:visited {
+        color: var(--textMain);
+    }
+    .project__card:hover {
+        transform: translateY(-5px);
+        box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.62);
+            -webkit-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.62);
+            -moz-box-shadow: 6px 7px 9px 0px rgba(0,0,0,0.62);
+    }
+    
+.project__card h3 {
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 0.3rem;
+    letter-spacing: 0.01rem;
+    margin: 0.5rem;
+}
+
+.project__card h4 {
+    width: fit-content;
+    border-radius: 20px;
+    margin: 0.1rem auto;
+
+    font-family: var(--fontTitle);
+    font-weight: 300;
+    background-color: black;
+    color: white;
+    padding: 0.3rem;
+}
+
+.project__card h5 {
+    margin: 0.5rem;
+}
+
+.project__card h6 {
+    margin: 0.5rem;
+    text-transform: uppercase;
+}
+
+.project__card.expansive {
+    min-width: 360px;
+    max-width: 420px;
+}
+.project__card.expansive summary {
+    margin: 0.2rem;
+    padding: 0.5rem;
+    font-size: 1.2rem;
+    font-family: var(--fontTitle);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.project__card.expansive.ref summary {
+    border-top: 5px solid var(--colorSquashTwo);
+}
+
+    /********************************************
+    * PROJECT CARDS II: the NAVBARS
+    ********************************************/
+.project__card ul {
+    /* made of <ul> */
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project__card li {
+    /* <li> turned into button */
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.1rem;
+    
+    border-radius: 6px;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.project__card li a {
+    text-transform: uppercase;
+    color: var(--textMain);
+    font-size: 0.8rem;
+    font-weight: 600;
+    letter-spacing: 0.03rem;
+}
+
+.project__card li a .fas,
+.project__card li a .far,
+.project__card li a .fab {
+    /* font awesome icon */
+    width: 100%;
+    margin-bottom: 0.2rem;
+}
+
+    /********************************************
+    * PROJECT CARD COLORS
+    * classes to colorize the NAVBARS
+    * and adjust SIZES
+    ********************************************/
+.project__card.lesson {
+    border: 1px solid var(--colorPrimaryShade);
+}
+.project__card.lesson li {
+    background-color: var(--colorPrimary);
+}
+    .project__card.lesson li:hover,
+    .project__card.lesson li:focus {
+        background-color: var(--colorPrimaryHighlight);
+        transform: translateY(-3px);
+    }
+
+.project__card.job {
+    border: 1px solid var(--colorSquashOneShade);
+    width: 360px;
+}
+.project__card.job li {
+    background-color: var(--colorSquashOne);
+}
+    .project__card.job li:hover,
+    .project__card.job li:focus {
+        background-color: var(--colorSquashOneHighlight);
+        transform: translateY(-3px);
+    }
+
+.project__card.ref {
+    border: 1px solid var(--colorSquashTwoShade);
+}
+.project__card.ref h3 {
+    font-size: 0.8rem;
+}
+.project__card.ref li {
+    background-color: var(--colorSquashTwo);
+}
+    .project__card.ref li:hover,
+    .project__card.ref li:focus {
+        background-color: var(--colorSquashTwoHighlight);
+        transform: translateY(-3px);
+    }
+
+/**
+ * FOOTER block
+ * The last section.
+ * 
+ * Has the only navbar in the website.
+ */
+
+.attribution {
+    padding: 1rem 0 1rem 0;
+
+    border-top: var(--lineBasic);
+    background-color: var(--colorBackground);
+}
+
+.attribution__cc__img, .attribution__header {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.attribution__cc__img:hover {
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+}
+
+.attribution__button {
+    /* <a> turned into button */
+    font-size: 1.5rem;
+    margin: 0.2rem 0.4rem;
+    padding: 0;
+}
+    .attribution__button:link, .attribution__button:visited {
+        color: gray;
+    }
+    .attribution__button:hover, .attribution__button:focus {
+        color: var(--colorPrimary);
+    }

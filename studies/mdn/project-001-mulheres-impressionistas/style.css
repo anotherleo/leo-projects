@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=EB+Garamond&display=swap');
+
+:root {
+    --fontTitle: 'Abril Fatface', cursive;
+    --fontBody: 'EB Garamond', serif;
+
+    --textMain: #000000;
+    --textSecondary: #FFFFFF;
+
+    --colorSecondary: #B9AA87;
+    --colorSecondaryHover: #5A4500;
+
+    --sizeFull: 700px;
+
+    /* pallete generated on:
+        https://mycolor.space/?hex=%23B9AA87&sub=1 */
+}
+
+/**
+ * RESETS and global modifications
+ */
+body {
+    margin: 0 auto;
+    max-width: 700px;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+
+    font-family: var(--fontBody);
+    color: var(--textMain);
+
+    border-right: 10px solid black;
+    /* see media query */
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    font-family: var(--fontTitle);
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-align: justify;
+    font-size: 1.1rem;
+}
+
+ul {
+    list-style-type: square;
+}
+
+summary {
+    font-size: 1.2rem;
+    font-family: var(--fontTitle);
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+/**
+ * HEADER on top of the page
+ */
+
+.header {
+    width: 100%;
+    margin: 1.5rem 0 1.5rem 0;
+}
+
+.header__wrapper {
+    margin: 0 0 1rem 0;
+}
+
+.header__title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    /* see media query */
+}
+ 
+.header__subtitle {
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    text-align: right;
+    /* see media query */
+}
+
+.anchors {
+    max-width: var(--sizeFull);
+    padding: 0 0.5rem 0 0.5rem;
+
+    text-align: right;
+
+    background-color: black;
+    /* see media query */
+}
+.anchors__button {
+    /* <a> turned into button */
+    margin: inherit;
+    padding: 0.5rem;
+    display: inline-block;
+
+    background-color: var(--colorSecondary);
+    color: var(--textMain);
+    border-right: 1px solid black;
+}
+    .anchors__button:hover {
+        background-color: var(--colorSecondaryHover);
+        color: var(--textSecondary);
+    }
+
+.banner {
+    max-width: 100%;
+}
+/**
+ * MAIN
+ * where all the contents for the reader are.
+ */
+.article {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    max-width: var(--sizeFull);
+
+    margin: 1rem 0 1rem 0;
+
+    /* see media-query */
+}
+.article--plain {
+    flex-direction: column;
+}
+
+.article__text {
+    max-width: 450px;
+}
+.article__title {
+    font-size: 1.3rem;
+    background-color: var(--colorSecondary);
+    padding: 0.5rem;
+    text-transform: uppercase;
+}
+.article__title--full {
+    text-align: center;
+}
+.article__title--major {
+    font-size: 1.7rem;
+    background-color:transparent;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    text-transform: uppercase;
+}
+
+.article__portrait {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+
+    background-color: var(--colorSecondary);
+
+    border-bottom: 10px solid black;
+    border-top: 10px solid black;
+
+    /* see style-background.css */
+}
+
+.article__portrait--wrapper {
+    background-color: var(--colorSecondary);
+    max-height: fit-content;
+
+    border-bottom: 2px solid rgba(22,22,22,0.4);
+}
+.article__portrait__img {
+    width: 220px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+.article__portrait__caption {
+    max-width: 180px;
+    margin: 0.3rem auto;
+    padding: 0.5rem;
+    background-color: white;
+
+    font-size: 0.9rem;
+    font-weight: normal;
+    font-family: var(--textSecondary);
+    text-align: justify;
+}
+
+.seemore {
+    margin: 0.5rem auto;
+}
+
+.references {}
+
+.opinion {}
+/**
+ * FOOTER block
+ * The last section.
+ * 
+ * Has the only navbar in the website.
+ */
+ .attribution {
+    padding: 1rem 0 1rem 0;
+
+    border-top: var(--lineBasic);
+    background-color: var(--colorBackground);
+}
+
+.attribution__cc__img, .attribution__header {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.attribution__cc__img:hover {
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+}
+
+.attribution__button {
+    /* <a> turned into button */
+    font-size: 1rem;
+    margin: 0.2rem 0.4rem;
+    padding: 0;
+}
+    .attribution__button:link, .attribution__button:visited {
+        color: ;
+    }
+    .attribution__button:hover, .attribution__button:focus {
+        color: ;
+    }

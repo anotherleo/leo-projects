@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+/**
+* PALLETE 
+* "Soft focus forest"
+* #175873 Teal Green
+* #2B7C85 Teal
+* #87ACA3 Seafoam Green
+* #0C1446 Royal Blue
+* https://www.canva.com/colors/color-palettes/soft-focus-forest/
+*/
+
+:root {
+    --colorDark: #000000;
+    --colorHighlight: #175873;
+    --colorLink: #2B7C85;
+    --colorLinkHighlight: #0C1446;
+    --colorLinkLight: #87ACA3;
+    
+    --textMain: lightgray;
+    
+    --fontMain: 'Source Sans Pro', sans-serif;
+}
+
+body {
+    margin: auto;
+    padding: 1rem 3rem;
+    max-width: 800px;
+    min-width: 200px;
+
+    background-color: var(--colorDark);
+    color: var(--textMain);
+    font-family: var(--fontMain);
+}
+
+h1, h2, h3, summary {
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 2.1rem;
+    background-color: var(--colorLinkHighlight);
+    border-radius: 10px;
+    padding: 3rem 1rem;
+}
+
+.fas {
+    width: 100%;
+}
+
+a:link, a:visited {
+    color: var(--colorLink);
+    text-decoration: none;
+    padding: 0 5px; 
+}
+    a:hover {
+        color: var(--colorLinkLight);
+        background-color: var(--colorLinkHighlight);
+        border-radius: 10px;
+    }
+
+p, li {
+    text-align: justify;
+    padding: 0 5px;
+}
+
+summary {
+    cursor: pointer;
+}
+
+.contents {
+    margin: 2rem auto;
+    max-width: 300px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+.references {
+    max-width: 100%;
+    margin: 2rem auto;
+    border: 2px solid gray;
+    border-radius: 10px;
+    padding: 1rem;
+}
+
+span {
+    background-color: var(--colorHighlight);
+    border-radius: 10px;
+    padding: 0 5px;
+}
+
+footer {
+    margin: auto;
+    width: fit-content;
+}
