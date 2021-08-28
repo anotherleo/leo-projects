@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+
+    <script src="https://kit.fontawesome.com/1a415b1d46.js" crossorigin="anonymous"></script>
+
+    <title>Calculadora de IMC</title>
+</head>
+
+<body>
+    <section class="container">
+
+        <nav class="top-nav">
+            <h4 class="top-nav-tab-btn" id="tab-calculator-btn">
+                <i class="fas fa-calculator"></i> Calculadora
+            </h4>
+            <h4 class="top-nav-tab-btn" id="tab-about-btn">
+                <i class="fas fa-question"></i> Sobre o IMC
+            </h4>
+        </nav>
+
+        <div id="tab-calculator" class="js-tab">
+            <h1>
+                Calcule seu IMC
+            </h1>
+            <form class="form" id="js-formulario" action="/" method="POST">
+                <label for="peso">Peso <em>(em quilogramas)</em></label>
+                <input type="text" id="peso" name="peso">
+                <label for="altura">Altura <em>(em metros)</em></label>
+                <input type="text" id="altura" name="altura">
+                <button type="submit">Calcular</button>
+            </form>
+            <div id="js-resultado" class="resultado"></div>
+        </div>
+
+        <div id="tab-about" class="js-tab about">
+            <h1>
+                O que é IMC?
+            </h1>
+            <p>O IMC é um padrão internacional para avaliar o grau de sobrepeso e obesidade. Seu cálculo é feito dividindo o peso pela altura ao quadrado: </p>
+            <p><strong>IMC = Peso / Altura²</strong></p>
+        </div>
+    </section>
+
+    <script src="./assets/js/main.js"></script>
+    <script src="./assets/js/style.js"></script>
+</body>
+
+</html>
