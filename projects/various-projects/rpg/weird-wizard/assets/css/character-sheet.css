@@ -1,0 +1,19 @@
+.sheet-health-container, .sheet-health-button-container {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.health-number {
+    font-size: 20px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.sheet-health-button-container button {
+    width: 100px;
+    padding: 2px;
+    margin: 5px;
+}

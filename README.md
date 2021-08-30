@@ -9,3 +9,6 @@ Quase todos os projetos pessoais que fiz/faço.
 
 ## Studies
 Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippets, enfim... Tudo aquilo que aprendi porque outras pessoas dedicaram um tempo para colocar aulas online e eu dediquei outro tempo para aprender e -- preferencialmente -- ficar com mais dúvidas.
+
+## Writings
+Escritas relacionadas ao meu aprendizado e jornada.
