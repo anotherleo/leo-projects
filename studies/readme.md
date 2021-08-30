@@ -5,7 +5,8 @@ Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippe
 * (Vue.js: The Documentary)[https://www.youtube.com/watch?v=OrxmtDw4pVI]. ✔️
 
 ### Cursos para fundamentos
-* Async JS Crash Course (Traversy[https://www.youtube.com/watch?v=PoRJizFvM7s].
+* Async JS Crash Course (Traversy)[https://www.youtube.com/watch?v=PoRJizFvM7s].
+* Git and GitHub (Traversy)[https://www.youtube.com/watch?v=SWYqp7iY_Tc].
 
 ### Cursos para o próximo level
 * State Management (Vue Docs)[https://vuejs.org/v2/guide/state-management.html#Simple-State-Management-from-Scratch]
