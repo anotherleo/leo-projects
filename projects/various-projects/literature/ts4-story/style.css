@@ -1,0 +1,27 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    text-align: center;
+}
+
+.characters {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+    width: 100%;
+
+    border: 1px dotted darkblue;
+}
+
+.characters article {
+    width: 75px;
+    height: 75px;
+    text-align: center;
+}
+
+.characters article h4 {
+    font-size: 0.7rem;
+}
