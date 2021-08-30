@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style-tab-navigation.css">
+    <link rel="stylesheet" href="assets/css/style-character-sheet.css">
+    <link rel="stylesheet" href="assets/css/style-minibar.css">
+    <link rel="stylesheet" href="assets/css/style-event.css">
+    <link rel="stylesheet" href="assets/css/style-storyline.css">
+
+    <script src="https://kit.fontawesome.com/1a415b1d46.js" crossorigin="anonymous"></script>
+
+    <title>A Storytelling Concept</title>
+</head>
+<body>
+
+    <section id="js-main" class="container-global">
+
+        <section id="js-header-character-minibar" class="header-minibar">
+            <!-- js -->
+        </section>
+
+        <nav id="js-tab-navigation" class="global-tab-navigation">
+            <button id="js-tab-btn-storyline">História</button>
+            <button id="js-tab-btn-character">Personagem</button>
+            <button id="js-tab-btn-house">Base</button>
+            <button id="js-tab-btn-world">Mundo</button>
+            <button id="js-tab-btn-log">Diário</button>
+            <button id="">---</button>
+            <button id="">---</button>
+            <button id="">---</button>
+        </nav>
+
+        <section id="js-tab-storyline" class="js-tab">
+            <div id="js-storyline-contents">
+
+            </div>
+        </section>
+
+        <section id="js-tab-character" class="js-tab">
+            <article class="character-sheet">
+
+                <div id="js-character-sheet-profile" class="character-sheet-profile">
+                    <figure id="js-character-icon" class="character-sheet-profile--photo">
+                        <!-- font awesome icon -->
+                    </figure>
+
+                    <div class="character-sheet-profile--desc">
+                        <div class="character-header">
+                            <h2 id="js-character-name">
+                                <!-- name -->
+                            </h2>
+                            <h3 id="js-character-level">
+                                <!-- level -->
+                            </h3>
+                        </div>
+                        <div id="js-character-traditions" class="character-traditions">
+                            <!-- traditions -->
+                        </div>
+                    </div>
+                </div>
+
+                <div id="js-character-sheet-traits"class="character-sheet-traits">
+                    <p id="js-character-sheet-traits--profilelist" class="profilelist"></p>
+                    <!-- js character-display: traits' -->
+                </div>
+                
+                <div id="js-character-sheet-attributes" class="character-sheet-attributes">
+                    <!-- js character-display: attributes' -->
+                </div>
+
+                <div id="js-character-sheet-upgrade">
+                    <div id="js-character-sheet-upgrade-attributes"></div>
+                    <button id="testei">++++++</button>
+                </div>
+                
+
+                <div id="js-character-sheet-inventory">
+                    <!-- js character-display: inventory' -->
+                </div>
+            </article>
+        </section>
+
+        <section id="js-tab-house" class="js-tab">
+            <div id="js-house-description"></div>
+            <div id="js-house-calendar" class="house-calendar"></div>
+            <div id="js-house-dayevents" class="house-events"></div>
+            <button id="js-btn-house-nextday">Próximo dia</button>
+        </section>
+
+        <section id="js-tab-world" class="js-tab">
+            <article id="js-world-challenges-list" class="world-challenges">
+                <!-- world events -->
+            </article>
+        </section>
+
+        <section id="js-tab-temporary-conflict" class="temporary-conflict js-tab">
+
+        </section>
+
+        <section id="js-tab-log" class="js-tab">
+
+            <nav id="js-log-navigation" class="log-navigation">
+                <button id="js-log-subtab-btn-journal">História</button>
+                <button id="js-log-subtab-btn-statistics">Estatísticas</button>
+            </nav>
+
+            <section id="js-log-subtab-journal" class="js-log-subtab">
+                <!-- journal here -->
+            </section>
+
+            <section id="js-log-subtab-statistics" class="js-log-subtab">
+                <!-- statitistics content -->
+            </section>
+
+        </section>
+
+
+
+    </section>
+
+    <!-- SCRIPTS -->
+    <!-- 01.a: html related -->
+    <script src="assets/js/01-tabs/style-tabs.js"></script>
+    <script src="assets/js/01-tabs/tab-log.js"></script>
+
+    <!-- 01.b: "dice" probability -->
+    <script src="assets/js/01-tabs/dice-chances.js"></script>
+    
+    <!-- 02: contents -->
+    <script src="assets/js/02-contents/attributes.js"></script>
+    <script src="assets/js/02-contents/city.js"></script>
+    <script src="assets/js/02-contents/traditions.js"></script>
+    <script src="assets/js/02-contents/traits.js"></script>
+    <script src="assets/js/02-contents/clock.js"></script>
+    <script src="assets/js/02-contents/events-day.js"></script>
+
+    <!-- 03: character -->
+    <script src="assets/js/03-char/character.js"></script>
+    <script src="assets/js/03-char/character-display.js"></script>
+    <script src="assets/js/03-char/character-minibar.js"></script>
+    <script src="assets/js/03-char/character-upgrade.js"></script>
+
+    <script src="assets/js/03-enemies/enemies.js"></script>
+    
+    <!-- 04: register of any changes -->
+    <script src="assets/js/04-world/log.js"></script>
+    <script src="assets/js/04-world/house.js"></script>
+    <script src="assets/js/04-world/temporary-combat.js"></script>
+
+    <!-- 05: calculations that uses all above -->
+    <script src="assets/js/05-aftermath/final-calculations.js"></script>
+    <script src="assets/js/05-aftermath/statistics.js"></script>
+    <script src="assets/js/05-aftermath/gameover.js"></script>
+
+    <!-- 06: storyline -->
+    <script src="assets/js/06-events/storyline.js"></script>
+
+    <!-- 06: events -->
+    <script src="assets/js/06-events/challenge-01.js"></script>
+
+    <!-- 06: events using all above -->
+    <script src="assets/js/06-events/events-container.js"></script>
+</body>
+</html>
