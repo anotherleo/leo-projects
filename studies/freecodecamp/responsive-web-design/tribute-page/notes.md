@@ -6,5 +6,7 @@ Os requisitos eram simples, foi tranquilo. Mantive o script bundle do teste na v
 
 ### Geral
 * Fiz uma checagem baseada no [https://frontendchecklist.io/].
+* Nenhum erro pelo (WAVE)[https://wave.webaim.org/] ou (W3C)[https://validator.w3.org/].
+* Tem (8kb)[https://www.coderduck.com/page-size-checker/].
 * Não investi no CSS, deixei simples.
 
