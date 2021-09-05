@@ -3,7 +3,7 @@
 /** GLOBAL **/
 :root {
     --size: 600px;
-    --margin: 0 auto;
+    --margin: 1rem auto;
 
     --light: aliceblue;
     --darker: #012a36; /* gunmetal */
@@ -12,7 +12,8 @@
 
     --shadow: 6px 6px 6px 1px rgba(255, 255, 255, .15);
     --shadowHovered: 4px 4px 4px 1px rgba(255, 255, 255, .55);
-    --border: 1px solid hsla(0, 0%, 36%, 0.1);
+    --border: 1px solid dimgrey;
+    --borderRadius: 7px;
 
     --mainFont: 'Glory', sans-serif;
     --titleFont: 'Kaisei Tokumin', serif;
@@ -57,6 +58,7 @@ body {
     margin: var(--margin);
     padding: 1rem;
 
+    border-radius: var(--borderRadius);
     background-color: var(--light);
 }
 
@@ -70,9 +72,14 @@ body {
 }
 
 /** FORM **/
-.main-form input {
+.main-form input,
+.main-form select,
+.main-form textarea {
     margin: 0.2rem;
-    border: 1px solid dimgrey;
+    padding: 0.5em;
+
+    border: var(--border);
+    border-radius: var(--borderRadius);
 }
     .main-form input.f-name, 
     .main-form input.f-email {
@@ -80,7 +87,7 @@ body {
     }
 
 .main-form fieldset {
-    border-radius: 5px;
+    border-radius: var(--borderRadius);
     margin: 0.5rem;
     border-color: var(--highlightOne);
 }
@@ -95,4 +102,37 @@ body {
 .f-comments {
     width: 100%;
     min-height: 4rem;
+}
+
+.f-button-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.f-button {
+    width: 100%;
+    padding: 0.2rem;
+    border-radius: var(--borderRadius);
+    border: var(--border);
+}
+
+.f-reset {
+
+}
+
+.f-submit {
+
+}
+
+/** FOOTER **/
+.fa-heart {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #09008b, #0fb0fa);
+    background-clip: text;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+    fill: transparent;
+        -webkit-text-fill-color: transparent; 
+        -moz-text-fill-color: transparent;
+    transform: translateY(2px);
 }

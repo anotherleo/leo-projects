@@ -88,13 +88,20 @@
                 <legend>Share your thoughts!</legend>
                 <textarea id="f-comments" class="f-comments" placeholder="Tell us what you like about the app, how we could improve, any bugs you've found or the new features you would like to see."></textarea>
             </fieldset>
-            <button id="submit" type="submit" onclick="alert('Thank you! A reward was sent to your e-mail. Enjoy!')">Submit!</button>
+
+            <fieldset>
+                <legend>Send to us!</legend>
+                <div class="f-button-grid">
+                    <button id="f-reset" class="f-reset f-button" type="reset" onclick="confirm('Do you want to clear the form?')">Reset</button>
+                    <button id="submit" class="f-submit f-button" type="submit" onclick="alert('Thank you! A reward was sent to your e-mail. Enjoy!')">Submit!</button>
+                </div>
+            </fieldset>
         </form>
         
         <footer>
             <hr>
             <h5>2021. Made with <i class="fas fa-heart"></i> by <a href="#" rel="author">Leo Thomas Monteiro</a>.</h5>
-            <h6 style="font-family: monospace;">Project based on <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" rel="noreferrer" target="_blank">"Survey Form"</a> as requirement for the "Responsive Web Design" certification by <a href="https://www.freecodecamp.org/" rel="noreferrer" target="_blank">FreeCodeCamp</a>.</h6>
+            <h6 style="font-family: monospace;">This is a fictional project based on <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" rel="noreferrer" target="_blank">"Survey Form"</a> as requirement for the "Responsive Web Design" certification by <a href="https://www.freecodecamp.org/" rel="noreferrer" target="_blank">FreeCodeCamp</a>.</h6>
         </footer>
 
     </div>
