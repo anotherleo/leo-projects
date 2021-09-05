@@ -5,28 +5,28 @@ Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippe
 * [Vue.js: The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI). ✔️
 
 ### Cursos para fundamentos
-* Async JS Crash Course [Traversy](https://www.youtube.com/watch?v=PoRJizFvM7s).
-* Git and GitHub [Traversy](https://www.youtube.com/watch?v=SWYqp7iY_Tc).
+* Async JS Crash Course, [Traversy](https://www.youtube.com/watch?v=PoRJizFvM7s).
+* Git and GitHub, [Traversy](https://www.youtube.com/watch?v=SWYqp7iY_Tc).
 
 ### Cursos para o próximo level
-* State Management [Vue Docs](https://vuejs.org/v2/guide/state-management.html#Simple-State-Management-from-Scratch)
+* State Management, [Vue Docs](https://vuejs.org/v2/guide/state-management.html#Simple-State-Management-from-Scratch).
 * Vuex, [Traversy](https://www.youtube.com/watch?v=5lVQgZzLMHc).
 * Vuex, [Scrimba](https://scrimba.com/learn/vuex).
 
 ## Pastas
 * Curso Miranda
-..* O melhor curso que encontrei em português para aprender JavaScript e tecnologias que se relacionam a linguagem;
+    * O melhor curso que encontrei em português para aprender JavaScript e tecnologias que se relacionam a linguagem;
 * FreeCodeCamp
-..*
+    *
 * FrontEnd Mentor
-..* Site de desafios pra front-end.
+    * Site de desafios pra front-end.
 * Jamstack
-..*
+    *
 * MDN
-..* Leituras na MDN.
+    * Leituras na MDN.
 * Neagoie 20 Projects
-..* 20 projetos de JS.
+    * 20 projetos de JS.
 * Traversy 50 Days
-..* 50 projetos de JS.
+    * 50 projetos de JS.
 * Vue Traversy
-..* Curso de Vue.js do Brad Traversy.
+    * Curso de Vue.js do Brad Traversy.
