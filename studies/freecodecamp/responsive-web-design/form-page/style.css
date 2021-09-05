@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Glory:ital,wght@0,400;0,600;1,200&display=swap');
+
+/** GLOBAL **/
+:root {
+    --size: 600px;
+    --margin: 0 auto;
+
+    --light: aliceblue;
+    --darker: #012a36; /* gunmetal */
+    --highlightOne: rgb(156, 246, 246); /* celeste */
+    --highlightTwo: rgb(57, 147, 221); /* lemon glacier */
+
+    --shadow: 6px 6px 6px 1px rgba(255, 255, 255, .15);
+    --shadowHovered: 4px 4px 4px 1px rgba(255, 255, 255, .55);
+    --border: 1px solid hsla(0, 0%, 36%, 0.1);
+
+    --mainFont: 'Glory', sans-serif;
+    --titleFont: 'Kaisei Tokumin', serif;
+
+    --animated: all 0.7s ease-out;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: square;
+}
+
+::marker {
+    color: var(--darker);
+}
+
+summary {
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+    a:visited {
+        color: purple;
+    }
+
+/** GERAL **/
+body {
+    margin: 0;
+    background-color: var(--darker);
+    font-family: var(--mainFont);
+    font-size: 1.1rem;
+}
+
+.container {
+    max-width: var(--size);
+    margin: var(--margin);
+    padding: 1rem;
+
+    background-color: var(--light);
+}
+
+.main-header {
+    text-align: center;
+}
+
+.subtitle {
+    font-style: italic;
+    font-weight: 200;
+}
+
+/** FORM **/
+.main-form input {
+    margin: 0.2rem;
+    border: 1px solid dimgrey;
+}
+    .main-form input.f-name, 
+    .main-form input.f-email {
+        width: 100%;
+    }
+
+.main-form fieldset {
+    border-radius: 5px;
+    margin: 0.5rem;
+    border-color: var(--highlightOne);
+}
+    .main-form fieldset:hover {
+        border-color: var(--highlightTwo);
+    }
+
+.main-form legend {
+    font-weight: 600;
+}
+
+.f-comments {
+    width: 100%;
+    min-height: 4rem;
+}
