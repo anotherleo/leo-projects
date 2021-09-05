@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description" content="FreeCodeCamp courses final exercises.">
+    <meta name="keywords" content="FreeCodeCamp, anotherleo, JavaScript, Responsive Web Design">
+    <meta name="author" content="Leo Thomas Monteiro">
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://kit.fontawesome.com/1a415b1d46.js" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" defer></script>
+
+    <title>Survey Form</title>
+</head>
+<body>
+
+    <div id="container" class="container">
+
+        <header class="main-header">
+            <h1 id="title"><i class="fab fa-superpowers" aria-hidden="true"></i> Study Habits Hero Survey</h1>
+            <p id="description" class="subtitle">Help us understand how we can deliver a better service to you by answering our survey!</p>
+        </header>
+
+        <form id="survey-form" action="#" class="main-form">
+            <!-- if this wasn't a exercise, I've named every element with "f-element-meaning" -->
+
+            <fieldset>
+                <legend>Tell us who you are:</legend>
+                <label id="name-label" for="name">Name:</label>
+                <input id="name" class="f-name" type="text" name="name" placeholder="Your username is required." required><br>
+                <label id="email-label" for="name">Email:</label>
+                <input id="email" class="f-email" type="email" name="email" placeholder="Your email is required." required><br>
+                <label id="number-label" for="name">Year of birth:</label>
+                <input id="number" type="number" name="birth" min="1800" max="2020" placeholder="Year.">
+            </fieldset>
+
+            <fieldset>
+                <legend>What do you think about premium membership?</legend>
+                <input id="f-premium-1" type="radio" value="premium-1" name="premium"><label for="f-premium-1">I like it!</label><br>
+                <input id="f-premium-2" type="radio" value="premium-2" name="premium"><label for="f-premium-2">Could be better.</label><br>
+                <input id="f-premium-3" type="radio" value="premium-3" name="premium"><label for="f-premium-3">I don't like it.</label><br>
+                <input id="f-premium-4" type="radio" value="premium-4" name="premium"><label for="f-premium-4">I don't have an opinion... yet.</label>
+            </fieldset>
+        
+            <fieldset>
+                <legend>What about your financial conditions for the premium membership?</legend>
+                <input id="f-finances-1" type="radio" value="finances-1" name="finances"><label for="f-finances-1">I already have it.</label><br>
+                <input id="f-finances-2" type="radio" value="finances-2" name="finances"><label for="f-finances-2">I can afford.</label><br>
+                <input id="f-finances-3" type="radio" value="finances-3" name="finances"><label for="f-finances-3">I don't have interest.</label><br>
+                <input id="f-finances-4" type="radio" value="finances-4" name="finances"><label for="f-finances-4">I cannot afford, but I have interest.</label><br>
+                <input id="f-finances-5" type="radio" value="finances-5" name="finances"><label for="f-finances-5">Don't want to share this information.</label>
+            </fieldset>
+            <fieldset>
+                <legend>Tell us about your personality traits as student:</legend>
+                <input id="f-traits-1" type="checkbox" value="traits-1" name="traits"><label for="f-traits-1">Nerd: studying is my lifestyle.</label><br>
+                <input id="f-traits-2" type="checkbox" value="traits-2" name="traits"><label for="f-traits-2">Rebel: no fixed routines in my schedule.</label><br>
+                <input id="f-traits-3" type="checkbox" value="traits-3" name="traits"><label for="f-traits-3">Digital: use everything online, from notes to classes.</label><br>
+                <input id="f-traits-4" type="checkbox" value="traits-4" name="traits"><label for="f-traits-4">Analogical: need everything physical around me.</label><br>
+                <input id="f-traits-5" type="checkbox" value="traits-5" name="traits"><label for="f-traits-5">Consistent: studying every day is my success key.</label><br>
+                <input id="f-traits-6" type="checkbox" value="traits-6" name="traits"><label for="f-traits-6">Persistent: study until it's done, no matter the time that it takes.</label><br>
+                <input id="f-traits-7" type="checkbox" value="traits-7" name="traits"><label for="f-traits-7">Lazy: deliver what is needed in the last minute.</label><br>
+                <input id="f-traits-8" type="checkbox" value="traits-8" name="traits"><label for="f-traits-8">Coffeer: do anything sipping from a cup of coffee.</label><br>
+                <input id="f-traits-9" type="checkbox" value="traits-9" name="traits"><label for="f-traits-9">Social: need social contact to learn.</label>
+            </fieldset>
+            <fieldset>
+                <legend>Would you recommend the Study Habits Hero for a friend?</legend>
+                <input id="f-recommend-1" type="radio" value="recommend-1" name="recommend"><label for="f-recommend-1">Yes.</label><br>
+                <input id="f-recommend-2" type="radio" value="recommend-2" name="recommend"><label for="f-recommend-1">No.</label><br>
+                <input id="f-recommend-3" type="radio" value="recommend-3" name="recommend"><label for="f-recommend-1">Already did it!</label>
+            </fieldset>
+            <fieldset>
+                <legend>How you access the app most of the time?</legend>
+                <select id="dropdown">
+                    <datalist id="f-media">
+                        <option value="">-- Please select an option --</option>
+                        <option value="Smartphone">Smartphone</option>
+                        <option value="Computer">Computer</option>
+                        <option value="Tablet">Tablet</option>
+                    </datalist>
+                </select>
+            </fieldset>
+        
+            <fieldset>
+                <legend>Share your thoughts!</legend>
+                <textarea id="f-comments" class="f-comments" placeholder="Tell us what you like about the app, how we could improve, any bugs you've found or the new features you would like to see."></textarea>
+            </fieldset>
+            <button id="submit" type="submit" onclick="alert('Thank you! A reward was sent to your e-mail. Enjoy!')">Submit!</button>
+        </form>
+        
+        <footer>
+            <hr>
+            <h5>2021. Made with <i class="fas fa-heart"></i> by <a href="#" rel="author">Leo Thomas Monteiro</a>.</h5>
+            <h6 style="font-family: monospace;">Project based on <a href="https://codepen.io/freeCodeCamp/full/zNqgVx" rel="noreferrer" target="_blank">"Survey Form"</a> as requirement for the "Responsive Web Design" certification by <a href="https://www.freecodecamp.org/" rel="noreferrer" target="_blank">FreeCodeCamp</a>.</h6>
+        </footer>
+
+    </div>
+</body>
+</html>
