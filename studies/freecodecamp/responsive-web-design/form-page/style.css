@@ -8,7 +8,7 @@
     --light: aliceblue;
     --darker: #012a36; /* gunmetal */
     --highlightOne: rgb(156, 246, 246); /* celeste */
-    --highlightTwo: rgb(57, 147, 221); /* lemon glacier */
+    --highlightTwo: rgb(57, 147, 221);
 
     --shadow: 6px 6px 6px 1px rgba(255, 255, 255, .15); /* !UNUSED */
     --shadowHovered: 4px 4px 4px 1px rgba(255, 255, 255, .55);  /* !UNUSED */
