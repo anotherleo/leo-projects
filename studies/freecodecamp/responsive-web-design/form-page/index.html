@@ -30,12 +30,15 @@
 
             <fieldset>
                 <legend>Tell us who you are:</legend>
-                <label id="name-label" for="name">Name:</label>
-                <input id="name" class="f-name" type="text" name="name" placeholder="Your username is required." required><br>
-                <label id="email-label" for="name">Email:</label>
-                <input id="email" class="f-email" type="email" name="email" placeholder="Your email is required." required><br>
-                <label id="number-label" for="name">Year of birth:</label>
-                <input id="number" type="number" name="birth" min="1800" max="2020" placeholder="Year.">
+                <label id="name-label">Name:
+                    <input id="name" class="f-name" type="text" name="name" placeholder="Your username is required." required><br>
+                </label>
+                <label id="email-label">Email:
+                    <input id="email" class="f-email" type="email" name="email" placeholder="Your email is required." required><br>
+                </label>
+                <label id="number-label">Year of birth:
+                    <input id="number" type="number" name="birth" min="1800" max="2020" placeholder="Year.">
+                </label>                
             </fieldset>
 
             <fieldset>
@@ -71,23 +74,27 @@
             <fieldset>
                 <legend>Would you recommend the Study Habits Hero for a friend?</legend>
                 <input id="f-recommend-1" type="radio" value="recommend-1" name="recommend"><label for="f-recommend-1">Yes.</label><br>
-                <input id="f-recommend-2" type="radio" value="recommend-2" name="recommend"><label for="f-recommend-1">No.</label><br>
-                <input id="f-recommend-3" type="radio" value="recommend-3" name="recommend"><label for="f-recommend-1">Already did it!</label>
+                <input id="f-recommend-2" type="radio" value="recommend-2" name="recommend"><label for="f-recommend-2">No.</label><br>
+                <input id="f-recommend-3" type="radio" value="recommend-3" name="recommend"><label for="f-recommend-3">Already did it!</label>
             </fieldset>
 
             <fieldset>
                 <legend>How you access the app most of the time?</legend>
-                <select id="dropdown">
-                    <option value="">-- Please select an option --</option>
-                    <option value="Smartphone">Smartphone</option>
-                    <option value="Computer">Computer</option>
-                    <option value="Tablet">Tablet</option>
-                </select>
+                <label id="f-dropdown">Select the type of device you're using:<br>
+                    <select id="dropdown">
+                        <option value="">-- Please select an option --</option>
+                        <option value="Smartphone">Smartphone</option>
+                        <option value="Computer">Computer</option>
+                        <option value="Tablet">Tablet</option>
+                    </select>
+                </label>
             </fieldset>
         
             <fieldset>
                 <legend>Share your thoughts!</legend>
-                <textarea id="f-comments" class="f-comments" placeholder="Tell us what you like about the app, how we could improve, any bugs you've found or the new features you would like to see."></textarea>
+                <label id="f-comments-label">Feel free to talk about your experience:<br>
+                    <textarea id="f-comments" class="f-comments" placeholder="ex. what you like about the app, how we could improve, any bugs you've found or the new features you would like to see."></textarea>
+                </label>
             </fieldset>
 
             <fieldset>
