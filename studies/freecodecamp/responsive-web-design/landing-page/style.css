@@ -2,12 +2,12 @@
 
 /** GLOBAL **/
 :root {
-    --size: 600px;
+    --size: 600px; /* !UNUSED */
     --margin: 0 auto;
 
-    --light: #58D34C;
-    --darker: #2C4F26;
-    --highlightOne: #68EDCB;
+    --light: #58D34C; /* !UNUSED */
+    --darker: #2C4F26; /* !UNUSED */
+    --highlightOne: #68EDCB; /* !UNUSED */
     --highlightTwo: #F8FFF8;
 
     --shadow: 6px 6px 6px 1px rgba(255, 255, 255, .15); /* !UNUSED */
@@ -40,11 +40,13 @@ a {
 
 /** GERAL **/
 html {
-    background: var(--imageBackground) no-repeat center center fixed; 
+    background: linear-gradient(to right, rgba(255, 192, 203, 0.7) 60%, rgba(216, 200, 255, 0.7)), var(--imageBackground) no-repeat center center fixed; 
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
+    background-blend-mode: hard-light;
+
 }
 
 body {
@@ -70,6 +72,7 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    align-content: stretch;
 
     background-color: black;
     color: white;
@@ -84,9 +87,12 @@ body {
     flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
+    align-content: stretch;
 }
     .main-nav ul {
         padding: 0;
+        margin: 0;
+        height: 100%;
     }
     .main-nav li {
         display: inline;
@@ -115,6 +121,12 @@ body {
     
 }
 
+.call {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 0.5rem;
+}
+
 /** ABOUT **/
 
 .about-container--mission-text {
@@ -126,6 +138,7 @@ body {
 .features-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 1rem;
 }
 /* .features-container {
     display: flex;
@@ -134,8 +147,7 @@ body {
 } */
 
 .feature-card {
-    max-width: 20vw;
-    min-width: 15vw;
+    padding: 1.5rem;
     text-align: center;
 }
 
@@ -148,8 +160,12 @@ body {
     border-radius: var(--borderRadius);
     padding: 1rem;
 }
+.upper {
+    text-transform: uppercase;
+}
 .form input {
     border-radius: var(--borderRadius);
+    padding: 0.2rem;
     width: 100%;
 }
 .form input,
@@ -165,6 +181,20 @@ input[type="checkbox"] {
 }
 
 
-@media (max-width: var(--penguin-size)) {
+@media (max-width: 1130px) {
+    .features-container {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
 
+@media (max-width: 750px) {
+    .features-container {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (max-width: 550px) {
+    .features-container {
+        grid-template-columns: 1fr;
+    }
 }
