@@ -1,4 +1,30 @@
+
+/** GLOBAL **/
+:root {
+    --background: rgb(29, 29, 29);
+    --fontColor: rgb(212, 212, 212);
+
+    --fontFamily: monospace;
+
+    --size: 900px;
+    --margin: 0 auto;
+}
+
+/** RESETS **/
+ul {margin: 0.1rem};
+
+/** GENERAL **/
 body {
-    background-color: rgb(29, 29, 29);
-    color: dimgrey;
+    background-color: var(--background);
+    color: var(--fontColor);
+    font-family: var(--fontFamily);
+    max-width: var(--size);
+    margin: var(--margin);
+}
+
+/** ABOUT **/
+.traits {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 1rem;
 }
