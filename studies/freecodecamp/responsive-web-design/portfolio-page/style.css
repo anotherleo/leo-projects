@@ -5,14 +5,14 @@
 
     --fontFamily: monospace;
 
-    --size: 900px;
+    --size: 800px;
     --margin: 0 auto;
 }
 
 /** RESETS **/
 ul {
-    margin: 0.1rem
-};
+    margin: 0.1rem;
+}
 
 /** GENERAL **/
 body {
@@ -23,10 +23,20 @@ body {
     margin: var(--margin);
 }
 
+.container {
+    margin: 2rem auto;
+    padding: 1rem;
+}
+
 /** NAVBAR **/
 .navbar {
     position: sticky;
     top: 0;
+}
+
+/** WELCOME **/
+.welcome-section {
+    min-height: 100vh;
 }
 
 /** ABOUT **/
