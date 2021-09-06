@@ -14,5 +14,21 @@ Eu li um pouco sobre criação de landing pages, pois não me considero bom com 
 * Li sobre [flow content](https://html.spec.whatwg.org/multipage/dom.html#flow-content-2).
 * No CSS, li sobre (filters pra background)[https://css-tricks.com/apply-a-filter-to-a-background-image/], porque a imagem que encontrei era legal mas depressiva demais para a proposta... Não que tenha ficado bom, mas foi um exercício legal.
 
+## To-Do
+* HTML
+    * Estrutura
+        * Mission
+        * Features descriptions
+        * Subscription plans
+        * Subscription form
+        * Downloads
+        * Sitemap
+        * Attribution
+    * Ajustar um vídeo.
+* CCS
+    * Animações.
+    * Media query.
+* JS
+
 ### Verificações
-* Nenhum erro pelo [WAVE](https://wave.webaim.org/) ou [W3C](https://validator.w3.org/).
+* Erros pelo [WAVE](https://wave.webaim.org/) ou [W3C](https://validator.w3.org/).
