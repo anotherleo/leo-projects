@@ -19,59 +19,56 @@
 <body>
 
     <nav id="navbar" class="navbar">
+        <a href="#about">About</a>
         <a href="#blog">Blog</a>
         <a href="#projects">Projects</a>
     </nav>
 
-    <div class="container">
-
-        <header id="welcome-section" class="welcome-section">
+    <header id="welcome-section" class="welcome-section">
+        <div class="welcome-section--text">
             <h1 class="title">Leo Thomas Monteiro</h1>
-            <h1 class="subtitle">Personal Website</h1>
-        </header>
+            <h1 class="subtitle">Web Developer</h1>
+        </div>
+    </header>
 
+    <div class="container">
         <main>
             <section id="about">
                 <article>
                     <h2>About me</h2>
-                    <p>My name is Leo Thomas, I'm 25 years old and I'm currently searching for a position as JavaScript junior developer. I'm from Brazil, living in south and working as intern at my university where I'm studying Library Science. You can find me at Instagram, LinkedIn, or Twitter, and see my projects on <a href="https://github.io/anotherleo" id="profile-link">GitHub</a>.</p>
-                    <p>Here you'll find some thoughts on my knowledge building-journey as developer, mostly because a good piece of advice from Felipe Deschamps: "you should write about what you're learning, even if you're insecure or if nobody's reading it".</p>
+                    <p>My name is Leo Thomas, I'm 25 years old and currently searching for a position as JavaScript junior developer. I'm from Brazil, living in south, studying online for my degree in Information Security. You can find me at Instagram, LinkedIn, or Twitter, and see my projects on <a id="profile-link" href="https://anotherleo.github.io/leo-projects/" target="_blank" rel="noreferrer">GitHub</a>.</p>
                 </article>
             
-                <article class="traits">
-                    <div>
-                        <h3>On my personal life...</h3>
+                <article class="traits-container">
+                    <div class="traits--focus">
+                        <h3><i class="fas fa-bullseye"></i> Focus</h3>
                         <ul>
-                            <li>Born in 1996</li>
-                            <li>Studying Library Science in 2017</li>
-                            <li>I'm Asperger's</li>
-                            <li>I am openly a trans male</li>
-                            <li>Learning web development since 2020</li>
+                            <li><i class="fab fa-js-square"></i> JavaScript</li>
+                            <li><i class="fab fa-vuejs"></i> Vue.js</li>
+                            <li><i class="fas fa-cube"></i> Clean code</li>
                         </ul>
                     </div>
                     <div>
-                        <h3>I love most...</h3>
+                        <h3><i class="fas fa-toolbox"></i> Toolbox</h3>
+                        <div class="traits--stack">
+                            <ul>
+                                <li>HTML5 semantics</li>
+                                <li>CSS</li>
+                                <li>Bootstrap</li>
+                                <li>React</li>
+                            </ul>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Webpack</li>
+                                <li>Figma</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="traits--cv"><h3><i class="fas fa-anchor"></i> Curriculum</h3>
                         <ul>
-                            <li>Books</li>
-                            <li>Strong coffee</li>
-                            <li>Stargazing</li>
-                            <li>Coding</li>
-                            <li>Dogs</li>
+                            <li><i class="fas fa-file-download"></i> Leo-Thomas.pdf</li>
                         </ul>
                     </div>
-                    <div>
-                        <h3>Focused on...</h3>
-                        <ul>
-                            <li>JavaScript</li>
-                            <li>Vue.js</li>
-                            <li>Clean code</li>
-                        </ul>
-                    </div>
-                </article>
-
-                <article id="blog">
-                    <h2>Blog Posts</h2>
-                    <div id="js-show-blog-posts"></div>
                 </article>
 
                 <article id="projects">
@@ -84,13 +81,16 @@
                             <a href="#">Application</a>
                             <a href="#">Landing page</a>
                             <a href="#">Survey</a>
-                            <a id="profile-link" href="https://github.io/anotherleo" target="_blank">GitHub</a>
                         </nav>
                     </div>
-                    
+                </article>
+
+                <article id="blog">
+                    <h2>Blog Posts</h2>
+                    <p>Here you'll find some thoughts on my knowledge building-journey as developer, mostly because a good piece of advice from Felipe Deschamps: "you should write about what you're learning, even if you're insecure or if nobody's reading it".</p>
+                    <div id="js-show-blog-posts"></div>
                 </article>
             </section>
-
 
         </main>
 

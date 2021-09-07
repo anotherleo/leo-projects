@@ -1,47 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+
 /** GLOBAL **/
 :root {
     --background: rgb(29, 29, 29);
-    --fontColor: rgb(212, 212, 212);
+    --fontColor: rgb(226, 225, 225);
+    --link: rgb(53, 82, 179);
+    --linkHover: rgb(158, 53, 179);
 
-    --fontFamily: monospace;
+    --fontFamily: 'Cutive Mono', monospace;
+    --mainFontSize: 1rem;
 
     --size: 800px;
+    --sizemax: 100vw;
     --margin: 0 auto;
+
+    --transition: all 0.7s ease;
+
+    --backgroundPhoto: url(tudor-baciu.jpg);
+    
+    --borderRadius: 15px;
 }
 
 /** RESETS **/
-ul {
-    margin: 0.1rem;
-}
+*,
+*::before,
+*::after {box-sizing: border-box;}
+body {margin: 0;}
+ul {margin: 0.1rem; padding: 0;}
+li {list-style-type: none; padding: 0.1rem}
+a {text-decoration: none;}
 
 /** GENERAL **/
-body {
-    background-color: var(--background);
-    color: var(--fontColor);
-    font-family: var(--fontFamily);
-    max-width: var(--size);
-    margin: var(--margin);
+html {
+    background: var(--backgroundPhoto) no-repeat center center fixed; 
+    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
 }
 
-.container {
-    margin: 2rem auto;
-    padding: 1rem;
+body {
+    color: var(--fontColor);
+    font-family: var(--fontFamily);
 }
+
+a {
+    color: var(--link);
+}
+    a:hover{
+        color: var(--linkHover);
+    }
 
 /** NAVBAR **/
 .navbar {
     position: sticky;
     top: 0;
+    width: 100%;
+    padding: 1rem;
+    background-color: black;
+    margin: none;
+    text-align: right;
+    transition: var(--transition);
 }
 
 /** WELCOME **/
 .welcome-section {
     min-height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-content: center;
+}
+
+.welcome-section--text {
+    display: flex;
+    flex-flow: column wrap;
+    gap: 1rem;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: var(--borderRadius);
+    background-color: rgba(29, 29, 29, 0.8);
+}
+.title {
+    font-size: 3rem;
+    margin: 0;
+}
+.subtitle {
+    margin: 0;
+}
+
+/** MAIN **/
+.container {
+    background-color: var(--background);
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3rem;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: var(--size);
+    border-radius: var(--borderRadius);
+    font-size: var(--mainFontSize);
 }
 
 /** ABOUT **/
-.traits {
-    display: flex;
-    flex-flow: row wrap;
+.traits-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
     gap: 1rem;
+}
+.traits--stack {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/** MEDIA QUERY **/
+@media (max-width: 675px) {
+    .navbar {
+        padding: 0.7rem;
+        transition: (--transition);
+    }    
+}
+
+@media (max-width: 610px) {
+    .traits-container {
+        grid-template-columns: 1fr 2fr;
+    }
+    .traits--cv {
+        grid-column: 1 / span 3;
+    }
+}
+
+@media (max-width: 460px) {
+    .traits-container {
+        grid-template-columns: 1fr;
+    }
+    .traits--cv {
+        grid-column: 1;
+    }
+}
+
+@media (max-width: 360px) {
+    .traits--stack {
+        grid-template-columns: 1fr;
+    }
 }
