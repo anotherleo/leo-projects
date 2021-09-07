@@ -23,3 +23,4 @@ Sim, são dois coelhos com uma flecha.
         * E baseado na mesma ideia, tem uma landing page e um survey...
             * Que podem ser melhorados e ficar um projetinho/protótipo completo em si mesmo.
 Então são três coelhos, na verdade.
+* Nota #1: a felicidade da criança que conseguiu rodar tudo direitinho.
