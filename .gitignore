@@ -1,4 +1,7 @@
 **/my-project
+**/to-do-project
+.vscode
+
 my-project/node_modules/@babel/code-frame/LICENSE
 my-project/node_modules/@babel/code-frame/package.json
 my-project/node_modules/@babel/code-frame/README.md
