@@ -13,3 +13,13 @@ Mano... Minha vida é uma coisa tão insana. Eu me mudei de cidade. Mesmo assim,
 * 05/08: Survey page pro curso de design responsivo.
 * 06/08: Landing Page pro curso de design responsivo.
 
+### 07/08/2021
+*Ordem na casa!*
+* Último projeto do curso de design responsivo: documentação técnica...
+    * Que vou fazer baseada no projeto de To-Do em Vue 3 do Traversy.
+Sim, são dois coelhos com uma flecha.
+* Esse projeto do To-Do vai pro portfolio...
+    * Que é uma versão em português daquele exercício do curso de design.
+        * E baseado na mesma ideia, tem uma landing page e um survey...
+            * Que podem ser melhorados e ficar um projetinho/protótipo completo em si mesmo.
+Então são três coelhos, na verdade.
