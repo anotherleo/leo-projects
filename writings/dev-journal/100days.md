@@ -28,4 +28,17 @@ Então são três coelhos, na verdade.
 
 ### 08/08/2021, DAY 10
 * Fiz uma boilerplate pra documentação técnica, ao invés de basear em um projeto específico.
+* Foquei em enviar currículos e resolver minha vida pós-mudança.
+
+### 09/08/2021, DAY 11
+* Concluí o curso de Design responsivo, finalmente.
+```
+Update da lista de estudos
+    * HTML avançado,
+    * CSS3 responsivo e com Less,
+    * jQuery,
+    * Bootstrap.
+```
+* Playlists do [dcode](https://www.youtube.com/c/dcode-software/playlists).
+* Pra hoje: o rascunho do portfolio em português.
 
