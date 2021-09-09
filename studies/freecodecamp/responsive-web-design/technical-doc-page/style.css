@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/** GLOBAL **/
+:root {
+    --fontMain: 'Montserrat', sans-serif;
+}
+
+/** RESETS **/
+li {list-style-type: none;}
+
+/** GENERAL **/
+body {
+    font-family: var(--fontMain);
+}
+.main-section h2 {
+    text-transform: uppercase;
+}
+
+.title-container,
+.attribution-container {
+    text-align: center;
+}
+
+/** RESPONSIVITY **/
+@media (min-width: 900px) {
+    .content-wrapper {
+        display: grid;
+        grid-template-columns: 1fr 8fr;
+        gap: 1rem;
+    }
+}
