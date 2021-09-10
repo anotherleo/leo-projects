@@ -42,3 +42,9 @@ Update da lista de estudos
 * Playlists do [dcode](https://www.youtube.com/c/dcode-software/playlists).
 * Pra hoje: o rascunho do portfolio em português.
 
+### 10/08/2021, DAY 12
+_I'm on a roll ♪♫_
+* Aprendi a usar Less ontem,
+* vamos de jQuery hoje pra ver como é.
+
+

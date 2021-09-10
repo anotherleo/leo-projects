@@ -3,10 +3,11 @@ Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippe
 
 ## Links Gerais
 * [Vue.js: The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI). ✔️
+* Playlists do [dcode](https://www.youtube.com/c/dcode-software/playlists).
 
 ### Cursos para fundamentos
 * Async JS Crash Course, [Traversy](https://www.youtube.com/watch?v=PoRJizFvM7s).
-* Git and GitHub, [Traversy](https://www.youtube.com/watch?v=SWYqp7iY_Tc).
+* Git and GitHub, [Traversy](https://www.youtube.com/watch?v=SWYqp7iY_Tc). ✔️
 
 ### Cursos para o próximo level
 * State Management, [Vue Docs](https://vuejs.org/v2/guide/state-management.html#Simple-State-Management-from-Scratch).
@@ -16,8 +17,10 @@ Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippe
 ## Pastas
 * Curso Miranda
     * O melhor curso que encontrei em português para aprender JavaScript e tecnologias que se relacionam a linguagem;
+* English
+    * Recursos para aperfeiçoamento de inglês.
 * FreeCodeCamp
-    *
+    * Site para aprender programação. Nessa pasta tem as minhas resoluções de projetos.
 * FrontEnd Mentor
     * Site de desafios pra front-end.
 * Jamstack
