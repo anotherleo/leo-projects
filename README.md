@@ -1,8 +1,8 @@
 # Leo Projects
 Anotações: 🇧🇷 🇺🇸  
 Projetos: 🇧🇷 🇺🇸  
-![total lines of code](https://img.shields.io/tokei/lines/github/anotherleo/leo-projects)  
-![commit/year](https://img.shields.io/github/commit-activity/y/anotherleo/leo-projects)  
+  
+![total lines of code](https://img.shields.io/tokei/lines/github/anotherleo/leo-projects) ![commit/year](https://img.shields.io/github/commit-activity/y/anotherleo/leo-projects) 
 ![last commit](https://img.shields.io/github/last-commit/anotherleo/leo-projects)  
 
 ## Pastas
