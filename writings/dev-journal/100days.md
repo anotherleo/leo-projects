@@ -47,4 +47,9 @@ _I'm on a roll ♪♫_
 * Aprendi a usar Less ontem,
 * vamos de jQuery hoje pra ver como é.
 
-
+### 13/08/2021, DAYS 13-15
+* Consegui algum resultado através do LinkedIn... No aguardo.
+* Trabalhei na estrutura do portfolio.
+* Tive algumas ideias de coisas para desenvolver...
+  * Mas deveria concluir o que já comecei, o que me levou a refletir e...
+Percebi que tenho muita dificuldade em seguir tutoriais longos, não por eles serem longos, mas porque as minhas próprias ideias se atravessam no caminho, gosto de testar coisas pequenas pra ver o que acontece, e algo que deveria ter 2h leva 8h ~ 18h. Se fosse um trabalho seria diferente, porque existe uma orientação clara e uma deadline, mas como eu literalmente estou livre e sozinho pra aprender do meu jeito, acabo investindo muito tempo nesses devaneios. Bom ou ruim varia do ponto de vista, também: é ruim porque demoro pra concluir e acabo sem projeto final pra apresentar pros outros, do tipo "ah, o que você pode me mostrar?" e todos os meus DivertidaMente engenhoqueiros começarem a se bater pra catar alguma coisa, mas é bom porque desenvolvo habilidade pra construir sozinho cada bloquinho que compõe o projeto -- a teimosia flexível do "eu vou tentar isso aqui de n jeitos até resolver" acaba sendo positiva. 

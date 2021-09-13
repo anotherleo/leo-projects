@@ -10,7 +10,7 @@ Projetos: 🇧🇷 🇺🇸
 Eu não queria criar dez mil repositórios, um para cada ideia da minha cabeça... Também não queria fazer dez mil branches... Dez mil pastas parecia suficiente. 
 
 ### JS Toybox
-É uma pasta de showcase, onde projetos concluídos ficam ali, até que desenvolva algo mais legal. Por ora não tem nada :rofl:
+É uma pasta de showcase, onde os projetos favoritos ~~concluídos, mentira~~ ficam ali, até que desenvolva algo mais legal. Por ora não tem nada :rofl:
 
 ### Projects
 Quase todos os projetos pessoais que fiz/faço.

@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&Roboto:ital,wght@0,100;0,400;0,600;0,900;1,400&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: rgb(29, 29, 29);
+}
+
+.container-global {
+    max-width: 450px;
+    text-align: justify;
+    margin: 1.5rem auto;
+    border-radius: 15px;
+    padding: 0rem 2rem 2rem 2rem;
+    color: white;
+    background-color: black;
+}
+
+.notfeature {
+    color: rgb(95, 95, 95);
+}
+
+.temporary-conflict {
+    font-family: 'Courier Prime', monospace;
+    font-size: 0.8rem;
+}
+
+.house-calendar {
+    margin: 0.5rem;
+    text-align: center;
+    font-style: italic;
+}
+.house-events {
+    margin: 0.5rem;
+    font-size: 0.9rem;
+    text-align: center;
+    font-style: italic;
+}

@@ -1,0 +1,27 @@
+article.js-event {
+    display: block;
+    margin-bottom: 0.7rem;
+}
+article.js-event h4 {
+    margin: 0.2rem auto;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+article.js-event p {
+    font-size: 13px;
+    font-style: italic;
+    margin: 0;
+}
+article.js-event p.m {
+    text-align: right;
+    margin-bottom: 0.2rem;
+}
+article.js-event button {
+    width: 49%;
+}
+article.js-event hr {
+    width: 30%;
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(94, 94, 94, 0.75), rgba(255, 255, 255, 0));
+}

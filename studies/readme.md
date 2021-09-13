@@ -1,5 +1,7 @@
 # Studies
-Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippets, enfim... Tudo aquilo que aprendi porque outras pessoas dedicaram um tempo para colocar aulas online e eu dediquei outro tempo para aprender e -- preferencialmente -- ficar com mais dúvidas.
+Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippets, enfim... Tudo aquilo que aprendi porque outras pessoas dedicaram um tempo para colocar aulas online e eu dediquei outro tempo para aprender e -- preferencialmente -- ficar com mais dúvidas.  
+  
+Pra ser sincero, eu não recomendo ficar se perdendo nessas pastas: é mais uma organização pessoal com páginas live pra dizer "olha o que estou descobrindo" quando me perguntam do que algo útil pra alguém externo.
 
 ## Pastas
 ### Curso Miranda
@@ -59,4 +61,4 @@ Curso de Vue.js do Brad Traversy.
 * Vuex, [Scrimba](https://scrimba.com/learn/vuex).
 
 ### Favoritos
-*[Vue.js: The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI).
+* [Vue.js: The Documentary](https://www.youtube.com/watch?v=OrxmtDw4pVI).

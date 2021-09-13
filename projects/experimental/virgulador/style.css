@@ -1,0 +1,52 @@
+/*
+ * GLOBAL
+ */
+body {
+    text-align: center;
+}
+
+.instructions {
+    max-width: 400px;
+    margin: 0 auto;
+	text-align: justify;
+}
+
+button {
+    margin: 0.5rem;
+}
+
+.solution-container {
+    max-width: 700px;
+    padding: 1rem;
+    margin: 0 auto;
+    word-wrap: break-word;
+    font-family: monospace;
+    border: 2px solid black;
+    border-radius: 15px;
+}
+
+/* 
+ * ATTRIBUTION <footer>
+ */
+.attribution {
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 3rem;
+}
+
+/*
+ * FONT-AWESOME 
+ * ajuste e personalização dos ícones 
+ * para ficar bonitinho em cada parte específica.
+ */
+.fa-heart {
+    font-size: 1.2em;
+    background-image: linear-gradient(to right, #8b0000, #fa0f0f);
+    background-clip: text;
+		-webkit-background-clip: text;
+		-moz-background-clip: text;
+    fill: transparent;
+		-webkit-text-fill-color: transparent;
+		-moz-text-fill-color: transparent;
+    transform: translateY(2px);
+}
