@@ -1,0 +1,2 @@
+# Experimental
+Experimentos... Não são projetos completos. São ideias. É mais do que um estudo, porém. Provavelmente é incompleto, vai ficar incompleto até que tenha alguma ideia legal pra concluir... É um experimento.
