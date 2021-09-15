@@ -4,9 +4,70 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Companheiro de TRPG</title>
 </head>
 <body>
     
+    <header>
+        <h1>Companheiro de TRPG</h1>
+    </header>
+
+    <section id="js-board-dnd">
+
+        <header class="main__header">
+            <img src="https://dndspellsearch.com/img/DnD_Splat_Transparent.png" alt="D&D 5e logo.">
+        </header>
+
+        <div class="main__container">
+            <div class="board__table">
+                <div id="js-dnd-log" class="board__text"></div>
+            </div>
+            <button id="btn-dnd-d20" class="board__button">Rolar!</button>
+            
+            <fieldset class="modifier__box">
+                <legend>Modificadores</legend>
+                
+                <div class="modifier__element">
+                    <div id="dnd-attribute-exhibitor" class="modifier__dinamic">0</div>
+                    <input id="dnd-attribute" type="range" max="5" min="-5" value="0">
+                    <label for="dnd-attribute">Atributo</label>
+                </div>
+
+                <div class="modifier__element">
+                    <div id="dnd-proficiency-exhibitor" class="modifier__dinamic">0</div>
+                    <input id="dnd-proficiency" type="range" max="5" min="0" value="0">
+                    <label for="dnd-proficiency">Proficiência</label>
+                </div>
+
+                <div class="modifier__element">
+                    <div id="dnd-othermods-exhibitor" class="modifier__dinamic">0</div>
+                    <input id="dnd-othermods" type="range" max="10" min="-10" value="0">
+                    <label for="dnd-othermods">Outros mods.</label>
+                </div>
+            </fieldset>
+
+            <fieldset class="modifier__box">
+                <legend>Variantes</legend>
+
+                <div><input type="radio" id="dnd-common" name="variant" checked><label for="dnd-common">Normal</label></div>
+
+                <div><input type="radio" id="dnd-advantage" name="variant"><label for="dnd-advantage">Vantagem</label></div>
+                
+                <div><input type="radio" id="dnd-disadvantage" name="variant"><label for="dnd-disadvantage">Desvantagem</label></div>
+            </fieldset>
+        </div>
+
+    </section>
+
+    <footer>
+        <p>2021 | Leo Thomas Monteiro</p>
+        <p>Foto de <a href="https://unsplash.com/@nika_benedictova?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Nika Benedictova</a> no <a href="https://unsplash.com/s/photos/dice?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.</p>
+    </footer>
+
+    <script type="module" src="assets/js/main.js" defer></script>
+
 </body>
 </html>

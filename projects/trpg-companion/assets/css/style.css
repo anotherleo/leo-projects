@@ -1,0 +1,103 @@
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiByp8kv8JHgFVrLDz8V1s.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/poppins/v15/pxiEyp8kv8JHgFVrFJA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sen/v2/6xKjdSxYI9_Hmw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__J9CoKg.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Sen';
+  font-style: normal;
+  font-weight: 800;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/sen/v2/6xKudSxYI9__O9OoKg.ttf) format('truetype');
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  background-color: rgba(43, 1, 1, 0.575);
+}
+body {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 700px;
+  font-size: 1rem;
+  font-family: 'Sen', sans-serif;
+  background-color: white;
+}
+.main__header img {
+  width: 350px;
+}
+.main__container {
+  padding: 1rem;
+}
+.main__container .board__table {
+  width: 100%;
+  height: 10rem;
+  border: 1px solid dimgray;
+  border-radius: 10px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  text-align: center;
+  background: url(https://www.kindpng.com/picc/m/154-1543834_little-red-dragon-d-d-dragon-transparent-background.png) center fixed;
+  background-size: contain;
+}
+.main__container .board__table .board__text {
+  padding: 0.5rem;
+  background-color: white;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+.main__container .board__button {
+  width: 70%;
+  display: block;
+  margin: 0.5rem auto;
+  border-radius: 10px;
+  line-height: 1.5;
+  letter-spacing: 0.3rem;
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  color: white;
+  background-color: #fa4444;
+}
+.main__container .modifier__box {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  border-radius: 10px;
+}
+.main__container .modifier__box .modifier__element {
+  padding: 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+.main__container .modifier__box .modifier__element .modifier__dinamic {
+  font-size: 1.5rem;
+}
+.main__container .modifier__box .modifier__element label {
+  display: block;
+}
