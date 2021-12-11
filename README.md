@@ -6,8 +6,9 @@ Projetos: 🇧🇷 🇺🇸
 ![commit/year](https://img.shields.io/github/commit-activity/y/anotherleo/leo-projects) 
 ![last commit](https://img.shields.io/github/last-commit/anotherleo/leo-projects)
   
-## Pastas
-Eu não queria criar dez mil repositórios, um para cada ideia da minha cabeça... Também não queria fazer dez mil branches... Dez mil pastas parecia suficiente. 
+## Conteúdos e Pastas
+Eu não queria criar dez mil repositórios, um para cada ideia da minha cabeça... Também não queria fazer dez mil branches... Dez mil pastas parecia suficiente.  
+:construction: _Roadmap em desenvolvimento._  
 
 ### JS Toybox
 É uma pasta de showcase, onde os projetos favoritos ~~concluídos, mentira~~ ficam ali, até que desenvolva algo mais legal. Por ora não tem nada :rofl:
@@ -20,3 +21,8 @@ Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippe
 
 ### Writings
 Escritas relacionadas ao meu aprendizado e jornada.
+  
+## Tecnologias
+Desenvolvimento: HTML, CSS, JavaScript.
+Pré-processador CSS: Less.
+Biblioteca front-end: Bootstrap.
