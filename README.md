@@ -23,6 +23,6 @@ Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippe
 Escritas relacionadas ao meu aprendizado e jornada.
   
 ## Tecnologias
-Desenvolvimento: HTML, CSS, JavaScript.
-Pré-processador CSS: Less.
-Biblioteca front-end: Bootstrap.
+Desenvolvimento: HTML, CSS, JavaScript.  
+Pré-processador CSS: Less.  
+Biblioteca front-end: Bootstrap.  
