@@ -1,8 +1,81 @@
+/* setup */
+html {
+  padding: 0;
+  margin: 0;
+}
 body {
+  padding: 0;
+  margin: 0;
   color: white;
   background-color: black;
 }
+@font-face {
+  font-family: 'IM Fell English SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/imfellenglishsc/v12/a8IENpD3CDX-4zrWfr1VY879qFF05pZLOw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/specialelite/v11/XLYgIZbkc4JPUL5CVArUVL0nhnc.ttf) format('truetype');
+}
+/* components */
 a.btn {
   display: inline-block;
   padding: 1.5rem 0.5rem;
+}
+.page__header {
+  width: 100vw;
+  height: 70vh;
+  background-image: url("../img/banner_1.png");
+  background-position: center;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.page__header .header__titles {
+  width: fit-content;
+  margin: 2rem 0 0 0;
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 15px;
+  font-family: 'IM Fell English SC', serif;
+  text-align: center;
+}
+.page__header .header__titles h1 {
+  text-transform: uppercase;
+}
+.page__header .header__titles h2 {
+  font-weight: 200;
+}
+.page__navbars {
+  width: 100%;
+  padding: 0.5rem 0;
+  position: sticky;
+  top: 0;
+  background-color: rgba(170, 0, 0, 0.8);
+}
+.page__navbars ul {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  font-family: 'Special Elite', serif;
+}
+.page__navbars ul li {
+  list-style-type: none;
+  margin: 0 1.5rem;
+}
+/*pages */
+.page__welcome {
+  height: 100vh;
 }
