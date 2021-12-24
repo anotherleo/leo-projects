@@ -41,7 +41,31 @@ Transformação de heroínas da ficção para fichas de personagens de TRPG do s
 Automação da ficha de um personagem de TRPG do sistema Weird Wizard. Vanilla JS.
 
 ### Studies
-Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippets, enfim... Tudo aquilo que aprendi porque outras pessoas dedicaram um tempo para colocar aulas online e eu dediquei outro tempo para aprender e -- preferencialmente -- ficar com mais dúvidas. É onde deve ter mais atividades minhas.
+Meus projetos relacionados a estudo: avaliações, desafios, cheatsheets, snippets, enfim... Tudo aquilo que aprendi porque outras pessoas dedicaram um tempo para colocar aulas online e eu dediquei outro tempo para aprender e -- preferencialmente -- ficar com mais dúvidas. É onde tem a mior parte das minhas atividades.
+
+#### Curso Miranda
+Disponível na Udemy como "[Curso de JavaScript e TypeScript do básico ao avançado 2021](https://www.udemy.com/share/1026x83@-UHIE1vrQQHlNJdxna5EDRlfoV16-jhs0wcRHkrARpld1qRUYR5boVwe3v7cHw85/)", garantiu que eu aprendesse sobre JavaScript de modo simples mas detalhado.
+
+#### [FreeCodeCamp](https://anotherleo.github.io/leo-projects/studies/freecodecamp)
+Portfolio dos cursos que concluí pela FreeCodeCamp.
+
+#### [Front-End Mentor](https://anotherleo.github.io/leo-projects/studies/frontend-mentor)
+Portfolio dos desafios que concluí do [FrontEndMentor.io](https://www.frontendmentor.io/challenges).
+
+#### [Traversy's 50 Days of JavaScript](https://anotherleo.github.io/leo-projects/studies/traversy-50days-js-course)
+Portfolio dos exercícios concluídos. Curso disponível na Udemy. 
+
+#### [Traversy's Vue Crash Course](https://anotherleo.github.io/leo-projects/studies/vue-traversy-course)
+Projeto que foi meu primeiro contato com framework javaScript e que me apaixonou por Vue.js. 
+
+#### MDN
+Sem dúvida o website de maior importância para o meu aprendizado e prática de front-end, tentei aprender com o curso estruturado de Desenvolvimento front-End descrito.
+
+#### Kevin Powell
+
+#### Wes Bos 30 Days of JavaScript
+
+#### Neagoie 20 Projects of JavaScript
 
 ### Writings
 Escritas relacionadas ao meu aprendizado e jornada.  
