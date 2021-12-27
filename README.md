@@ -24,7 +24,10 @@ Eu não queria criar dez mil repositórios, um para cada ideia da minha cabeça.
 :construction: _Roadmap em desenvolvimento._  
 
 ### JS Toybox
-É uma pasta de showcase, onde os projetos favoritos ~~concluídos, mentira~~ ficam ali, até que desenvolva algo mais legal. Por ora não tem nada :rofl:
+É uma pasta de showcase, onde ficam os projetos favoritos ou importantes. Talvez sejam movidos com o tempo.
+
+#### [Leo's Web Dev Seniority](https://anotherleo.github.io/leo-projects/js-toybox/leo-seniority)
+Projeto baseado na checklist de Web Dev Jr. criada pelo Alex, do Scrimba. Serve como um roadmap para conhecimentos.
 
 ### Projects
 Projetos pessoais.
