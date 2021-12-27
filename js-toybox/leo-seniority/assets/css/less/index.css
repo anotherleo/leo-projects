@@ -8,6 +8,14 @@
 .page__skill .skill__name {
   text-align: center;
 }
+.page__skill .skill__status--wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  gap: 15px;
+}
 .page__skill .skill__status--wrapper .skill__status__name {
   text-align: center;
+  padding: 0;
+  margin: 0;
 }
