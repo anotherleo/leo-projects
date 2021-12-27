@@ -8,7 +8,6 @@
     <title>Leo's Web Dev Seniority</title>
 
     <link rel="stylesheet" href="assets/css/main.css">
-
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
@@ -20,13 +19,31 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12 welcome__title">
-                    <h1>Leo's Web Dev Seniority</h1>
+                    <h1 class="title--homepage">Leo's Web Dev Seniority</h1>
+                    <h1 class="title--homepage__subtitle">Junior Roadmap</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="welcome__tabs">
+                        <a href="#tab-html">HTML</a>
+                        <a href="#tab-css">CSS</a>
+                        <a href="#tab-js">JavaScript</a>
+                        <a href="#tab-react">React.js</a>
+                        <a href="#tab-vue">Vue.js</a>
+                        <a href="#tab-tools">Tools</a>
+                        <a href="#tab-web">Web</a>
+                        <a href="#tab-perf">Performance</a>
+                        <a href="#tab-data">Data structures and algorithms</a>
+                        <a href="#tab-test">Testing</a>
+                        <a href="#tab-software">Software Design</a>
+                    </nav>
                 </div>
             </div>
         </div>
     </section>
 
-    <section class="page__skill skill__html">
+    <section id="tab-html" class="page__skill skill__html">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 skill__name">
@@ -36,13 +53,18 @@
             <div class="row">
                 <div class="col-md-12">
                     <form action="#" class="row">
+
                         <div class="col-md-2 skill__status--wrapper">
-                            <img src="assets/img/icons/icon-html-c.png" alt="" class="skill__image">
-                            <h5 class="skill__status__name">Steps</h5>
-                            <progress id="js-skill-html-meter" value="0" max="0"></progress>
-                            <span id="js-skill-html-number">
-                            </span>
+                            <img src="assets/img/icons/icon-html-c.png" alt="ícone html">
+
+                            <div class="progress__report">
+                                <h5 class="skill__status__name title--small-impact">Overall Steps</h5>
+                                <progress id="js-skill-html-meter" value="0" max="0"></progress>
+                                <span id="js-skill-html-number">
+                                </span>
+                            </div>
                         </div>
+
                         <div class="col-md-10">
                             <ul id="js-skill-html-checklist">
                                 <li id="select" class="checklist">
@@ -78,6 +100,106 @@
                     </form>
                 </div>
             </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-css" class="page__skill skill__css">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>CSS</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-js" class="page__skill skill__js">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>JavaScript</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-react" class="page__skill skill__react">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>React.js</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-vue" class="page__skill skill__vue">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Vue.js</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-tools" class="page__skill skill__tools">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Tools</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-web" class="page__skill skill__web">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Web</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-perf" class="page__skill skill__perf">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Performance</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-data" class="page__skill skill__data">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Data structures and algorithms</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="tab-test" class="page__skill skill__test">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Testing</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="tab-software" class="page__skill skill__software">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 skill__name">
+                    <h2>Software Design</h2>
+                </div>
             </div>
         </div>
     </section>

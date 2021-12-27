@@ -16,12 +16,29 @@
         display: flex;
         flex-flow: column nowrap;
         justify-content: center;
+        align-items: center;
         gap: 15px;
 
-        .skill__status__name {
-            text-align: center;
-            padding: 0;
-            margin: 0;
+        .progress__report {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-between;
+            align-items: center;
+            width: 100%;
+
+            .skill__status__name {
+                padding: 0;
+                margin: 0;
+                width: 100%;
+            }
+
+            progress {
+                width: 65%;
+            }
+
+            span {
+                width: 25%;
+            }
         }
     }
 }
