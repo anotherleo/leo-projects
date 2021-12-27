@@ -9,11 +9,15 @@
 ![alt language](https://img.shields.io/badge/alt%20language-%F0%9F%87%BA%F0%9F%87%B8-lightgrey)
   
 ## Tecnologias
-Desenvolvimento: HTML, CSS, JavaScript.  
-Pré-processador CSS: Less.  
-Biblioteca front-end: Bootstrap.  
-Frameworks JavaScript: Vue.js, React.js.  
-Bibliotecas JavaScript: jQuery, Chart.js.  
+**[Front-end Junior](https://anotherleo.github.io/leo-projects/js-toybox/leo-seniority)**.  
+  
+**Desenvolvimento**: HTML5, CSS3, JavaScript.  
+**Pré-processador CSS**: Less, Sass.  
+**Bibliotecas CSS**: Bootstrap.  
+**Frameworks JavaScript**: Vue.js, React.js.  
+**Bibliotecas JavaScript**: jQuery, Chart.js.  
+**Versionamento**: Git.  
+**Boas Práticas de Web**: [FrontEndCheklist.io](https://frontendchecklist.io/).
 
 ## Conteúdos e Pastas
 Eu não queria criar dez mil repositórios, um para cada ideia da minha cabeça... Também não queria fazer dez mil branches... Dez mil pastas parecia suficiente.  
