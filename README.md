@@ -2,7 +2,6 @@
 💻 Repositório com projetos de estudos pessoais.  
   
 ![license](https://img.shields.io/badge/license-MIT-ff69b4) 
-![total lines of code](https://img.shields.io/tokei/lines/github/anotherleo/leo-projects) 
 ![commit/year](https://img.shields.io/github/commit-activity/y/anotherleo/leo-projects) 
 ![last commit](https://img.shields.io/github/last-commit/anotherleo/leo-projects) 
 ![main language](https://img.shields.io/badge/main%20language-%F0%9F%87%A7%F0%9F%87%B7-lightgrey) 
