@@ -86,3 +86,6 @@ h6 {
 .page__skill .skill__status--wrapper .progress__report span {
   width: 25%;
 }
+.page__skill .skill__checklist .skill__up label {
+  color: blue;
+}
