@@ -65,13 +65,18 @@ Portfolio dos exercícios concluídos. Curso disponível na Udemy.
 Projeto que foi meu primeiro contato com framework javaScript e que me apaixonou por Vue.js. 
 
 #### MDN
-Sem dúvida o website de maior importância para o meu aprendizado e prática de front-end, tentei aprender com o curso estruturado de Desenvolvimento front-End descrito.
+Sem dúvida o website de maior importância para o meu aprendizado e prática de front-end, utilizando o curso estruturado de Desenvolvimento Front-End descrito.
 
 #### Kevin Powell
+Kevin Powell é um grande mestre de CSS, muito didático. Ele tem canal no YouTube, Twitch e Discord.
 
 #### Wes Bos 30 Days of JavaScript
+Wes Bos explica JS de forma compreensível e prática. Seu curso de 30 dias é gratuito.
 
 #### Neagoie 20 Projects of JavaScript
+Andrei Neagoie é um desenvolvedor web que tem diversos cursos na Udemy e na sua plataforma Zero to Mastery.
 
 ### Writings
 _Escritas relacionadas ao meu aprendizado e jornada._  
+#### Dev Journal
+Série de arquivos .md com planos e descrições de aprendizado. Estruturado para 2022.
