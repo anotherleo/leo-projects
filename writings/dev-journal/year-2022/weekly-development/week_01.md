@@ -8,7 +8,7 @@
 * <progress min="0" max="7" value="2"></progress> Work 6h/day or 42h/week.
 * <progress min="0" max="7" value="0"></progress> Work 1h/day on a personal project.
 * <progress min="0" max="240" value="30"></progress> Read technical literature 4h/week.
-* <progress min="0" max="120" value="0"></progress> Watch technical videos 2h/week.
+* <progress min="30" max="120" value="0"></progress> Watch technical videos 2h/week.
 * <progress min="0" max="7" value="0"></progress> Progress 7 lessons/week on Udemy course.
 * <progress min="0" max="3" value="0"></progress> Conclude 3 classes on Alura course.
 * _Bonus Mission: Follow the MDN's Front-End Development course as possible._
@@ -60,7 +60,15 @@
 * Objetivo de projeto pessoal adiado.
 
 ## 04/01/22
-* **Day report**: _to be written_.
+### **Day report**
+* Watch technical videos: 30m. 
+  * YouTube: [Alura Live #59 - Como entrar no mercado de trabalho de programação?](https://youtu.be/wUX-tRMynHE)
+* Progress on Alura classes.
+* Objetivo de projeto pessoal concluído, 45m.
+
+### **On my mind...**
+* Eu deveria pular etapas e aprender MongoDB real oficial de uma vez?
+* Eu foco em UX ou Node.js?
 
 ## 05/01/22
 * **Day report**: _to be written_.
