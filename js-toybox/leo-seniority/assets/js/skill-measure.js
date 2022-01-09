@@ -14,7 +14,7 @@ let htmlChecks = HTML_SKILL.querySelectorAll('input[type="checkbox"]:checked').l
 const HTML_METER_HIGH = document.querySelector('#js-skill-html-meter-high');
 const HTML_NUMBER_HIGH = document.querySelector('#js-skill-html-number-high');
 let htmlSkillHigh = HTML_SKILL.getElementsByClassName("js-high").length;
-let htmlChecksHigh = HTML_SKILL.getElementsByClassName('js-advance:checked').length;
+let htmlChecksHigh = HTML_SKILL.querySelectorAll('input[type="checkbox"].js-advance:checked').length;
 
 function htmlSkillCounter() {
     HTML_METER.max = htmlSkill;
@@ -26,7 +26,7 @@ function htmlSkillCounter() {
     HTML_NUMBER_HIGH.innerHTML=`${percent(htmlChecksHigh, htmlSkillHigh)}`;
 }
 
-/* variables CSS */
+/* CSS */
 const CSS_SKILL = document.querySelector('#js-skill-css-checklist');
 
 const CSS_METER = document.querySelector('#js-skill-css-meter');
@@ -49,6 +49,31 @@ function cssSkillCounter() {
     CSS_NUMBER_HIGH.innerHTML=`${percent(cssChecksHigh, cssSkillHigh)}`;
 }
 
+
+/* JS */
+const JS_SKILL = document.querySelector('#js-skill-js-checklist');
+
+const JS_METER = document.querySelector('#js-skill-js-meter');
+const JS_NUMBER = document.querySelector('#js-skill-js-number');
+let jsSkill = JS_SKILL.getElementsByTagName("li").length;
+let jsChecks = JS_SKILL.querySelectorAll('input[type="checkbox"]:checked').length;
+
+const JS_METER_HIGH = document.querySelector('#js-skill-js-meter-high');
+const JS_NUMBER_HIGH = document.querySelector('#js-skill-js-number-high');
+let jsSkillHigh = JS_SKILL.getElementsByClassName('js-high').length;
+let jsChecksHigh = JS_SKILL.querySelectorAll('input[type="checkbox"].js-advance:checked').length;
+
+function jsSkillCounter() {
+    JS_METER.max = jsSkill;
+    JS_METER.value = jsChecks;
+    JS_NUMBER.innerHTML=`${percent(jsChecks, jsSkill)}`;
+
+    JS_METER_HIGH.max = jsSkillHigh;
+    JS_METER_HIGH.value = jsChecksHigh;
+    JS_NUMBER_HIGH.innerHTML=`${percent(jsChecksHigh, jsSkillHigh)}`;
+}
+
 /* run */
 htmlSkillCounter();
 cssSkillCounter();
+jsSkillCounter();
