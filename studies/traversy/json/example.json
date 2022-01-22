@@ -1,0 +1,9 @@
+{
+    "name":"Leo Thomas",
+    "age":25,
+    "address":{
+        "street":"Germano Schmarzek 1000",
+        "city":"Porto Alegre"
+    },
+    "children":["Vincent","Dante"]
+}
