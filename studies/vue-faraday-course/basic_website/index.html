@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://unpkg.com/vue@3"></script>
+
+    <div id="app">
+        <h1>{{ greeting }}, {{ username }}!</h1>
+        <h2>{{ time }}</h2>
+        <h3>{{ tasks }}</h3>
+    </div>
+
+    <script>
+    Vue.createApp({
+        data() {
+            return {
+                greeting: 'Hello',
+                username: 'Leo',
+                time: 'feb. 27, 2022.',
+                tasks: 'You do not have active tasks'
+            }
+        }
+    }).mount('#app')
+    </script>
+
+</body>
+</html>
