@@ -1,81 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Spectral:ital,wght@0,200;0,400;0,700;1,400&display=swap');
 
-/* * GERAL E RESET */
-html {
-    background-color: rgb(232, 225, 216);
-}
 
+/* * GERAL E RESET */
 body {
     font-family: 'Spectral', serif;
     margin: 0;
-    max-width: 1200px;
-    margin: 0 auto;
-    color: #0E0E0E;
 }
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
 }
+
+
 /* * HEADER */
 .page__header {
     margin-bottom: 2rem;
 }
-/* * HEADER: banner */
-.header__upper {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
-    text-align: center;
-    border-bottom: 8px double #000;
-}
-.header__upper em {
-    font-size: 1.1rem;
-}
-.header__upper p {
-    margin: 0;
-    padding: 0;
-}
-.header__banner {
-    max-width: 992px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-}
-/* .header__logo {
-    transform: rotate(15deg);
-}
-.header__logo a img {
-    width: 150px;
-} */
-.header__title {
-    text-align: center;
-}
-.title__headline {
-    font-size: 2.3rem;
-    text-transform: uppercase;
-    letter-spacing: 1.5px;
-}
-.title__info {
-    font: italic 200 16px 'Spectral', serif;
-}
 /* * HEADER: navbar */
 .header__nav {
     box-sizing: border-box;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    padding-right: 50px;
     width: 100%;
-    background-color: transparent;
+    background-color: #000;
     display: flex;
-    justify-content: center;
-    gap: 50px;
-    border: 1px solid #000;
+    justify-content: flex-end;
+    gap: 30px;
 }
 .header__nav a {
-    color: #000;
-    font: 400 1em 'Abril Fatface', cursive;
-    letter-spacing: 1px;
+    color: #6A7062;
+    font: 600 1em 'Spectral', serif;
     text-transform: uppercase;
     text-decoration: none;
 }
@@ -83,6 +39,27 @@ h1, h2, h3, h4, h5, h6 {
         color: #2892d7;
         text-decoration: none;
     }
+/* * HEADER: banner */
+.header__banner {
+    max-width: 992px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.header__logo {
+    transform: rotate(15deg);
+}
+.header__title {
+    text-align: center;
+}
+.title__headline {
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+.title__info {
+    font: italic 200 16px 'Spectral', serif;
+}
 
 /* * MAIN */
 .page__main {
