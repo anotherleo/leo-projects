@@ -1,0 +1,10 @@
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+}
+
+circle {
+  stroke: #000000;
+  stroke-width: 4;
+  fill: #cdc7c7;
+}

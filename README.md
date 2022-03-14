@@ -58,10 +58,13 @@ Portfolio dos cursos que concluí pela FreeCodeCamp.
 #### [Front-End Mentor](https://anotherleo.github.io/leo-projects/studies/frontend-mentor)
 Portfolio dos desafios que concluí do [FrontEndMentor.io](https://www.frontendmentor.io/challenges).
 
-#### [Traversy's 50 Days of JavaScript](https://anotherleo.github.io/leo-projects/studies/traversy-50days-js-course)
+#### [Traversy](https://anotherleo.github.io/leo-projects/studies/traversy)
+Cursos do Traversy Media, canal do YoTube também com cursos pela Udemy.
+
+##### [Traversy's 50 Days of JavaScript](https://anotherleo.github.io/leo-projects/studies/traversy/traversy-50days-js-course)
 Portfolio dos exercícios concluídos. Curso disponível na Udemy. 
 
-#### [Traversy's Vue Crash Course](https://anotherleo.github.io/leo-projects/studies/vue-traversy-course)
+##### [Traversy's Vue Crash Course](https://anotherleo.github.io/leo-projects/studies/vue-traversy-course)
 Projeto que foi meu primeiro contato com framework javaScript e que me apaixonou por Vue.js. 
 
 #### MDN
