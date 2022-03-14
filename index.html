@@ -5,37 +5,78 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/main.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous" defer></script>
     <script src="https://kit.fontawesome.com/1a415b1d46.js" crossorigin="anonymous" defer></script>
+    <script src="assets/js/script.js" defer></script>
 
     <title>Leo's Projects</title>
 </head>
 <body>
 
-    <style>
-        body {font-family: sans-serif; text-align: center; min-height: 90vh; display: flex; flex-flow: column wrap; justify-content: center;}
-        ul {padding: 0;}
-        li {list-style-type: none;}
-        a {text-decoration: none;}
-    </style>
+    <div class="container">
 
-    <h1>Leo's Projects</h1>
+        <header class="page__header">
+            <h1>Leo's proJEcts</h1>
+            <h2>fRoNt-End weB devELoPer</h2>
 
-    <nav>
-        <ul>
+            <nav>
+                <a href="#" role="button">
+                    <span>Navbar </span>
+                    <i class="fa-solid fa-bars"></i>
+                </a>
+            </nav>
+        </header>
 
-            <li>
-                <a href="projects/experimental/storytelling-based-game/test-05/index.html">Project: Storytelling Based Game</a>
-            </li>
-            <li>
-                <a href="studies/freecodecamp/index.html">Studies: FreeCodeCamp</a>
-            </li>
-            <li>
-                <a href="studies/traversy-50days-js-course/index.html">Studies: Traversy 50 Days of JS Projects</a>
-            </li>
-            <li>
-                <a href="studies/frontend-mentor/index.html">Studies: Frontend Mentor Projects</a>
-            </li>
-        </ul>
-    </nav>
+        <section class="page__projects">
+            <header>
+                <h2>Something Like a Portfolio</h2>
+            </header>
+            <nav>
+                <a href="#" target="_blank">
+                    <span class="category">Work</span>
+                    <span class="title">Projects Built at LDNA's</span>
+                </a>
+                <a href="studies/frontend-mentor/index.html" target="_blank">
+                    <span class="category">Showcase</span>
+                    <span class="title">Frontend Mentor Projects</span>
+                </a>
+                <a href="studies/traversy-50days-js-course/index.html" target="_blank">
+                    <span class="category">Practice</span>
+                    <span class="title">Traversy's 50 Days of JS</span>
+                </a>
+            </nav>
+        </section>
+
+        <section class="page__projects">
+            <header>
+                <h2>Things I Enjoy to Study</h2>
+            </header>
+            <nav>
+                <a href="studies/freecodecamp/index.html" target="_blank">
+                    <span class="category">Showcase</span>
+                    <span class="title">FreeCodeCamp Projects</span>
+                </a>
+                <a href="projects/experimental/storytelling-based-game/test-05/index.html" target="_blank">
+                    <span class="category">Experimental</span>
+                    <span class="title">Storytelling Based Game</span>
+                </a>
+            </nav>
+        </section>
+
+        <section class="page__next">
+            <a href="assets/pages/about.html">
+                Want to know about me? Next Page <i class="fa-solid fa-chevron-right"></i>
+            </a>
+        </section>
+
+        <footer class="page__footer">
+            <p>&copy; Leo Thomas Monteiro, 2022.</p>
+        </footer>
+
+    </div>
 </body> 
 </html>
