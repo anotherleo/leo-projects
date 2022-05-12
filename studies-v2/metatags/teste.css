@@ -6,8 +6,8 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    
-    img {
-        border-radius: 15px;
-    }
-}
+  }
+  body img {
+    border-radius: 15px;
+  }
+  
