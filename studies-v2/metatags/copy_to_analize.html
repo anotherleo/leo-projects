@@ -1,0 +1,1289 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head><title>
+	Imobiliaria Viamar
+</title>
+<meta name="url" content="http://www.viamar.imb.br" />
+<meta name="description" content="A Viamar é uma imobiliária localizada na cidade de Tramandaí - RS. Especializada em vendas e alugue de temporada. " /><meta name="keywords" content="comprar casa tramandai, comprar apartamento tramandaí, alugar casa temporada tramandaí, alugar apartamento tramandaí, venda casa tramandaí, venda apartamento tramandaí, venda de imóveis tramandaí, imobiliária em tramandaí, alugar sala tramandaí, viamar" />
+<meta name="charset" content="ISO-8859-1" />
+<meta name="autor" content="Vanessa Paes Leite" />
+<meta name="company" content="Atoda Sistemas" />
+
+<meta name="robots" content="index, follow" />
+
+<meta name="robots" content="Aladin" />
+<meta name="robots" content="scooter" />
+<meta name="robots" content="Crawler" />
+<meta name="robots" content="Eule-Robot" />
+<meta name="robots" content="excite" />
+<meta name="robots" content="Flipper/1.1" />
+<meta name="robots" content="SmartCrawl" />
+<meta name="robots" content="Motor0.5" />
+<meta name="robots" content="Mariner" />
+<meta name="robots" content="Lycos" />
+<meta name="google-site-verification" content="rEwDkNbHmMMj9wN5St5c6p2zhD7LzzrthI3ZvfffvrE" />
+<link rev="made" href="mailto:vanessa@atodasistemas.com.br" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+<link rel="stylesheet" href="css/bootstrap-theme.min.css" type="text/css" />
+<link rel="stylesheet" href="css/font-awesome.min.css" />
+<link rel="stylesheet" href="css/flexslider.css" />
+<link rel="stylesheet" href="css/select-theme-default.css" />
+<link rel="stylesheet" href="css/owl.carousel.css" />
+<link rel="stylesheet" href="css/owl.theme.css" />
+<link rel="stylesheet" href="css/style.css" type="text/css" />
+    <script src="js/jnumero.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        function MeuModal() {
+            $('div#basic').modal();
+        };
+    </script>
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false&key=AIzaSyAHC91gbHrRnmtscG7Ubn4no0FRFA1i56U"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var map;
+            var marker;
+            var MyMarker;
+            function initialize() {
+                var map_canvas = document.getElementById('map');
+                var myLatlng = new google.maps.LatLng(-29.9881070, -50.1294193);
+                var mapOptions = {
+                    center: myLatlng,
+                    zoom: 20,
+                    scrollwheel: false,
+                    styles: [{ "featureType": "landscape", "stylers": [{ "saturation": -100 }, { "lightness": 65 }, { "visibility": "on" }] }, { "featureType": "poi", "stylers": [{ "saturation": -100 }, { "lightness": 51 }, { "visibility": "simplified" }] }, { "featureType": "road.highway", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "road.arterial", "stylers": [{ "saturation": -100 }, { "lightness": 30 }, { "visibility": "on" }] }, { "featureType": "road.local", "stylers": [{ "saturation": -100 }, { "lightness": 40 }, { "visibility": "on" }] }, { "featureType": "transit", "stylers": [{ "saturation": -100 }, { "visibility": "simplified" }] }, { "featureType": "administrative.province", "stylers": [{ "visibility": "off" }] }, { "featureType": "water", "elementType": "labels", "stylers": [{ "visibility": "on" }, { "lightness": -25 }, { "saturation": -100 }] }, { "featureType": "water", "elementType": "geometry", "stylers": [{ "hue": "#ffff00" }, { "lightness": -25 }, { "saturation": -97 }] }],
+                    mapTypeId: google.maps.MapTypeId.ROADMAP
+                };
+                map = new google.maps.Map(map_canvas, mapOptions);
+                TestMarker();
+            }
+            // Function for adding a marker to the page.
+            function addMarker(location) {
+                marker = new google.maps.Marker({
+                    position: location,
+                    icon: 'img/28_marker.png',
+                    map: map
+                });
+            }
+            // Testing the addMarker function
+            function TestMarker() {
+                MyMarker = new google.maps.LatLng(-29.9881070, -50.1294193);
+                addMarker(MyMarker);
+            }
+            google.maps.event.addDomListener(window, 'load', initialize);
+        });
+    </script>
+    <script src="js/jnumero.js" type="text/javascript"></script>
+    <script type="text/javascript" language="javascript">
+        function TextoPadrao(txt) {
+            txt.value = (txt.value == txt.defaultValue) ? '' : txt.value; return true;
+        }
+    </script>
+    <script type="text/javascript" src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+    <script type="text/javascript">
+        (function (i, s, o, g, r, a, m) {
+            i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+                (i[r].q = i[r].q || []).push(arguments)
+            }, i[r].l = 1 * new Date(); a = s.createElement(o),
+                m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+        })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
+
+        ga('create', 'UA-72058341-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+</head>
+<body id="top" onload="MeuModal();">
+    <form name="form1" method="post" action="./" id="form1">
+<div>
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['form1'];
+if (!theForm) {
+    theForm = document.form1;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=qWbY_5-ulGLnlhD_UeAF8vRgObQwqKU3yE6wAf883cHmXNuuzainOx3HkVNQfBlGaYz-Ezf2Ut_zFaDBhkr2MTUONynPRBhGBida-Zu83ns1&amp;t=637814552020000000" type="text/javascript"></script>
+
+
+<script src="/ScriptResource.axd?d=XOKC2N-oj0ECvMceWA1wsDxu0ZFR1q-phL9f_S7IGaJSp5tXL9WozpVR4BEm8AlUh9NgNZ6jvmfY40hfYIzHQKSoCyEqT2AN29o1z2WxTHsrXKBdAd4UpR9RgExucmxOsk4fLz9kPuuQSN9UyuMdFQFrVLmAwRVL5ziDYFHqOxd3IMqLDN1eQrfF0OhKnOOu0&amp;t=49337fe8" type="text/javascript"></script>
+<script type="text/javascript">
+//<![CDATA[
+if (typeof(Sys) === 'undefined') throw new Error('ASP.NET Ajax client-side framework failed to load.');
+//]]>
+</script>
+
+        <div>
+
+<script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager1', 'form1', ['tUpdatePanel1',''], [], [], 90, '');
+//]]>
+</script>
+
+            <header>
+            <div id="top-strip">
+                <div class="container">
+                    
+                        <ul class="pull-left social-icons creci_visivel">                        
+                            <li><a href="https://www.facebook.com/viamarimobiliaria" class="fa fa-facebook" style="font-weight: 600;" target="_blank"></a></li>
+                            <li><a href="https://www.instagram.com/viamar.imobiliaria/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="skype:f614f208b759223d?call&topic=Site_Viamar" target="_blank"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UChrIF0PTjOxAbAPThMtSGPg" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                                </a></li>
+                        </ul>
+                    
+                    <div id="login-box" class="pull-right2">                       
+                            <a class="creci_visivel" href="#"><span>CRECI-J 22275</span></a>
+                       
+                        <a href="tel:5136613336" class="fa fa-phone"><span>(51) 3661.3336</span></a>
+                        <a href="tel:51999978122" class="fa fa-whatsapp"><span>(51) 99997.8122</span></a> 
+                        <a href="mailto:viamar@viamar.imb.br" class="fa fa-envelope"><span>viamar@viamar.imb.br</span></a>                      
+                    </div>
+                </div>
+            </div>
+        </header>
+        
+            <div class="slider-section">
+                <div id="premium-bar">
+                    <div class="container">
+                        <nav class="navbar navbar-default" role="navigation">
+                        <div class="container-fluid">
+                            <div class="navbar-header">
+                                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                                    <span class="sr-only">Menu</span> <span class="icon-bar"></span><span
+                                        class="icon-bar"></span><span class="icon-bar"></span>
+                                </button>
+                                <a  href="Default.aspx">
+                                    <img src="img/logo_azul.png" alt="Viamar Imobiliária em Tramandaí - RS" /></a>
+                            </div>
+                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav navbar-right">
+                                    <li class="active"><a href="Default.aspx">Inicial</a></li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Empresa<b
+                                        class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="QuemSomos.aspx">A Viamar</a></li>
+                                            <li><a href="ConhecaTramandai.aspx">Conheça Tramandaí</a></li>                                            
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Imóveis à Venda<b
+                                        class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=1">Apartamentos</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=4,5,6">Coberturas</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=10">JK e Kitinete</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=5,6,19">Duplex e Triplex</a></li> 
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=22">Lofts</a></li> 
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=15">Terrenos</a></li> 
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=3">Casas</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=1&cond=2&tcond=17001">Casas Condomínios Fechados</a></li> 
+                                            <li><a href="ResultadoBusca.aspx?fin=1&uso=72,73">Imóveis Comerciais</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=1&tip=2">Box e Garagens</a></li>                                         
+                                        </ul>
+                                    </li>
+                                    <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown">Aluguéis de<br /> Temporada<b
+                                        class="caret"></b></a>
+                                        <ul class="dropdown-menu">
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=1">Apartamentos</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=4,5,6">Coberturas</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=10">JK e Kitinete</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=5,6,19">Duplex e Triplex</a></li> 
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=22">Lofts</a></li>                                             
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=3">Casas</a></li>
+                                            <li><a href="ResultadoBusca.aspx?fin=3&cond=2&tcond=17001">Casas Condomínios Fechados</a></li>                                             
+                                            <li><a href="ResultadoBusca.aspx?fin=3&tip=2">Box e Garagens</a></li>                                         
+                                        </ul>
+                                    </li>
+                                    <li><a href="ResultadoBusca.aspx?fin=1&nov=92">Em Construção</a></li>
+                                    <li><a href="AnuncieImovel.aspx">Anuncie<br /> seu Imóvel</a></li>                                    
+                                </ul>
+                            </div>
+                        </div>
+                    </nav>
+                    </div>
+                </div>
+                <div class="main-flexslider">
+                    
+                            <ul class="slides">                                
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n1">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_223.jpg" alt="Propaganda da Viamar" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n2">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_219.jpg" alt="At 7" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n3">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_218.jpg" alt="At 6" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n4">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_217.jpg" alt="At 5" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n5">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_216.jpg" alt="At 4" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n6">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_215.jpg" alt="At 3" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n7">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_214.jpg" alt="At 2" />
+                                </li>
+                        
+                            <li class="slides" style="background-color: #ffffff;" id="slide-n8">
+                                
+                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/3_58_213.jpg" alt="At 1" />
+                                </li>
+                                                   
+                            </ul>
+                        
+                </div>
+            </div>
+            <div class="search-section">
+                <div id="UpdatePanel1">
+	
+                        <div class="container">
+                            <div class="select-wrapper select-medium">
+                                <p style="font-weight: bold;">
+                                    Código do Imóvel
+                                </p>
+                                <input name="txtCodImovel" type="text" maxlength="13" id="txtCodImovel" class="form-control" onkeypress="mascara( this, mnum );" style="color:Black;background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:100px;" />
+                            </div>
+                            <div class="select-wrapper select-medium" id="select-rent">
+                                <p style="font-weight: bold;">
+                                    Finalidade
+                                </p>
+                                <select name="ddlFinalidade" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlFinalidade\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlFinalidade" class="form-control" style="background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:100px;">
+		<option selected="selected" value="1">Venda</option>
+		<option value="3">Aluguel Temporada</option>
+
+	</select>
+                            </div>
+                            <div class="select-wrapper select-medium">
+                                <p style="font-weight: bold;">
+                                    Tipo
+                                </p>
+                                <select name="ddlTipo" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlTipo\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlTipo" class="form-control" style="color:Black;background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:100px;">
+		<option value="1">Apartamento</option>
+		<option value="3">Casa</option>
+		<option value="4">Cobertura</option>
+		<option value="5">Cobertura Duplex</option>
+		<option value="10">Kitnet</option>
+		<option value="11">Loja</option>
+		<option value="12">Pousada</option>
+		<option value="13">Sala</option>
+		<option value="15">Terreno</option>
+		<option value="16">Pr&#233;dio</option>
+		<option value="17">Sobrado</option>
+		<option value="19">Duplex - Geminada</option>
+		<option value="22">Loft</option>
+		<option value="27">Casa Geminada</option>
+		<option selected="selected" value="0">Todos</option>
+
+	</select>
+                            </div>
+                            <div class="select-wrapper select-medium">
+                                <p style="font-weight: bold;">
+                                    Categoria
+                                </p>
+                                <select name="ddlCategoria" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlCategoria\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlCategoria" class="form-control" style="background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:100px;">
+		<option value="92">Em Constru&#231;&#227;o</option>
+		<option value="94">Usado</option>
+		<option value="95">Lan&#231;amento</option>
+		<option value="93">Novo</option>
+		<option value="91">Planta</option>
+		<option value="98">Pronto para Morar</option>
+		<option value="97">Reformado</option>
+		<option value="96">Semi-Novo</option>
+		<option selected="selected" value="0">Todos</option>
+
+	</select>
+                            </div>
+                            <div class="select-wrapper select-small">
+                                <p style="font-weight: bold;">
+                                    Dormitórios
+                                </p>
+                                <select name="ddlDormitorio" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlDormitorio\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlDormitorio" class="form-control" style="background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:120px;">
+		<option value="1">1</option>
+		<option value="2">2</option>
+		<option value="3">3</option>
+		<option value="4">4</option>
+		<option selected="selected" value="0">Todos</option>
+
+	</select>
+                            </div>
+                            <div class="select-wrapper select-medium">
+                                <p style="font-weight: bold;">
+                                    Cidades
+                                </p>
+                                <select name="ddlMunicipio" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;ddlMunicipio\&#39;,\&#39;\&#39;)&#39;, 0)" id="ddlMunicipio" class="form-control" style="background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:120px;">
+		<option value="7539">Cap&#227;o da Canoa                                    </option>
+		<option value="7774">Imb&#233;                                              </option>
+		<option selected="selected" value="8245">Tramanda&#237;                                         </option>
+		<option value="0">Todos</option>
+
+	</select>
+                            </div>
+                            <div class="select-wrapper select-small">
+                                <p style="font-weight: bold;">
+                                    Preço Min
+                                </p>
+                                <input name="txtValorIni" type="text" maxlength="13" id="txtValorIni" class="form-control" onkeypress="mascara( this, mvalor );" style="background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:100px;" />
+                            </div>
+                            <div class="select-wrapper select-small">
+                                <p style="font-weight: bold;">
+                                    Preço Max
+                                </p>
+                                <input name="txtValorFim" type="text" maxlength="13" id="txtValorFim" class="form-control" onkeypress="mascara( this, mvalor );" style="background-color:#F6F6F6;border-color:#DDDDDD;height:38px;width:100px;" />
+                            </div>
+                            <div class="select-wrapper select-medium">
+                                <span style="font-size:14px;"><input id="ckbPermuta" type="checkbox" name="ckbPermuta" /><label for="ckbPermuta">Aceita Permuta</label></span><br />
+                                <div style="margin-top: -50px;">
+                                    <input type="submit" name="btnProcurar" value="Buscar" id="btnProcurar" class="yellow-btn" />
+                                </div>
+                            </div>
+                        </div>
+                    
+</div>
+            </div>
+            <div class="recent-listings" style="margin: 60px 0 0px 0;">
+                <div class="container">
+                    <div class="title-box">
+                        <h3>IMÓVEIS EM DESTAQUE</h3>
+                        <div class="bordered">
+                        </div>
+                    </div>
+                    <div class="row listings-items-wrapper">
+                        
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=19368&fin=1&tit=casa-codigo-5857-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_19368_251488.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Casa Código 5857 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=19368&fin=1&tit=casa-codigo-5857-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    5857</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Casa</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">3</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                
+                                                <li><span class="left">Área Construída: </span><span class="right">103,93 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=19368&fin=1&tit=casa-codigo-5857-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 432.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=21478&fin=1&tit=apartamento-codigo-8033-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_21478_324135.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 8033 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=21478&fin=1&tit=apartamento-codigo-8033-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    8033</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">3</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                
+                                                <li><span class="left">Área Total: </span><span class="right">69,41 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=21478&fin=1&tit=apartamento-codigo-8033-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 510.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=22792&fin=1&tit=apartamento-codigo-9367-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_22792_277660.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 9367 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=22792&fin=1&tit=apartamento-codigo-9367-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    9367</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">120,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">184,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=22792&fin=1&tit=apartamento-codigo-9367-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 508.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=19439&fin=1&tit=apartamento-codigo-5931-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_19439_66153.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 5931 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=19439&fin=1&tit=apartamento-codigo-5931-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    5931</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">40,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">55,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=19439&fin=1&tit=apartamento-codigo-5931-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 300.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=43627&fin=1&tit=apartamento-codigo-11436-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_43627_297741.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 11436 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=43627&fin=1&tit=apartamento-codigo-11436-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    11436</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">55,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">64,15 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=43627&fin=1&tit=apartamento-codigo-11436-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 313.200,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=43546&fin=1&tit=apartamento-codigo-11399-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_43546_319994.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 11399 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=43546&fin=1&tit=apartamento-codigo-11399-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    11399</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">68,19 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">103,31 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=43546&fin=1&tit=apartamento-codigo-11399-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 387.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=16454&fin=1&tit=apartamento-codigo-2766-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_16454_308028.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 2766 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=16454&fin=1&tit=apartamento-codigo-2766-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    2766</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">3</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">90,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">110,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=16454&fin=1&tit=apartamento-codigo-2766-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 378.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=26618&fin=1&tit=casa-codigo-10093-a-venda-no-bairro-zona-nova-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_26618_116065.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Casa Código 10093 a Venda no bairro ZONA NOVA na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=26618&fin=1&tit=casa-codigo-10093-a-venda-no-bairro-zona-nova-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    10093</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Casa</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">3</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                
+                                                
+                                                <li><span class="left">Área Construída: </span><span class="right">90,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=26618&fin=1&tit=casa-codigo-10093-a-venda-no-bairro-zona-nova-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 302.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=20249&fin=1&tit=apartamento-codigo-6769-a-venda-no-bairro-zona-nova-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_20249_295651.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 6769 a Venda no bairro ZONA NOVA na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=20249&fin=1&tit=apartamento-codigo-6769-a-venda-no-bairro-zona-nova-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    6769</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">3</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">140,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">180,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=20249&fin=1&tit=apartamento-codigo-6769-a-venda-no-bairro-zona-nova-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 500.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=41463&fin=1&tit=apartamento-codigo-11207-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_41463_255614.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 11207 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=41463&fin=1&tit=apartamento-codigo-11207-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    11207</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">1</span></li>
+                                                
+                                                <li><span class="left">Área Privativa: </span><span class="right">42,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">59,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=41463&fin=1&tit=apartamento-codigo-11207-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 172.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=39967&fin=1&tit=casa-codigo-10989-a-venda-no-bairro-condominio-maritimo-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_39967_316760.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Casa Código 10989 a Venda no bairro CONDOMINIO MARITIMO na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=39967&fin=1&tit=casa-codigo-10989-a-venda-no-bairro-condominio-maritimo-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    10989</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Casa</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                
+                                                
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=39967&fin=1&tit=casa-codigo-10989-a-venda-no-bairro-condominio-maritimo-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 900.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=15691&fin=1&tit=pousada-codigo-1938-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_15691_323091.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Pousada Código 1938 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=15691&fin=1&tit=pousada-codigo-1938-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    1938</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Pousada</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">3</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                
+                                                
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=15691&fin=1&tit=pousada-codigo-1938-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        Valor sob consulta</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=15841&fin=1&tit=apartamento-codigo-2100-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_15841_317064.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 2100 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=15841&fin=1&tit=apartamento-codigo-2100-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    2100</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">30,00 m&sup2;</span></li>
+                                                
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=15841&fin=1&tit=apartamento-codigo-2100-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 155.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=26423&fin=1&tit=apartamento-codigo-10069-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_26423_274137.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Apartamento Código 10069 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=26423&fin=1&tit=apartamento-codigo-10069-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    10069</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Apartamento</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">2</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">80,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">90,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=26423&fin=1&tit=apartamento-codigo-10069-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 378.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                                <div class="col-md-4 listing-single-item">
+                                    <div class="item-inner">
+                                        <div class="image-wrapper" style="background-color: #ffffff;">
+                                            <center>
+                                                <a href="ImovelSelecionado.aspx?id=25158&fin=1&tit=kitnet-codigo-9939-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                    <img src="http://www.sistemaagiweb.com.br/fotos/Emp58/0_25158_316559.jpg" style="height: 265px; overflow: hidden; max-width: 375px;"
+                                                        alt="Kitnet Código 9939 a Venda no bairro Centro na cidade de Tramandaí" />
+                                                </a>
+                                            </center>
+                                        </div>
+                                        <div class="desc-box">
+                                            <center>
+                                                <h4 style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=25158&fin=1&tit=kitnet-codigo-9939-a-venda-no-bairro-centro-na-cidade-de-tramandai">
+                                                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                                    </a>
+                                                </h4>
+                                            </center>
+                                            <ul class="box_text">
+                                                <li><span class="left">Código: </span><span class="right">
+                                                    9939</span></li>
+                                                <li><span class="left">Tipo: </span><span class="right">
+                                                    Kitnet</span></li>
+                                                <li><span class="left">Cidade: </span><span class="right">
+                                                    Tramandaí</span></li>
+                                                <li><span class="left">Dormitório(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Banheiro(s): </span><span class="right">1</span></li>
+                                                <li><span class="left">Garagem(ns): </span><span class="right">1</span></li>
+                                                <li><span class="left">Área Privativa: </span><span class="right">29,00 m&sup2;</span></li>
+                                                <li><span class="left">Área Total: </span><span class="right">34,00 m&sup2;</span></li>
+                                                
+                                                
+                                            </ul>
+                                            <center>
+                                                <div class="buttons-wrapper" style="margin-left: 30px;">
+                                                    <a href="ImovelSelecionado.aspx?id=25158&fin=1&tit=kitnet-codigo-9939-a-venda-no-bairro-centro-na-cidade-de-tramandai" class="yellow-btn">
+                                                        R$ 157.000,00</a>
+                                                </div>
+                                            </center>
+                                            <div class="clearfix">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            
+                            
+                    </div>
+                </div>
+            </div>
+            <div class="services-section" style="margin-top: 50px;">
+                <div class="container">
+                    <div class="title-box">
+                        <h3>Onde Estamos</h3>
+                        <div class="bordered">
+                        </div>
+                        <div class="services-wrapper" style="padding-top: 50px;">
+                            <div class="col-md-12 map-wrapper">
+                                <div class="inner-wrapper">
+                                    <div id="map">
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-3 contact-info">
+                                <div class="inner-wrapper" style="height: 382px;">
+                                    <h4 class="box-title" style="font-size: 16px; font-weight: bold;">Informações sobre Contato</h4>
+                                    <p class="first-paragraph" style="font-size: 13px;">
+                                        Av. da Igreja, 673. Loja 05. Tramandaí. RS - CEP: 95590-000.
+                                    </p>
+                                    <div class="info-wrapper">
+                                        <a href="http://www.viamar.imb.br"><span style="font-size: 13px;"><i class="fa fa-home"></i>www.viamar.imb.br</span></a>
+                                        <br />
+                                        <a href="tel:5136613336">
+                                            <span style="font-size: 13px;"><i class="fa fa-phone"></i>(51) 3661-3336</span>
+                                        </a>
+                                        <br />
+                                        <a href="tel:51999978122">
+                                            <span style="font-size: 13px;"><i class="fa fa-mobile"></i>(51) 99997.8122 </span>
+                                        </a>
+                                        <br />
+                                        <a href="mailto:viamar@viamar.imb.br"><span style="font-size: 13px;"><i class="fa fa-envelope"></i>viamar@viamar.imb.br</span></a>
+                                        <br />
+                                        <a href="https://www.facebook.com/viamarimobiliaria" target="_blank"><span style="font-size: 13px;">
+                                            <i class="fa fa-facebook"></i>facebook.com/viamarimobiliaria</span></a><br />
+                                        <a href="https://www.instagram.com/viamar.imobiliaria/?hl=pt-br" target="_blank"><span style="font-size: 13px;"><i class="fa fa-instagram"></i>@viamar.imobiliaria</span></a>
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-9 contact-form-wrapper">
+                                <div class="inner-wrapper">
+                                    <h4 class="box-title">Formulário de Contato</h4>
+                                    <div class="contact-form">
+                                        <div class="contact-form-left">
+                                            <span class="creci_visivel"><i class="fa fa-user"></i></span>
+                                            <input name="txtNomeContato" type="text" value="Nome*" maxlength="100" id="txtNomeContato" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Nome*&#39;;}" style="width:80%;" />
+                                            <span class="creci_visivel"><i class="fa fa-envelope-o"></i></span>
+                                            <input name="txtEmailContato" type="text" value="E-mail*" maxlength="200" id="txtEmailContato" onblur="if(this.value == &#39;&#39;) {this.value = &#39;E-mail*&#39;;}" style="width:80%;" />
+                                            <span class="creci_visivel"><i class="fa fa-phone"></i></span>
+                                            <input name="txtTelefoneContato" type="text" value="Telefone*" maxlength="15" id="txtTelefoneContato" onkeypress="mascara( this, mtel );" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Telefone*&#39;;}" style="width:80%;" />
+                                        </div>
+                                        <div class="contact-form-right">
+                                            <textarea name="txtMensagemContato" rows="2" cols="20" id="txtMensagemContato" onblur="if(this.value == &#39;&#39;) {this.value = &#39;Mensagem*&#39;;}" style="height:220px;">
+Mensagem*</textarea>
+                                        </div>
+                                        <div class="contact-form-right">
+                                            <div style="padding-bottom: 30px;" class="g-recaptcha" data-sitekey="6LftuBobAAAAABW57hlPyMbWFERBKKEwgiulLcxL"></div>
+                                        </div>
+                                        <input type="submit" name="btnEnviarContato" value="Enviar" id="btnEnviarContato" class="yellow-btn" style="background-color:#EB7724;" />
+                                        
+                                    </div>
+                                    <div class="clearfix">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer>
+                <div class="container">
+                <div class="col-md-4 footer-about">
+                    <a class="logo" href="Default.aspx">
+                        <img src="images/logo_rodape.png" alt="Imobiliária Viamar - compra, venda e aluguel de temporada em Tramandaí - RS" /></a>
+                    <p>
+                        Fundada em 1998, é uma empresa reconhecida por seu profissionalismo e comprometimento com a satisfação de seus clientes
+                        e parceiros comerciais.
+                    </p>
+                </div>                
+                <div class="col-md-4 footer-contact-info">
+                    <h3 class="footer-title">
+                        Contate-nos</h3>
+                    <p class="website-email">
+                    <a href="tel:5136613336">
+                        <i class="fa fa-phone"></i>(51) 3661.3336</a>
+                    </p>
+                    <br />
+                    <p class="website-email">
+                        <i class="fa fa-envelope"></i><a href="mailto:viamar@viamar.imb.br">viamar@viamar.imb.br</a>
+                    </p>
+                    <br />
+                    <p class="website-email">
+                    <a href="tel:51999978122">
+                        <i class="fa fa-mobile"></i>(51) 99997.8122</a>
+                    </p>
+                </div>
+                <div class="col-md-4 footer-newsletter">
+                    <h3 class="footer-title">
+                        Endereço</h3>
+                    <p>
+                        Av. da Igreja, 673. Loja 05. Tramandaí. RS - CEP: 95590-000.
+                    </p>
+
+                    
+                </div>
+            </div>
+            </footer>
+            <div class="bottom-strip">
+                <div class="container">
+                    <div class="col-md-4">
+                          <p class="pull-left">
+                        <a href="https://www.atodasistemas.com" target="_blank">Desenvolvido por ATODA SISTEMAS</a>
+                    </p>
+                    </div>
+                    <div class="col-md-4 bottom-strip-middle">
+                        <a href="#top" class="fa fa-arrow-circle-up" id="backtop-btn"></a>
+                    </div>
+                    <div class="col-md-4">
+                        <ul class="social-icons">
+                            <li><a href="https://www.facebook.com/viamarimobiliaria" target="_blank" class="fa fa-facebook"></a></li>
+                            <li><a href="https://www.instagram.com/viamar.imobiliaria/?hl=pt-br" target="_blank"><i class="fa fa-instagram"></i></a></li>
+                            <li><a href="skype:f614f208b759223d?call&topic=Site_Viamar" target="_blank"><i class="fa fa-skype"></i></a></li>
+                            <li><a href="https://www.youtube.com/channel/UChrIF0PTjOxAbAPThMtSGPg" target="_blank">
+                                <i class="fa fa-youtube"></i>
+                                </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="panelModal">
+	
+                <div class="modal fade">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <center>
+                                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                                    </button>
+                                    <div style="padding-top: 50px;">
+                                        <img src="img/logo_azul.png" alt="Imobiliária Viamar - Tramandaí RS - Brasil" />
+                                    </div>
+                                </center>
+                            </div>
+                            <div class="modal-body" style="padding-bottom: 80px;">
+                                <center>
+                                    <p>
+                                        Cadastre seu e-mail para agilizar
+                                    <br />
+                                        nossa comunicação com você.
+                                    </p>
+                                    <div class="footer-newsletter" style="width: 250px;">
+                                        <div class="footer-search">
+                                            <input name="txtEnvioEmailModal" type="text" value="E-mail" id="txtEnvioEmailModal" style="color:Black;background-color:White;" />
+                                            <input type="submit" name="btnEnviarEmail" value="Enviar" id="btnEnviarEmail" style="background-color:#EB7724;" />
+                                        </div>
+                                    </div>
+                                </center>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            
+</div>
+        </div>
+
+        <ul class="m-nav-sticky" style="margin-top: 30px;">
+            <li class="m-nav-sticky__item" data-toggle="m-tooltip" title="WhatsApp" data-placement="left">
+                <a href="https://web.whatsapp.com/send?phone=5551999978122&text=[Chat%20através%20do%20site]%20" id="idWhatsApp" target="_blank">
+                    <i style="font-size: 50px; color: green; font-weight: 600;" class="fa fa-whatsapp"></i>
+                </a>
+            </li>            
+        </ul>
+
+    </form>
+    <script type="text/javascript" src="js/jquery-2.1.0.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/jquery.flexslider-min.js"></script>
+    <script type="text/javascript" src="js/select.min.js"></script>
+    <script type="text/javascript" src="js/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () { //Acerto para garantir o funcionamento do UpdatePanel após postback (evitar que javascript seja desativado)
+            if (typeof (Sys) !== 'undefined') Sys.WebForms.PageRequestManager.getInstance().add_endRequest(MeuAjax);
+            MeuAjax();
+        });
+
+        function MeuAjax() {
+            $(document).ready(function () {
+                Select.init({ selector: '.elselect' });
+            });
+        };
+                 
+    </script>
+    
+
+
+
+</body>
+</html>
