@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+    <style>
+        article {
+            display: none;
+        }
+        
+        .hide {
+            display: none;
+        }
+        
+        .show {
+            display: block;
+        }
+        </style>
+</head>
+
+<body>
+    <section>
+        <form id="filterForm" action="#">
+            <select name="filtroCategoria" id="filtroCategoria">
+                <option value="">--Please choose an option--</option>
+                <option value="dog">Patinhas</option>
+                <option value="cat">Cat</option>
+                <option value="hamster">Hamster</option>
+                <option value="parrot">Parrot</option>
+                <option value="spider">Spider</option>
+                <option value="goldfish">Goldfish</option>
+            </select>
+            <div id="filterButton">
+                Filtrar
+            </div>
+        </form>
+
+        <article class="card dog show">
+            <p>LINDO CANINO A VENDA</p>
+        </article>
+
+        <article class="card dog show">
+            <p>LINDO CANINO A VENDA Nº2</p>
+        </article>
+
+        <article class="card dog show">
+            <p>LINDO CANINO A VENDA Nº3</p>
+        </article>
+
+        <article class="card cat show">
+            <p>CAT</p>
+        </article>
+
+        <article class="card hamster show">
+            <p>HAMSTER</p>
+        </article>
+    </section>
+
+    <script src="leo_filter.js"></script>
+</body>
+</html>

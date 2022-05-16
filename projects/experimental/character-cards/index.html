@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="cards.css">
+</head>
+ 
+<body>
+    <section class="page__characters">
+
+        <header class="characters__title">
+            <h1>D&D RED HORIZONS</h1>
+            <h2>Reino de Tealmar</h2>
+            <p>Conheça todos os personagens da região de Tealmar.</p>
+        </header>
+
+        <div class="characters__filter">
+            <h3>Busca avançada</h3>
+
+            <form id="filterForm" class="filter__system" action="#">
+                <div>
+                    <label for="characterClass">Escolha a classe</label>
+                    <select name="characterClass" id="characterClass">
+                        <option value="">Nenhuma</option>
+                        <option value="card" selected>Todas</option>
+                        <option value="class__fighter">Guerreiros</option>
+                        <option value="class__cleric">Clérigos</option>
+                        <option value="class__wizard">Magos</option>
+                        <option value="class__sorcerer">Feiticeiros</option>
+                        <option value="class__warlock">Bruxos</option>
+                        <option value="class__artificer">Artífices</option>
+                        <option value="class__commoner">Cidadãos</option>
+                        <option value="class__bandit">Bandidos</option>
+                        <option value="class__creature">Criaturas</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="characterTier">Escolha o tier</label>
+                    <select name="characterTier" id="characterTier">
+                        <option value="">Nenhum</option>
+                        <option value="card" selected>Qualquer</option>
+                        <option value="tier__none">Tier 0: sem nv.</option>
+                        <option value="tier__1">Tier 1: nv.1 - 5</option>
+                        <option value="tier__2">Tier 2: nv.6 - 10</option>
+                        <option value="tier__3">Tier 3: nv.11 - 15</option>
+                        <option value="tier__4">Tier 4: nv.16 - 20</option>
+                        <option value="tier__5">Tier 5: nv.20+</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label for="characterMulticlass">Apenas multiclasse</label>
+                    <input type="checkbox" name="characterMulticlass" id="characterMulticlass">
+                </div>
+
+
+                <div id="filterButton">
+                    Executar Busca Avançada
+                </div>
+                <div id="filterReset">
+                    Reset
+                </div>
+            </form>
+        </div>
+
+        <div class="characters__cards">
+            <article class="card show class__cleric">
+                <img src="assets/image1.png" alt="">
+                <p>
+                    <span class="class">Clérigo</span>
+                </p>
+            </article>
+
+            <article class="card show class__sorcerer">
+                <img src="assets/image2.png" alt="">
+                <p>
+                    <span class="name">SCARLET MOONWISE</span>
+                    <span class="class">Feiticeira</span>
+                </p>
+            </article>
+            <article class="card show class__fighter">
+                <img src="assets/image3.png" alt="">
+                <p>
+                    <span class="name">DREW LANCASTER</span>
+                    <span class="class">Guerreiro</span>
+                </p>
+            </article>
+            <article class="card show class__wizard">
+                <img src="assets/image5.png" alt="">
+                <p>
+                    <span class="class">Mago</span>
+                </p>
+            </article>
+            <article class="card show class__cleric">
+                <img src="assets/image6.png" alt="">
+                <p>
+                    <span class="class">Clérigo</span>
+                </p>
+            </article>
+            <article class="card show class__fighter tier__1">
+                <img src="assets/image8.png" alt="">
+                <p>
+                    <span class="name">EDWIN MOONWISE</span>
+                    <span class="title">Rei de Tealmar</span>
+                    <span class="class">Guerreiro <span class="level">4</span></span>
+                </p>
+            </article>
+            <article class="card show class__commoner tier__none">
+                <img src="assets/image9.png" alt="">
+                <p>
+                    <span class="name">KARA RITHEL</span>
+                    <span class="class">Cidadã</span>
+                </p>
+            </article>
+            <article class="card show class__artificer">
+                <img src="assets/image10.png" alt="">
+                <p>
+                    <span class="name">SILAS REIN</span>
+                    <span class="class">Artífice</span>
+                </p>
+            </article>
+            <article class="card show class__fighter">
+                <img src="assets/image11.png" alt="">
+                <p>
+                    <span class="name">CONRAD SILVERSILK</span>
+                    <span class="class">Guerreiro</span>
+                </p>
+            </article>
+            <article class="card show class__bandit">
+                <img src="assets/image12.png" alt="">
+                <p>
+                    <span class="class">Bandido</span>
+                </p>
+            </article>
+            <article class="card show class__warlock">
+                <img src="assets/image15.png" alt="">
+                <p>
+                    <span class="class">Bruxo</span>
+                </p>
+            </article>
+            <article class="card show class__fighter tier__2">
+                <img src="assets/image16.png" alt="">
+                <p>
+                    <span class="name">ROWANA STODGE</span>
+                    <span class="title">Chefe da Guarda</span>
+                    <span class="class">Guerreira <span class="level">9</span></span>
+                </p>
+            </article>
+            <article class="card show class__creature">
+                <img src="assets/image17.png" alt="">
+                <p>
+                    <span class="class">Criatura</span>
+                </p>
+            </article>
+            <article class="card show class__bard">
+                <img src="assets/image18.png" alt="">
+                <p>
+                    <span class="name">NOME DESCONHECIDO</span>
+                </p>
+            </article>
+            <article class="card show class__wizard">
+                <img src="assets/image19.png" alt="">
+                <p>
+                    <span class="name">VOREN SIGHT</span>
+                </p>
+            </article>
+            <article class="card show class__commoner">
+                <img src="assets/image20.png" alt="">
+                <p>
+                    <span class="name">NOME DESCONHECIDO</span>
+                </p>
+            </article>
+            <article class="card show class__multiclass class__paladin class__fighter tier__2">
+                <img src="assets/image21.png" alt="">
+                <p>
+                    <span class="name">ELLA BLACKSTRAND</span>
+                    <span class="class">Guerreira <span class="level">3</span></span>
+                    <span class="class">Paladina <span class="level">7</span></span>
+                </p>
+            </article>
+            <article class="card show class__commoner">
+                <img src="assets/image22.png" alt="">
+                <p></p>
+            </article>
+            <article class="card show class__creature">
+                <img src="assets/image23.png" alt="">
+                <p></p>
+            </article>
+        </div>
+    </section>
+
+    <script src="filter.js"></script>
+</body>
+</html>
