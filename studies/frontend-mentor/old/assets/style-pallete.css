@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
 :root {
     
     /* pallete */
@@ -8,7 +12,10 @@
     --colorSecondary: #6596BB;
     --colorPrimaryShade: #00295C;
 
-    --colorBackground: #ffffff;
+    --colorBackground: rgba(200, 200, 200, 0.2);
+
+    /* fonts */
+    --fontTitle: 'Do Hyeon', sans-serif;
 
     /* visual effects */
     --lineBasic: 4px solid rgba(0,0,0,0.1);

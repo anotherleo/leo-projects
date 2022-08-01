@@ -1,6 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
-
+/**
+ * RESETS
+ * and global modifications 
+ */
 body {
     min-height: 100vh;
 
@@ -11,10 +12,11 @@ body {
     text-align: center;
     font-family: 'Noto Sans', sans-serif;
     color: var(--textMain);
+    overflow-wrap: break-word;
+    hyphens: auto;
 
     margin: 0;
-
-    /* added background.css */
+    /* see style-background.css */
 }
 
 a {
@@ -29,23 +31,31 @@ a {
  * TODO: add a logo.
  */
 .top-header {
-    padding: 1.5rem;
+    width: auto;
+    padding: 0.5rem;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    color: pink;
     
-    border-bottom: var(--lineBasic);
-    background-color: var(--colorBackground);
+    border: var(--lineBasic);
+    /* see style-background.css */
 }
 
 .top-header__title {
     text-transform: uppercase;
     letter-spacing: 0.3rem;
     margin: 0.2rem;
+    font-family: var(--fontTitle);
 }
     .top-header__title span {
         color: var(--colorPrimary);
     }
 
 .top-header__subtitle {
-    font-family: 'Kaushan Script', cursive;
+    font-family: var(--fontTitle);
     letter-spacing: 0.1rem;
     margin: 0;
 }
@@ -63,26 +73,38 @@ a {
 .project {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     padding: 3rem;
     margin: 2rem 0 2rem 0;
 
-    /* added background.css */
+    /* see style-background.css */
 }
 
 .project__card {
-    max-width: 250px;
-    border: 1px solid var(--colorSecondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 250px;
+    min-height: 150px;
+    border: var(--lineBasic);
     border-radius: 5px;
     margin: 1rem;
 
-    background-color: white;
+    color: pink;
+    font-family: var(--fontTitle);
+    text-transform: uppercase;
+
+    /* see style-background.css */
 }
     .project__card:hover, .project__card:focus-within {
         color: var(--textSecondary);
         background-color: var(--colorPrimaryShade);
-        border: 1px solid var(--colorPrimary);
+        transform: translateY(-10px);
+        box-shadow: 6px 7px 9px 0px rgba(0,100,200,0.62);
+            -webkit-box-shadow: 6px 7px 9px 0px rgba(0,100,200,0.62);
+            -moz-box-shadow: 6px 7px 9px 0px rgba(0,100,200,0.62);
     }
 
 .project__button {
@@ -119,18 +141,32 @@ a {
  */
 
 .attribution {
-    padding: 0 0 1rem 0;
+    padding: 1rem;
 
     border-top: var(--lineBasic);
     background-color: var(--colorBackground);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    color: pink;
 }
 
-.attribution__header {
-    margin: 1rem 0 0.5rem 0;
+.attribution__header,
+.attribution__cc__img {
+    margin: 0.5rem 0 0.5rem 0;
+}
+
+.attribution__cc__img:hover {
+    -webkit-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+    -moz-box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
+    box-shadow: 0px 2px 5px 3px rgba(0,0,0,0.43);
 }
 
 .attribution__button {
     /* <a> turned into button */
+    display: inline-block;
     font-size: 1.5rem;
     margin: 0.2rem;
 }
@@ -139,4 +175,5 @@ a {
     }
     .attribution__button:hover, .attribution__button:focus {
         color: var(--colorPrimary);
+        transform: translateY(-3px);
     }
