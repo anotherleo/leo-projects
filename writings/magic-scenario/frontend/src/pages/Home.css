@@ -1,0 +1,10 @@
+.character__card {
+  border: 1px solid gainsboro;
+  border-radius: 10px;
+}
+.character__card img {
+  display: block;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+}
