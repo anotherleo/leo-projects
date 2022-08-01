@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
+@fontD: 'Dosis', sans-serif;
+
+
+// ********************************* //
+// * Reset
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+body, p, h1, h2, h3, h4, h5, h6, figure, iframe {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+address {
+    font-style: normal;
+}
+
+iframe {
+    border: none;
+}
+
+mark {
+    padding: 0;
+    background-color: transparent;
+}
+
+menu {
+    padding-inline-start: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding-inline-start: 0;
+}
+
+// FALLBACK older browsers
+section, article, aside, details, figcaption, figure, header, footer, menu, nav {
+	display: block;
+}
+
+// ********************************* //
+// * General 
+
+body {
+    background-image: url('https://images.unsplash.com/photo-1508962914676-134849a727f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgb(119, 130, 124);
+    background-blend-mode: multiply;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 60px;
+    font-family: @fontD;
+    color: white;
+    text-shadow: 2px 2px #000;
+}
+
+.main-content {
+    background-color: whitesmoke;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    padding: 30px 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-family: @fontD;
+    text-align: center;
+}
+
+.quote {
+    margin-top: 30px;
+    font: 400 26px @fontD;
+}
+.person {
+    font: 700 16px @fontD;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+#new-quote {
+    margin-top: 35px;
+    text-transform: uppercase;
+    background-color: rgb(29, 29, 29);
+    color: whitesmoke;
+    letter-spacing: 1.5px;
+    padding: 10px 30px;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    
+    &:hover {
+        background-color: rgb(63, 63, 63);
+    }
+}
