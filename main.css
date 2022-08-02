@@ -1,0 +1,116 @@
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bangers/v20/FeVQS0BTqb0h60ACL5k.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Prompt';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/prompt/v10/-W__XJnvUD7dzB26Zw.ttf) format('truetype');
+}
+body {
+  background-color: #1f1f1f;
+  margin: 0;
+}
+.page__header .colored-line {
+  background-image: linear-gradient(to right, #FFF300, #F81F72, #0060AC);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10px;
+}
+.introduction .intro__text {
+  color: whitesmoke;
+}
+.introduction .intro__text h2 {
+  font-family: 'Bangers', sans-serif;
+  text-transform: uppercase;
+  color: #2189CE;
+  font-size: 36px;
+}
+.introduction .intro__text h2 span {
+  color: #FFF300;
+}
+@media screen and (min-width: 768px) {
+  .introduction .intro__text h2 {
+    font-size: 42px;
+  }
+}
+.introduction .intro__text p {
+  font-family: 'Prompt', sans-serif;
+  font-weight: 300;
+}
+.introduction .intro__text p a {
+  color: #2189CE;
+  text-decoration: none;
+  transition: all linear 0.4s;
+}
+.introduction .intro__text p a:hover {
+  color: #FFF300;
+}
+.introduction .intro__text .intro__contact {
+  display: block;
+  width: fit-content;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 3px solid #FFF300;
+  color: #FFF300;
+  padding: 15px 45px;
+  font: 400 26px 'Bangers', sans-serif;
+  letter-spacing: 1.2px;
+  text-decoration: none;
+  transition: all linear 0.4s;
+  text-align: center;
+}
+.introduction .intro__text .intro__contact:hover {
+  border: 3px solid transparent;
+  background-image: linear-gradient(#FFF300, #F81F72);
+  background-repeat: no-repeat;
+  color: black;
+  transform: translateY(-6px);
+}
+.courses {
+  font-family: 'Prompt';
+}
+.courses p {
+  font-family: 'Bangers', sans-serif;
+  color: #EF69A4;
+  font-size: 22px;
+}
+.courses .header h3 {
+  color: #2189CE;
+  font-family: 'Bangers', sans-serif;
+}
+.courses .header p {
+  font-family: 'Prompt';
+  color: whitesmoke;
+  font-size: 16px;
+}
+.courses li {
+  color: whitesmoke;
+}
+.courses li a {
+  color: #2189CE;
+  text-decoration: none;
+}
+.courses li a:hover {
+  color: #FFF300;
+}
+.courses li.done::after {
+  padding-left: 15px;
+  content: url('https://api.iconify.design/eva/checkmark-square-2-fill.svg?color=%232189CE');
+}
+footer .colored-line {
+  background-image: linear-gradient(to left, #FFF300, #F81F72, #0060AC);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 10px;
+}
+footer p {
+  font: 400 16px 'Prompt', sans-serif;
+  text-align: center;
+  color: whitesmoke;
+}

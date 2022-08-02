@@ -1,44 +1,128 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-br" prefix="og: https://ogp.me/ns#">
 <head>
+    <!-- global -->
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="canonical" href="https://anotherleo.github.io">
+    <link rel="alternate" hreflang="en" href="https://anotherleo.github.io/pages/index.en.html">
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/css/main.css">
+    <!-- title -->
+    <title>Leo Thomas | Projetos e Estudos</title>
 
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous" defer></script>
+    <!-- SEO I -->
+    <meta name="url" content="https://anotherleo.github.io/leo-projects">
+    <meta name="description" content="Web developer especializado em front-end, com domínio de HTML5 semântico, CSS3, JavaScript e React.js. Trabalha na empresa Londrina S/A como desenvolvedor front-end. Interessado em código limpo e arquitetura de CSS, usa Less.js e Bootstrap para agilizar seus projetos. No tempo livre é curioso sobre o mundo e freelancer.">
+    <meta name="keywords" content="Leo Thomas Monteiro, anotherleo, JavaScript, Responsive Web Design, Vue.js">
+    <meta name="author" content="Leo Thomas Monteiro">
+
+    <!-- SEO II | Open Graph -->
+    <!-- SEO II | Twitter Cards -->
+    
+    <!-- SEO III -->
+    <meta name="robots" content="index, follow">
+    <meta name="googlebot" content="notranslate">
+
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="libs/owl.carousel.min.css">
+    <link rel="stylesheet" href="libs/owl.theme.default.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <!-- SEO IV | Schema & Google -->
+    <script type="application/ld+json"></script>
+
+    <!-- deferred scripts -->
     <script defer src="https://kit.fontawesome.com/1a415b1d46.js" crossorigin="anonymous"></script>
-    <script defer src="assets/js/script.js"></script>
-
-    <title>Leo's Projects</title>
 </head>
+
 <body>
+    <header class="page__header">
+        <div class="colored-line"></div>
+    </header>
 
-    <div class="container">
-        <header class="page__header">
-            <h1 title="Leo's Projects">Leo's proJEcts</h1>
-            <h2 title="Front-End Web Developer">fRoNt-End weB devELoPer</h2>
-        </header>
-
-        <section class="page__projects">
-            <header>
-                <h2 lang="en">Something Like a Portfolio</h2>
-            </header>
-            <nav>
-                <a href="https://anotherleo.github.io">
-                    <span class="category" lang="en">PERSONAL WEBSITE</span>
-                    <span class="title">LEO THOMAS MONTEIRO</span>
-                </a>
-            </nav>
+    <main class="container">
+        <section class="row align-items-center justify-content-center p-5 introduction">
+            <div class="col-md-4 intro__text">
+                <h2 class="animate__animated animate__tada">
+                    Estudos,
+                    <br><span>projetos</span> & 
+                    <br>aulas do <span>Leo</span>
+                </h2>
+                <p>Lista de cursos com projetos, roadmap de estudos e projetos paralelos para treinar novas skills.</p>
+                <a href="#" class="intro__contact">Ver Roadmap</a>
+            </div>
+            <div class="col-md-3 pt-5">
+                <img src="portrait.jpg" alt="cover" class="img-fluid portrait">
+            </div>
         </section>
+    </main>
 
-        <footer class="page__footer">
-            <p>&copy; Leo Thomas Monteiro, 2022.</p>
-        </footer>
+    <section class="container courses">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="header mb-3">
+                    <h3>Opções de Cursos 2022-2023 | Cursos Gratuitos </h3>
+                    <p>Cursos completos, em inglês, oferecidos pela FreeCodeCamp.</p>
+                </div>
+                <p>JavaScript</p>
+                <ul>
+                    <li class="done"><a href="https://www.freecodecamp.org/news/javascript-dom-manipulation/">JavaScript DOM Manipulation Course</a></li>
+                </ul>
+                <p>React</p>
+                <ul>
+                    <li><a href="https://www.youtube.com/watch?v=bMknfKXIFA8&t=3s">React Course - Beginner's Tutorial for React JavaScript Library [2022]</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/use-react-and-apis-to-build-a-weather-app/">Use React and APIs to Build a Weather App
+                    </a></li>
+                    <li><a href="https://www.freecodecamp.org/news/learn-react-router-6/">Learn React Router 6</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/">https://www.freecodecamp.org/news/build-a-shopping-cart-with-react-and-typescript/</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network/">https://www.freecodecamp.org/news/learn-how-to-use-react-and-graphql-to-make-a-full-stack-social-network/</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/learn-how-to-create-an-instagram-clone-using-react/">https://www.freecodecamp.org/news/learn-how-to-create-an-instagram-clone-using-react/</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/how-to-test-react-applications/">How to Test React Applications</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/create-a-portfolio-with-react-featuring-cool-animations/">React Animation Course</a></li>
+                </ul>
+                <p>CSS</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/how-to-create-and-implement-a-design-system-with-css/">How to Create and Implement a Design System with CSS</a></li>
+                </ul>
+                <p>Acessibilidade</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/build-an-accessible-web-app-with-html-sass-and-javascript/">Build an Accessible Web App with HTML, Sass, and JavaScript</a></li>
+                </ul>
+                <p>Acadêmicos</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/algorithms-and-data-structures-free-treehouse-course/">https://www.freecodecamp.org/news/algorithms-and-data-structures-free-treehouse-course/</a></li>
+                    <li><a href="https://www.freecodecamp.org/news/precalculus-learn-college-math-prerequisites-with-this-free-5-hour-course/">https://www.freecodecamp.org/news/precalculus-learn-college-math-prerequisites-with-this-free-5-hour-course/</a></li>
+                </ul>
+                <p>Segurança</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/">https://www.freecodecamp.org/news/learn-the-basics-of-sql-injection-and-how-to-protect-your-web-apps/</a></li>
+                </ul>
+                <p>D3.js</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/data-visualizatoin-with-d3/">Data Visualization with D3.js</a></li>
+                </ul>
+                <p>C#</p>
+                <ul>
+                    <li><a href="https://www.freecodecamp.org/news/learn-blazor-webassembly-and-web-api-on-net-6-by-building-a-shopping-cart-app/">Learn Blazor WebAssembly and Web API on .NET 6 by Building a Shopping Cart App</a></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    
+    <footer>
+        <div class="container">
+            <p>Leo Thomas Monteiro &copy; 2022.</p>
+        </div>
+        <div class="colored-line"></div>
+    </footer>
 
-    </div>
-</body> 
-</html>
+    <!-- Bootstrap 5.2 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- owl carousel controls -->
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="libs/owl.carousel.min.js"></script>
+</body>
