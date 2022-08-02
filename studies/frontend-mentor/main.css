@@ -91,6 +91,9 @@ body {
   border-bottom: 3px solid transparent;
   text-decoration: none;
 }
+.challenge-list .challenge__card .card-img-top {
+  border-radius: 0;
+}
 .challenge-list .challenge__card .card-body {
   height: 125px;
 }
