@@ -48,6 +48,9 @@ footer {
   background-color: #4E3227;
   color: whitesmoke;
 }
+.services h3 {
+  font: 600 22px/25px 'Catamaran', sans-serif;
+}
 .services a {
   display: block;
   width: 100%;
