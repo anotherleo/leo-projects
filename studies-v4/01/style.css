@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/notosans/v27/o-0IIpQlx3QUlC5A4PNb4g.ttf) format('truetype');
+}
+@font-face {
+  font-family: "Aqua";
+  src: url(aqua.ttf);
+}
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+}
+h1 {
+  font-family: 'Aqua', sans-serif;
+}
+h2 {
+  font: 400 36px 'Aqua', sans-serif;
+}
+@media screen and (min-width: 768px) {
+  h2 {
+    font: 400 46px 'Aqua', sans-serif;
+  }
+}
+p {
+  font: 400 16px/25px 'Noto Sans', sans-serif;
+}
+p:first-of-type {
+  padding-top: 20px;
+}
+img {
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(-45deg, #54646d, transparent);
+  background-position: left 15px top 15px;
+  background-repeat: no-repeat;
+}
+footer a {
+  text-decoration: none;
+}
