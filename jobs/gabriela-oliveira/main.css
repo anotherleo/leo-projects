@@ -1,0 +1,66 @@
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/catamaran/v17/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPCbd1ak.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/catamaran/v17/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPHjd1ak.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/catamaran/v17/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPKba1ak.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Catamaran';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/catamaran/v17/o-0bIpQoyXQa2RxT7-5B6Ryxs2E_6n1iPJ_a1ak.ttf) format('truetype');
+}
+body {
+  background-color: #f9f9f9;
+}
+h2 {
+  font: 600 36px 'Catamaran', sans-serif;
+  letter-spacing: 1.5px;
+  text-transform: uppercase;
+}
+p {
+  font: 400 16px/25px 'Catamaran', sans-serif;
+}
+img {
+  padding-right: 15px;
+  padding-bottom: 15px;
+  background-image: linear-gradient(-10deg, #4E3227, #CD9179, #E1CEC8, transparent, transparent);
+  background-position: left 15px top 15px;
+  background-repeat: no-repeat;
+}
+footer {
+  background-color: #4E3227;
+  color: whitesmoke;
+}
+.services a {
+  display: block;
+  width: 100%;
+  padding: 15px 15px;
+  border: 1px solid #4E3227;
+  background-color: #4E3227;
+  color: white;
+  text-decoration: none;
+  font: 400 16px 'Catamaran', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  text-align: center;
+}
+.services a:hover {
+  background-color: hsl(17, 33%, 38%);
+}
