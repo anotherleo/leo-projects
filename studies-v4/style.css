@@ -1,0 +1,65 @@
+@font-face {
+  font-family: 'Bangers';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/bangers/v20/FeVQS0BTqb0h60ACL5k.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+::selection {
+  background-color: red;
+  color: whitesmoke;
+}
+body {
+  margin: 0;
+  background-image: url('https://static.vecteezy.com/system/resources/previews/002/012/481/original/abstract-white-and-gray-diagonal-stripes-light-gradient-pattern-background-and-clean-modern-texture-vector.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+header .header--effect {
+  background-image: linear-gradient(to right, transparent, whitesmoke);
+}
+header .header--effect h1 {
+  font-family: 'Bangers', sans-serif;
+}
+.card {
+  border-radius: 0;
+  border: 0;
+  border-bottom: 2px solid black;
+  transition: all 0.3s ease-out;
+  box-shadow: 0 0 5px lightgray;
+  font: 400 20px 'Bangers', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  background-color: whitesmoke;
+}
+.card img {
+  object-fit: cover;
+  height: 150px;
+  transition: all 0.3s linear;
+}
+.card p {
+  transition: all 0.3s ease-out;
+  margin: 15px;
+  color: black;
+}
+.card:hover {
+  transform: translateY(6px) rotate(-5deg);
+  border-bottom-color: red;
+  background-color: white;
+  box-shadow: 0 0 12px lightgray;
+}
+.card:hover img {
+  padding: 6px 6px 0 6px;
+}
+.card:hover p {
+  color: red;
+  letter-spacing: 1.5px;
+}
