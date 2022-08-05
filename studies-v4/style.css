@@ -12,6 +12,13 @@
   font-display: swap;
   src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
 }
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
 ::selection {
   background-color: red;
   color: whitesmoke;
@@ -62,4 +69,16 @@ header .header--effect h1 {
 .card:hover p {
   color: red;
   letter-spacing: 1.5px;
+}
+footer {
+  font-family: 'Raleway', sans-serif;
+}
+footer a {
+  color: red;
+  text-decoration: none;
+}
+footer a:hover {
+  color: red;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
