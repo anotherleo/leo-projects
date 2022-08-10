@@ -82,3 +82,6 @@ footer a:hover {
   text-decoration: underline;
   text-underline-offset: 4px;
 }
+footer .small {
+  font-size: 14px;
+}
