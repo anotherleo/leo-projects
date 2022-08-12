@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@font-face {
+    font-family: "Aqua";
+    src: url(aqua.ttf);
+}
+
+body {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    background-image: url('pattern-1.webp');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.header--effect {
+    background-image: linear-gradient(to right, transparent, #C2C5D6);
+
+    h1 {
+        font-family: 'Aqua', sans-serif;
+    }
+}
+
+.blog__post {
+    background-color: rgba(255,255,255,.3);
+    backdrop-filter: blur(3px);
+}
+
+h2 {
+    padding-top: 25px;
+    font: 400 36px 'Aqua', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+
+    @media screen and (min-width: 768px) {
+        font: 400 46px 'Aqua', sans-serif;
+    }
+}
+
+img {
+    padding-bottom: 15px;
+    padding-right: 15px;
+    background-image: linear-gradient(to left, rgba(255,255,255,.5), hsla(190, 25%, 18%, .5));
+    backdrop-filter: blur(15px);
+    background-position: left 15px top 15px;
+    margin-bottom: 30px;
+}
+
+p {
+    font: 400 16px/25px 'Raleway', sans-serif;
+}
+
+a {
+    color: #A75026;
+    text-decoration: none;
+    &:hover {
+        color: lighten(hsl(23, 68%, 44%), 15%);
+    }
+}
