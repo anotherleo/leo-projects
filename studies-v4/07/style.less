@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Meddon&display=swap');
+
+
+
+body {
+    background-image: url('pattern-1.jpg');
+    background-position: bottom 0 left 0;
+    background-repeat: repeat-x;
+    background-size: 200px 30%;
+    background-attachment: fixed;
+    background-color: rgb(22, 22, 22);
+    
+    color: whitesmoke;
+    font-family: 'Lora', serif;
+}
+
+.header--effect {
+    h1 {
+        color: #B06936;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+}
+
+a {
+    color: #B06936;
+    text-decoration: none;
+    &:hover {
+        color: lighten(hsl(25, 53%, 45%), 15%);
+        text-decoration: underline;
+        text-underline-offset: 4px;
+    }
+}
+
+.content__text {
+    padding-top: 65px;
+
+    h2 {
+        padding-bottom: 35px;
+        text-transform: uppercase;
+        color: #B06936;
+        font-weight: 700;
+    }
+
+    .signature {
+        font-family: 'Meddon', cursive;
+        padding-top: 35px;
+        font-size: 25px;
+    }
+}

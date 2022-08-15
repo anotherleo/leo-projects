@@ -1,0 +1,59 @@
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lora/v25/0QI6MX1D_JOuGQbT0gvTJPa787weuyJG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/lora/v25/0QI6MX1D_JOuGQbT0gvTJPa787z5vCJG.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Meddon';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/meddon/v20/kmK8ZqA2EgDNeHTZhA.ttf) format('truetype');
+}
+body {
+  background-image: url('pattern-1.jpg');
+  background-position: bottom 0 left 0;
+  background-repeat: repeat-x;
+  background-size: 200px 30%;
+  background-attachment: fixed;
+  background-color: #161616;
+  color: whitesmoke;
+  font-family: 'Lora', serif;
+}
+.header--effect h1 {
+  color: #B06936;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+a {
+  color: #B06936;
+  text-decoration: none;
+}
+a:hover {
+  color: hsl(25, 53%, 60%);
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.content__text {
+  padding-top: 65px;
+}
+.content__text h2 {
+  padding-bottom: 35px;
+  text-transform: uppercase;
+  color: #B06936;
+  font-weight: 700;
+}
+.content__text .signature {
+  font-family: 'Meddon', cursive;
+  padding-top: 35px;
+  font-size: 25px;
+}
