@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;700&display=swap');
+
+body {
+    background-image: url('pattern-2.png');
+    background-position: top 0 left 0;
+    background-size: contain;
+    background-repeat: repeat-x;
+    background-color: whitesmoke;
+    background-attachment: fixed;
+}
+
+.header--effect {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+.content__text {
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 15px;
+    margin-bottom: 25px;
+    font-family: 'Josefin Sans', sans-serif;
+
+    p {
+        font: 300 18px/25px 'Josefin Sans', sans-serif;
+    }
+
+    a {
+        display: block;
+        margin-top: 35px;
+        border: 1px solid goldenrod;
+        padding: 20px;
+        width: 100%;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+        background-color: darkgoldenrod;
+        border-radius: 10px;
+        &:hover {
+            background-color: lighten(hsl(43, 89%, 38%), 10%);
+        }
+    }
+}
+
+.owl-carousel.owl-theme.girls__carousel {
+    img {
+        border-radius: 15px;
+    }
+    .owl-dots {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+
+        .owl-dot {
+            span {
+                width: 15px;
+                height: 15px;
+                border: 2px solid white;
+                background-color: transparent;
+            }
+            &.active {
+                span {
+                    background-color: gold;
+                }
+            }            
+        }
+    }
+    .owl-nav {
+        position: absolute;
+        right: -10px;
+        top: calc(50% - 50px);
+        z-index: 1000;
+        margin: 0;
+
+        .owl-prev,
+        .owl-next {
+            height: 40px;
+            background-color: #fff;
+            border-radius: 15px;
+            width: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 3px 6px rgb(0 0 0 / 16%);
+
+            &:hover {
+                background-color: lighten(hsl(60, 100%, 50%), 35%);
+            }
+        }
+    }
+}
+
+footer {
+    font-family: 'Josefin Sans', sans-serif;
+    a {
+        color: goldenrod;
+        text-decoration: none;
+        &:hover {
+            color: darkgoldenrod;
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+    }
+}
