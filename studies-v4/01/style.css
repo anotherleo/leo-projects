@@ -14,7 +14,7 @@ body {
   background-color: #f0f0f0;
 }
 .header--effect {
-  background-image: linear-gradient(to right, transparent, #a1b1bb);
+  background-image: linear-gradient(to left, transparent, #a1b1bb);
 }
 .header--effect h1 {
   font-family: 'Aqua', sans-serif;
