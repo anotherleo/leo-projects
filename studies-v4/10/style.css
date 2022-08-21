@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'Raleway';
+  font-style: italic;
+  font-weight: 500;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Pt_g8zYS_SKggPNyCgSQamb1W0lwk4S4VrMPrQ.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVvaooCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/raleway/v28/1Ptxg8zYS_SKggPN4iEgvnHyvveLxVs9pYCP.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v12/1Ptyg83HX_SGhgqO0yLcmjzUAuWexc1RwaA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Mulish';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/mulish/v12/1Ptyg83HX_SGhgqO0yLcmjzUAuWexZNRwaA.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  background-color: #f0f0f0;
+  font-family: 'Raleway', sans-serif;
+}
+.header--effect {
+  padding-left: 15px;
+  padding-right: 15px;
+  background-image: linear-gradient(to top, transparent, #DDC6AB);
+  text-align: center;
+}
+.header--effect h1 {
+  font-weight: 700;
+}
+.header--effect a {
+  text-decoration: none;
+  color: hsl(31, 46%, 42%);
+}
+.header--effect a:hover {
+  color: hsl(31, 46%, 35%);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 0.1px;
+}
+.header--effect hr {
+  color: hsl(31, 46%, 57%);
+}
+h2 {
+  font-weight: 700;
+}
+form legend {
+  font: italic 500 16px 'Raleway', sans-serif;
+  padding-bottom: 15px;
+}
+form p {
+  margin-bottom: 10px;
+}
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px 15px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-family: 'Mulish', sans-serif;
+}
+form button {
+  margin-bottom: 20px;
+  text-align: center;
+  width: 100%;
+  border: 0;
+  background-color: hsl(31, 46%, 57%);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: 700;
+  padding: 15px;
+}
+form button:hover {
+  background-color: hsl(31, 46%, 67%);
+}
+@media screen and (min-width: 768px) {
+  img {
+    margin-top: 50px;
+  }
+}
+footer a {
+  text-decoration: none;
+  color: hsl(31, 46%, 42%);
+}
+footer a:hover {
+  color: hsl(31, 46%, 35%);
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  text-decoration-thickness: 0.1px;
+}

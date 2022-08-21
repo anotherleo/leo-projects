@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,700;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&display=swap');
+
+
+body {
+    margin: 0;
+    background-color: rgb(240, 240, 240);
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.header--effect {
+    padding-left: 15px;
+    padding-right: 15px;
+    background-image: linear-gradient(to top, transparent, #DDC6AB);
+
+    text-align: center;
+
+    h1 {
+        font-weight: 700;
+    }
+
+    a {
+        text-decoration: none;
+        color: darken(hsl(31, 46%, 57%), 15%);
+        &:hover {
+            color: darken(hsl(31, 46%, 57%), 22%);
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            text-decoration-thickness: 0.1px;
+        }
+    }
+
+    hr {
+        color:hsl(31, 46%, 57%);
+    }
+}
+
+h2 {
+    font-weight: 700;
+}
+
+form {
+    legend {
+        font: italic 500 16px 'Raleway', sans-serif;
+        padding-bottom: 15px;
+    }
+    p {
+        margin-bottom: 10px;
+    }
+    input,
+    textarea {
+        width: 100%;
+        padding: 10px 15px;
+        font-size: 14px;
+        letter-spacing: 1px;
+        font-family: 'Mulish', sans-serif;
+    }
+    button {
+        margin-bottom: 20px;
+        text-align: center;
+        width: 100%;
+        border: 0;
+        background-color: hsl(31, 46%, 57%);
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 700;
+        padding: 15px;
+        &:hover {
+            background-color: lighten(hsl(31, 46%, 57%), 10%);
+        }
+    }
+}
+
+img {
+    @media screen and (min-width: 768px) {
+        margin-top: 50px;   
+    }
+}
+
+footer {
+    a {
+        text-decoration: none;
+        color: darken(hsl(31, 46%, 57%), 15%);
+        &:hover {
+            color: darken(hsl(31, 46%, 57%), 22%);
+            text-decoration: underline;
+            text-underline-offset: 5px;
+            text-decoration-thickness: 0.1px;
+        }
+    }
+} 
