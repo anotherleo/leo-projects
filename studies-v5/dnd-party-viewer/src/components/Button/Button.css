@@ -1,0 +1,12 @@
+.input__button {
+  background-color: #142d6d;
+  color: whitesmoke;
+  border: none;
+  border-radius: 4px;
+  padding: 16px;
+  font: 700 16px 'Nunito', sans-serif;
+  cursor: pointer;
+}
+.input__button:hover {
+  background-color: hsl(223, 69%, 35%);
+}

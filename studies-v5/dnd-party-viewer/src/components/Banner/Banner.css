@@ -1,0 +1,17 @@
+.page__banner img {
+  padding-top: 40px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.page__banner h1 {
+  padding-top: 16px;
+  font: 700 32px 'Nunito', sans-serif;
+  text-align: center;
+}
+.page__banner .subtitle {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  font: 500 16px 'Nunito', sans-serif;
+  text-align: center;
+}
