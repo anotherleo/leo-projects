@@ -6,7 +6,10 @@ function Select(props) {
             <label>
                 {props.label}
             </label>
-            <select>
+            <select 
+                onChange={evento => props.aoAlterado(evento.target.value)}
+                value={props.valor}
+            >
                 {props.itens.map(item => <option key={item}>{item}</option>)}
             </select>
         </div>
