@@ -9,7 +9,7 @@ function CharForm(props) {
     const [nome, setNome] = useState('Fainen');
     const [nivel, setNivel] = useState('20');
     const [raca, setRaca] = useState('Gnomo/Artesão');
-    const [img, setImg] = useState('https...');
+    const [img, setImg] = useState('https://i.pinimg.com/736x/6b/c4/53/6bc453e39ab84aa6ddb0b16d295fbb7e.jpg');
     const [classes, setClasses] = useState('Artífice');
     const [teams, setTeams] = useState('Tarrasque');
 
@@ -28,14 +28,6 @@ function CharForm(props) {
         'Paladino',
         'Patrulheiro'
     ]
-
-    const bossTeams = [
-        'Tarrasque',
-        'Demogorgon',
-        'Dragão Azul Ancião',
-        'Balor',
-        'Guerreiro Vampiro'
-    ];
 
     const onSave = (e) => {
         e.preventDefault();
@@ -80,7 +72,7 @@ function CharForm(props) {
                                 <div className="col-md-6">
                                     <Select
                                         label="Desafio de Chefe"
-                                        itens={bossTeams}
+                                        itens={props.teams}
                                         valor={teams}
                                         aoAlterado={valor => setTeams(valor)}
                                     />

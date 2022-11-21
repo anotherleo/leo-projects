@@ -1,0 +1,23 @@
+.page__team {
+  width: 100%;
+  padding: 40px;
+}
+.page__team .title h3 {
+  text-align: center;
+  font: 700 28px 'Nunito', sans-serif;
+  margin: 0;
+  padding-bottom: 16px;
+}
+.page__team .title img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 150px;
+  padding-bottom: 16px;
+}
+.page__team .cards__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}

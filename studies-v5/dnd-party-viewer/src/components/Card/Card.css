@@ -1,0 +1,42 @@
+.page__card {
+  width: 240px;
+  border-radius: 4px;
+  background-image: linear-gradient(darkred, darkred);
+  background-size: 100% 70px;
+  background-position: top 0 left 0;
+  background-repeat: no-repeat;
+  background-color: whitesmoke;
+  padding-bottom: 24px;
+}
+.page__card img {
+  padding-top: 16px;
+  padding-bottom: 16px;
+  display: block;
+  width: 75px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  object-position: top center;
+}
+.page__card h4,
+.page__card h5,
+.page__card em {
+  display: block;
+  text-align: center;
+  font-family: 'Nunito', sans-serif;
+}
+.page__card h4 {
+  font-weight: 700;
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.page__card h5 {
+  font-weight: 600;
+  font-size: 16px;
+}
+.page__card em {
+  font-size: 14px;
+}
