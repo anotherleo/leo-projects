@@ -1,0 +1,50 @@
+@font-face {
+  font-family: 'Special Elite';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/specialelite/v18/XLYgIZbkc4JPUL5CVArUVL0nhnc.ttf) format('truetype');
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Special Elite', serif;
+}
+.page__header {
+  background-color: white;
+  color: black;
+  text-align: center;
+}
+.page__header .container h1,
+.page__header .container p {
+  text-align: center;
+}
+.page__header .container h1 {
+  padding-top: 64px;
+  font: 700 46px 'Special Elite', serif;
+}
+.page__header .container p {
+  padding-bottom: 64px;
+  font: 400 22px 'Special Elite', serif;
+}
+.page__objective {
+  text-align: center;
+}
+.page__articles {
+  padding: 40px 0;
+}
+.page__articles article div {
+  margin-bottom: 8px;
+  padding: 24px 16px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.page__articles article div h3 {
+  letter-spacing: 1.5px;
+}
+.page__articles article div em {
+  display: block;
+  padding-bottom: 8px;
+}
+.page__articles article div strong {
+  color: #cc3333;
+}
