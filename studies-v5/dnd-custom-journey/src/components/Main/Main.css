@@ -1,0 +1,12 @@
+.main__text h2 {
+  font-family: 'IM Fell English SC';
+  margin-top: 24px;
+}
+.main__text h2:first-child {
+  margin-top: 0;
+}
+@media screen and (min-width: 768px) {
+  .main__text {
+    padding-left: 16px;
+  }
+}

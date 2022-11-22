@@ -1,0 +1,8 @@
+.aside__cover {
+  margin-bottom: 24px;
+}
+@media screen and (min-width: 768px) {
+  .aside__cover {
+    margin-bottom: 0px;
+  }
+}

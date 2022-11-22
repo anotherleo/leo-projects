@@ -1,0 +1,15 @@
+.page__banner {
+  padding-top: 64px;
+  padding-bottom: 64px;
+  text-align: center;
+}
+.page__banner h1 {
+  font-size: 36px;
+  padding-bottom: 16px;
+  font-family: 'IM Fell English SC';
+}
+@media screen and (min-width: 768px) {
+  .page__banner h1 {
+    font-size: 64px;
+  }
+}
