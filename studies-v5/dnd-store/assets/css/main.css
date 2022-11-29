@@ -1,0 +1,188 @@
+@font-face {
+  font-family: 'IM Fell English SC';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/imfellenglishsc/v16/a8IENpD3CDX-4zrWfr1VY879qFF05pZLOw.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_DjQXME.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/josefinsans/v25/Qw3PZQNVED7rKGKxtqIqX5E-AVSJrOCfjY46_N_XXME.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url(https://fonts.gstatic.com/s/patrickhand/v19/LDI1apSQOAYtSuYWp8ZhfYeMWQ.ttf) format('truetype');
+}
+.page__header {
+  background-color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page__header .header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.page__header .header__wrapper .header__brand h1 {
+  margin-bottom: 0;
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: 400 40px/42px 'IM Fell English SC';
+}
+.page__header .header__wrapper .header__brand h1 span {
+  color: black;
+  font: 400 16px/14px 'IM Fell English SC';
+}
+.page__header .header__wrapper .header__mobile i {
+  font-size: 24px;
+}
+.page__header .header__wrapper .header__search--desktop {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .page__header .header__wrapper .header__mobile {
+    display: none;
+  }
+}
+.page__banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.3)), url('../img/banner/kingdom_of_alabasta_by_wisptale.jpg');
+  background-size: cover;
+  padding-top: 80px;
+  padding-bottom: 60px;
+}
+.page__banner .banner__inner {
+  font-family: 'IM Fell English SC';
+  color: white;
+}
+.page__banner .banner__inner h2 {
+  font-size: 26px;
+}
+.page__banner .banner__inner p {
+  font-family: 'Josefin Sans';
+  font-size: 16px;
+}
+.page__showcase .showcase__title .col {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+.page__showcase .showcase__title .col h2 {
+  font: 400 24px 'IM Fell English SC', serif;
+}
+.page__showcase .showcase__title .col a {
+  display: block;
+  font: 700 14px 'Josefin Sans', serif;
+  color: darkred;
+  text-decoration: none;
+}
+.page__showcase .showcase__title .col a:hover {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.page__showcase .showcase__cards {
+  padding-bottom: 16px;
+}
+.page__showcase .showcase__cards .grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-column-gap: 16px;
+  grid-row-gap: 16px;
+}
+.page__showcase .showcase__cards .grid .product__card:nth-child(n+5) {
+  display: none;
+}
+@media screen and (min-width: 768px) {
+  .page__showcase .showcase__cards .grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .page__showcase .showcase__cards .grid {
+    grid-template-columns: repeat(6, 1fr);
+  }
+  .page__showcase .showcase__cards .grid .product__card:nth-child(n+5) {
+    display: block;
+  }
+}
+.product__card {
+  display: block;
+  text-decoration: none;
+  padding-bottom: 8px;
+}
+.product__card p {
+  margin-bottom: 0;
+}
+.product__card figure {
+  overflow: hidden;
+}
+.product__card .cover {
+  transition: all linear 0.2s;
+  object-fit: cover;
+  width: 100%;
+  height: 174px;
+}
+.product__card .name {
+  transition: all linear 0.2s;
+  color: black;
+  padding-top: 8px;
+  font: 500 14px 'Josefin Sans', serif;
+}
+.product__card .price {
+  transition: all linear 0.2s;
+  color: black;
+  padding-top: 8px;
+  font: 700 16px 'Josefin Sans', serif;
+}
+.product__card .button {
+  transition: all linear 0.2s;
+  color: darkred;
+  padding-top: 8px;
+  font: 700 14px 'Josefin Sans', serif;
+}
+.product__card:hover {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+.product__card:hover .button {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+}
+.product__card:hover .cover {
+  transform: scale(1.1);
+}
+.product__card:hover .name,
+.product__card:hover .price,
+.product__card:hover .button {
+  padding-left: 10px;
+}
+.page__footer .footer__inner {
+  background-color: rgba(163, 118, 73, 0.2);
+}
+.page__footer .footer__inner .footer__brand h2 {
+  margin-bottom: 0;
+  color: red;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font: 400 40px/42px 'IM Fell English SC';
+}
+.page__footer .footer__inner .footer__brand h2 span {
+  color: black;
+  font: 400 16px/14px 'IM Fell English SC';
+}

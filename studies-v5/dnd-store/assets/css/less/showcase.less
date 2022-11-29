@@ -1,0 +1,60 @@
+// out: false
+.page__showcase {
+    .showcase__title {
+        .col {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 16px;
+            padding-bottom: 16px;
+
+            h2 {
+                font: 400 24px 'IM Fell English SC', serif;
+            }
+            a {
+                display: block;
+                font: 700 14px 'Josefin Sans', serif;
+                color: darkred;
+                text-decoration: none;
+                &:hover {
+                    text-decoration: underline;
+                    text-underline-offset: 4px;
+                }
+            }
+        }
+    }    
+
+    .showcase__cards {
+        padding-bottom: 16px;
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-column-gap: 16px;
+            grid-row-gap: 16px;
+
+            .product__card:nth-child(n+5) {
+                display: none;
+            }
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        .showcase__cards {
+            .grid {
+                grid-template-columns: repeat(4, 1fr);
+            }
+        }
+    }
+
+
+    @media screen and (min-width: 1200px) {
+        .showcase__cards {
+            .grid {
+                grid-template-columns: repeat(6, 1fr);
+                .product__card:nth-child(n+5) {
+                    display: block;
+                }
+            }
+        }
+    }
+}

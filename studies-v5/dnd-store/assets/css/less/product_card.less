@@ -1,0 +1,56 @@
+// out: false
+.product__card {
+    display: block;
+    text-decoration: none;
+    padding-bottom: 8px;
+
+    p {
+        margin-bottom: 0;
+    }
+    
+    figure {
+        overflow: hidden;
+    }
+    
+    .cover {
+        transition: all linear .2s;
+        object-fit: cover;
+        width: 100%;
+        height: 174px;
+    }
+    .name {
+        transition: all linear .2s;
+        color: black;
+        padding-top: 8px;
+        font: 500 14px 'Josefin Sans', serif;
+    }
+    .price {
+        transition: all linear .2s;
+        color: black;
+        padding-top: 8px;
+        font: 700 16px 'Josefin Sans', serif;
+    }
+    .button {
+        transition: all linear .2s;
+        color: darkred;
+        padding-top: 8px;
+        font: 700 14px 'Josefin Sans', serif;
+    }
+
+    &:hover {
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        .button {
+            text-decoration: underline;
+            text-underline-offset: 4px;
+        }
+        .cover {
+            transform: scale(1.1);
+        }
+        .name,
+        .price,
+        .button {
+            padding-left: 10px;
+        }
+        
+    }
+}
