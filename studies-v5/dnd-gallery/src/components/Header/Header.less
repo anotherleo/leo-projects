@@ -1,0 +1,51 @@
+.page__header {
+    display: flex;
+    justify-content: space-between;
+
+    .container {
+        width: 100%;
+
+        display: flex;
+        flex-direction: column;
+
+        h1 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 16px;
+            font: 700 36px 'Nunito', sans-serif;
+        }
+        
+        .searchbar {
+            box-sizing: border-box;
+            margin-left: 15px;
+            margin-right: 15px;
+            border: 1px solid gray;
+            padding: 4px;
+            border-radius: 4px;
+            display: flex;
+            gap: 8px;
+            align-items: center;
+            padding: 8px 16px;
+    
+            input[type="text"] {
+                flex-grow: 1;
+                border: 0;
+            }
+        }
+    }
+
+    @media screen and (min-width: 992px) {
+        .container {
+            padding-left: 8%;
+            padding-right: 8%;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+
+            .searchbar {
+                width: 460px;
+            }
+        }
+    }
+} 
