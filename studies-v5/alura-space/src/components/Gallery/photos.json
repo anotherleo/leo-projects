@@ -68,5 +68,12 @@
       "image": "/assets/images/gallery/foto-10.png",
       "id": "10",
       "tag": "Estrelas"
+    },
+    {
+      "title": "Satélite",
+      "credits": "Alura Space",
+      "image": "/assets/images/gallery/foto-11.jpg",
+      "id": "11",
+      "tag": "Satélite"
     }
 ]
