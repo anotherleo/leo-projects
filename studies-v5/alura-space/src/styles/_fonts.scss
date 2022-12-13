@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+@font-face {
+    font-family: "GandhiSansRegular";
+    src: local("GandhiSansRegular"), url("../assets/fonts/GandhiSans-Regular.otf") format("opentype");
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "GandhiSansBold";
+    src: local("GandhiSansBold"), url("../assets/fonts/GandhiSans-Bold.otf") format("opentype");
+    font-weight: 700;
+    font-display: swap;
+}

@@ -1,0 +1,30 @@
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 5%;
+    background: #04244F;
+
+    .social {
+        display: flex;
+        gap: 12px;
+
+        .icons {
+            &:hover {
+                fill: #8B7CE7;
+            }
+        }
+    }
+
+    .developer {
+        p {
+            color: white;
+            font: 500 16px 'Montserrat', sans-serif;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
