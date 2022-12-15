@@ -10,18 +10,18 @@ const Item = styled.div`
     }
 `
 
-export default ({type, from, value}) => {
-    return (
-        <Item>
-            <span className='text'>
-                {type}
-            </span>
-            <span>
-                {from}
-            </span>
-            <span>
-                {value}
-            </span>
-        </Item>
-    )
+export default ({ type, from, value }) => {
+	return (
+		<Item>
+			<span className='text'>
+				{type}
+			</span>
+			<span>
+				{from}
+			</span>
+			<span>
+				{value}
+			</span>
+		</Item>
+	)
 }
