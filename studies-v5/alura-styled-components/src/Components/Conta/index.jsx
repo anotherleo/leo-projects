@@ -11,6 +11,10 @@ const IconeMargin = styled(Icone)`
   margin-top: 2px;
 `
 
+const StyledIcone = styled(Icone)`
+  filter: ${({ theme }) => theme.image};
+`
+
 const Conta = () => {
   const [toggleState, untoggle] = useState(true);
 
@@ -24,7 +28,7 @@ const Conta = () => {
       <div style={{ fontSize: "26px", padding: "20px 0" }}>
         Saldo disponível{" "}
         <span>
-          <Icone src={dinheiro} alt="Ícone Saldo" />
+          <StyledIcone src={dinheiro} alt="Ícone Saldo" />
         </span>
         {toggleState ? (
           <Saldo>
