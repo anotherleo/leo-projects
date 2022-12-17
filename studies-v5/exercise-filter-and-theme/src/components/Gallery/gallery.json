@@ -1,0 +1,42 @@
+[
+	{
+		"id": "1",
+		"path": "/images/photo-1.png",
+		"tag": "cidade"
+	},
+	{
+		"id": "2",
+		"path": "/images/photo-2.png",
+		"tag": "pet"
+	},
+	{
+		"id": "3",
+		"path": "/images/photo-3.png",
+		"tag": "pessoas"
+	},
+	{
+		"id": "4",
+		"path": "/images/photo-4.png",
+		"tag": "pessoas"
+	},
+	{
+		"id": "5",
+		"path": "/images/photo-5.png",
+		"tag": "cidade"
+	},
+	{
+		"id": "6",
+		"path": "/images/photo-6.png",
+		"tag": "pet"
+	},
+	{
+		"id": "7",
+		"path": "/images/photo-7.png",
+		"tag": "pet"
+	},
+	{
+		"id": "8",
+		"path": "/images/photo-8.png",
+		"tag": "natureza"
+	}
+]

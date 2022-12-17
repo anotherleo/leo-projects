@@ -1,0 +1,47 @@
+@import '../../styles/variables';
+
+.header {
+	padding-top: 36px;
+	padding-bottom: 36px;
+
+	.wrapper {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		align-items: center;
+		justify-content: center;
+
+		.title {
+			p {
+				font: 400 20px $fontA;
+				text-align: center;
+			}
+		
+			h1 {
+				margin-top: 8px;
+				font: 700 32px/28px $fontN;
+				text-align: center;
+			}
+		}
+	}
+
+	@media screen and (min-width: 768px) {
+		.wrapper {
+			flex-direction: row-reverse;
+			justify-content: space-between;
+
+			.title {
+				p {
+					text-align: left;
+				}
+	
+				h1 {
+					font-weight: 600;
+					font-size: 42px;
+					text-align: left;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,24 @@
+@import '../../styles/variables';
+
+.explain {
+	padding-top: 36px;
+	padding-bottom: 36px;
+	padding-right: 16px;
+	padding-left: 16px;
+
+	background-image: linear-gradient(#EBEBEB, #EBEBEB);
+	background-repeat: no-repeat;
+	background-size: 60% 220px;
+	background-position: left 0 bottom 0;
+
+	font: 400 16px $fontN;
+
+	.devtalk {
+		font: 400 20px $fontA;
+		padding-bottom: 8px;
+	}
+
+	@media screen and (min-width: 768px) {
+		background-size: 60% 120px;
+	}
+}
