@@ -1,8 +1,12 @@
-import Header from './components/Header/Header'
+import { ArticleList } from './assets/components/ArticleList/ArticleList'
+import Header from './assets/components/Header/Header'
 
 const App = () => {
   return (
-    <Header />
+		<>
+			<Header />
+			<ArticleList />
+		</>
   )
 }
 
