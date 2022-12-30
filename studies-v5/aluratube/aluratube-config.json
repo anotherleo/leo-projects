@@ -1,0 +1,43 @@
+{
+  "name": "Leo Thomas Monteiro",
+  "job": "Desenvolvedor Front-End",
+  "picture": "https://github.com/anotherleo.png",
+  "playlists": {
+    "react": [
+      {
+        "title": "Vídeo de React 01",
+        "url": "https://example.com",
+        "thumbnail": "thumb"
+      },
+      {
+        "title": "Vídeo de React 02",
+        "url": "https://example.com",
+        "thumbnail": "thumb"
+      }
+    ],
+    "next": [
+      {
+        "title": "Vídeo de Next 01",
+        "url": "https://example.com",
+        "thumbnail": "thumb"
+      },
+      {
+        "title": "Vídeo de Next 02",
+        "url": "https://example.com",
+        "thumbnail": "thumb"
+      }
+    ],
+    "UI/UX": [
+      {
+        "title": "Vídeo de UI/UX 01",
+        "url": "https://example.com",
+        "thumbnail": "thumb"
+      },
+      {
+        "title": "Vídeo de UI/UX 02",
+        "url": "https://example.com",
+        "thumbnail": "thumb"
+      }
+    ]
+  }
+}
