@@ -1,0 +1,114 @@
+@font-face {
+	font-family: 'icones';
+	src: url(../font/icones.ttf);
+}
+
+body {
+	background-color: #1D232A;
+	font-family: 'Open Sans', icones, sans-serif;
+	color: white;
+}
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: #15191C;
+	padding: 8px 16px;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
+
+	&__menu {
+		i {
+			&::before {
+				content: "\e904";
+				font-size: 24px;
+			}
+		}
+	}
+	&__notifications {
+		i {
+			&::before {
+				content: "\e906";
+				font-size: 24px;
+			}
+		}
+	}
+	&__logo {
+		width: 40px;
+	}
+}
+
+.sidebar {
+	display: flex;
+	flex-direction: column;
+	background-color: #15191C;
+	width: 75vw;
+	height: 100vh;
+
+	position: absolute;
+	left: -100vw;
+	transition: all linear .3s;
+
+	&--active {
+		left: 0;
+	}
+
+	&__logo {
+		width: 110px;
+		align-self: center;
+		padding: 16px;
+	}
+
+	&__link {
+		height: 64px;
+		color: #95999C;
+		padding-left: 64px;
+		display: flex;
+		align-items: center;
+		&::before {
+			content: "";
+			width: 24px;
+			height: 24px;
+			font-size: 24px;
+			position: absolute;
+			left: 24px;
+		}
+
+		&.inicio {
+			&::before {
+				content: "\e902";
+			}
+		}
+		&.videos {
+			&::before {
+				content: "\e90e";
+			}
+		}
+		&.picos {
+			&::before {
+				content: "\e909";
+			}
+		}
+		&.integrantes {
+			&::before {
+				content: "\e903";
+			}
+		}
+		&.camisas {
+			&::before {
+				content: "\e900";
+			}
+		}
+		&.pinturas {
+			&::before {
+				content: "\e90a";
+			}
+		}
+
+		&--active {
+			color: white;
+			padding-left: 56px;
+			border-left: 8px solid white;
+		}
+	}
+}
