@@ -15,6 +15,9 @@ body {
   padding: 8px 16px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.16);
 }
+.header__menu {
+  cursor: pointer;
+}
 .header__menu i::before {
   content: "\e904";
   font-size: 24px;
