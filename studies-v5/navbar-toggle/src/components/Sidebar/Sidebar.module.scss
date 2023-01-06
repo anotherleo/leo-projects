@@ -1,0 +1,33 @@
+.sidebar {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+	top: 0;
+	right: 0;
+	backdrop-filter: blur(3px);
+	background-color: rgba(255, 229, 186, 0.7);
+
+	&__content {
+		border-left: 4px solid #FF9256;
+		background-color: #F5F5F5;
+		position: absolute;
+		top: 0;
+		right: 0;
+		width: 80vw;
+		max-width: 400px;
+		height: 100vh;
+		padding: 24px;
+
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+
+		.close {
+			align-self: end;
+			&:hover {
+				cursor: pointer;
+				fill: #FF9256;
+			}
+		}
+	}
+}
