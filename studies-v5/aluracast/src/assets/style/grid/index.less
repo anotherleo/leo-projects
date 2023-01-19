@@ -1,0 +1,55 @@
+body {
+    display: grid;
+    grid-template-areas:
+    "aside header"
+    "aside main";
+    grid-template-columns: auto 1fr;
+
+    .cabecalho {
+        grid-area: header;
+    }
+    
+    .menu-lateral {
+        grid-area: aside;
+    }
+    
+    .principal {
+        grid-area: main;
+    }
+}
+
+
+.secao {
+    display: grid;
+}
+
+.secao-horizontal {
+    grid-template-rows: 120px auto;
+
+    .cartao {
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+
+        .cartao__imagem {
+            /*grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 4;*/
+            grid-area: 1/1/4/2;
+        }
+
+        .cartao__botao {
+            grid-column: 3/4;
+            grid-row: 1/4;
+        }
+    }
+}
+
+.secao-vertical {
+    grid-template-columns: 1fr auto;
+    grid-template-rows: 1fr 2fr;
+
+    .secao__cartoes {
+        grid-column: 1/3;
+    }
+}

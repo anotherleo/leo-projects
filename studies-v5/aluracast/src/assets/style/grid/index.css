@@ -1,0 +1,42 @@
+body {
+  display: grid;
+  grid-template-areas: "aside header" "aside main";
+  grid-template-columns: auto 1fr;
+}
+body .cabecalho {
+  grid-area: header;
+}
+body .menu-lateral {
+  grid-area: aside;
+}
+body .principal {
+  grid-area: main;
+}
+.secao {
+  display: grid;
+}
+.secao-horizontal {
+  grid-template-rows: 120px auto;
+}
+.secao-horizontal .cartao {
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+.secao-horizontal .cartao .cartao__imagem {
+  /*grid-column-start: 1;
+            grid-column-end: 2;
+            grid-row-start: 1;
+            grid-row-end: 4;*/
+  grid-area: 1/1/4/2;
+}
+.secao-horizontal .cartao .cartao__botao {
+  grid-column: 3/4;
+  grid-row: 1/4;
+}
+.secao-vertical {
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr 2fr;
+}
+.secao-vertical .secao__cartoes {
+  grid-column: 1/3;
+}
