@@ -1,0 +1,22 @@
+[
+    {
+        "image": "veronika.jpg",
+        "name": "Veronika Gauntlet",
+        "born": "1987",
+        "astrology": "Leão a. Escorpião",
+        "concept": "Supersoldado como líder de operações administrativas",
+        "skills": [
+            "Hipertecnologia 5",
+            "Briga 5",
+            "Intimidação 5"
+        ],
+        "traits": [
+            "Bioimplantes 3"
+        ],
+        "background": [
+            "Recursos 5",
+            "Inimigos 5",
+            "Aliados 5"
+        ]
+    }
+]
